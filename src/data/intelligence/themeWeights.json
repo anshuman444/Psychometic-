@@ -1,0 +1,74 @@
+{
+  "THEME_RESEARCHER": {
+    "DIM_COG_02": 0.35,
+    "DIM_COG_01": 0.25,
+    "DIM_PERS_01": 0.20,
+    "DIM_PERS_02": 0.20
+  },
+  "THEME_INNOVATOR": {
+    "DIM_PERS_01": 0.35,
+    "DIM_COG_04": 0.25,
+    "DIM_LRN_01": 0.20,
+    "DIM_PERS_04": 0.20
+  },
+  "THEME_CREATOR": {
+    "DIM_PERS_01": 0.30,
+    "DIM_LRN_02": 0.30,
+    "DIM_PERS_03": 0.20,
+    "DIM_COG_04": 0.20
+  },
+  "THEME_BUILDER": {
+    "DIM_PERS_02": 0.35,
+    "DIM_LRN_04": 0.25,
+    "DIM_COG_02": 0.20,
+    "DIM_PERS_04": 0.20
+  },
+  "THEME_STRATEGIST": {
+    "DIM_COG_01": 0.30,
+    "DIM_COG_03": 0.30,
+    "DIM_PERS_04": 0.20,
+    "DIM_LRN_01": 0.20
+  },
+  "THEME_LEADER": {
+    "DIM_PERS_03": 0.35,
+    "DIM_PERS_05": 0.25,
+    "DIM_PERS_02": 0.20,
+    "DIM_COG_03": 0.20
+  },
+  "THEME_EDUCATOR": {
+    "DIM_PERS_05": 0.35,
+    "DIM_LRN_03": 0.25,
+    "DIM_PERS_03": 0.20,
+    "DIM_LRN_04": 0.20
+  },
+  "THEME_ENTREPRENEUR": {
+    "DIM_PERS_04": 0.35,
+    "DIM_PERS_03": 0.25,
+    "DIM_COG_04": 0.20,
+    "DIM_PERS_01": 0.20
+  },
+  "THEME_PROBLEM_SOLVER": {
+    "DIM_COG_02": 0.30,
+    "DIM_COG_01": 0.30,
+    "DIM_LRN_04": 0.20,
+    "DIM_PERS_04": 0.20
+  },
+  "THEME_COMMUNICATOR": {
+    "DIM_PERS_03": 0.35,
+    "DIM_LRN_03": 0.25,
+    "DIM_PERS_01": 0.20,
+    "DIM_PERS_05": 0.20
+  },
+  "THEME_ANALYST": {
+    "DIM_COG_02": 0.40,
+    "DIM_PERS_02": 0.25,
+    "DIM_COG_01": 0.20,
+    "DIM_LRN_04": 0.15
+  },
+  "THEME_CHANGE_MAKER": {
+    "DIM_PERS_05": 0.35,
+    "DIM_PERS_04": 0.25,
+    "DIM_PERS_01": 0.20,
+    "DIM_COG_04": 0.20
+  }
+}

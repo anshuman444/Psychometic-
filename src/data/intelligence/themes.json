@@ -1,0 +1,86 @@
+[
+  {
+    "id": "THEME_RESEARCHER",
+    "name": "The Researcher",
+    "description": "Deeply analytical and intensely curious. You thrive when discovering new information, uncovering truths, and diving deep into specialized knowledge.",
+    "coreStrengths": ["Intellectual Depth", "Analytical Rigor", "Sustained Focus"],
+    "learningStyle": "Independent and text-heavy; prefers diving into primary sources rather than group work."
+  },
+  {
+    "id": "THEME_INNOVATOR",
+    "name": "The Innovator",
+    "description": "Forward-thinking and highly creative. You are naturally wired to connect disparate ideas and envision future possibilities that others miss.",
+    "coreStrengths": ["Lateral Thinking", "Visionary Outlook", "Adaptability"],
+    "learningStyle": "Conceptual and unstructured; learns best when allowed to experiment and challenge the status quo."
+  },
+  {
+    "id": "THEME_CREATOR",
+    "name": "The Creator",
+    "description": "Driven by the need to design, build, and express. You transform abstract concepts into tangible, aesthetic, or functional realities.",
+    "coreStrengths": ["Originality", "Aesthetic Intelligence", "Expressive Communication"],
+    "learningStyle": "Hands-on and project-based; needs to see the immediate visual or functional impact of their work."
+  },
+  {
+    "id": "THEME_BUILDER",
+    "name": "The Builder",
+    "description": "Highly pragmatic and execution-oriented. You excel at taking plans and executing them with precision, consistency, and structural integrity.",
+    "coreStrengths": ["Systematic Execution", "Reliability", "Process Optimization"],
+    "learningStyle": "Step-by-step and logical; thrives in structured environments with clear rules and deliverables."
+  },
+  {
+    "id": "THEME_STRATEGIST",
+    "name": "The Strategist",
+    "description": "A master of long-term planning and complex problem-solving. You naturally see the chess board from above and anticipate second-order consequences.",
+    "coreStrengths": ["Complex Problem Solving", "Long-term Planning", "Calculated Risk-Taking"],
+    "learningStyle": "Case-study and scenario-based; engages deeply with strategic simulations and multifaceted problems."
+  },
+  {
+    "id": "THEME_LEADER",
+    "name": "The Leader",
+    "description": "Naturally commanding and socially fluent. You have an inherent ability to rally people, organize resources, and drive teams toward a unified goal.",
+    "coreStrengths": ["Influence", "Emotional Intelligence", "Decisiveness"],
+    "learningStyle": "Interactive and debate-driven; learns best when allowed to guide the discussion or manage the project."
+  },
+  {
+    "id": "THEME_EDUCATOR",
+    "name": "The Educator",
+    "description": "Empathetic, patient, and growth-oriented. You find deep satisfaction in elevating others, explaining complex concepts, and fostering development.",
+    "coreStrengths": ["Patience", "Clear Communication", "Empathy"],
+    "learningStyle": "Collaborative and peer-to-peer; solidifies their own knowledge by teaching the material to others."
+  },
+  {
+    "id": "THEME_ENTREPRENEUR",
+    "name": "The Entrepreneur",
+    "description": "High-agency, resilient, and opportunity-driven. You are comfortable with ambiguity and driven by the desire to build ventures from the ground up.",
+    "coreStrengths": ["Resilience", "High Agency", "Resourcefulness"],
+    "learningStyle": "Experiential and fast-paced; prefers learning by doing and iterating rapidly through failure."
+  },
+  {
+    "id": "THEME_PROBLEM_SOLVER",
+    "name": "The Problem Solver",
+    "description": "Logical, methodical, and calm under pressure. You naturally deconstruct complex issues into solvable components and engineer practical solutions.",
+    "coreStrengths": ["Logical Deduction", "Crisis Management", "Algorithmic Thinking"],
+    "learningStyle": "Applied and puzzle-based; deeply engaged when presented with a 'broken' system that needs fixing."
+  },
+  {
+    "id": "THEME_COMMUNICATOR",
+    "name": "The Communicator",
+    "description": "Highly articulate and socially engaging. You excel at translating ideas, persuading audiences, and facilitating understanding across diverse groups.",
+    "coreStrengths": ["Verbal Fluency", "Persuasion", "Active Listening"],
+    "learningStyle": "Auditory and discussion-based; absorbs information best through dialogue, podcasts, and active debate."
+  },
+  {
+    "id": "THEME_ANALYST",
+    "name": "The Analyst",
+    "description": "Data-driven, precise, and objective. You thrive in environments where you can measure, quantify, and derive insights from complex datasets.",
+    "coreStrengths": ["Quantitative Reasoning", "Attention to Detail", "Objectivity"],
+    "learningStyle": "Statistical and fact-based; requires hard data and empirical evidence before accepting new concepts."
+  },
+  {
+    "id": "THEME_CHANGE_MAKER",
+    "name": "The Change Maker",
+    "description": "Purpose-driven, passionate, and reform-minded. You are intrinsically motivated to challenge inequalities, advocate for the vulnerable, and drive societal shifts.",
+    "coreStrengths": ["Advocacy", "Moral Conviction", "Community Organizing"],
+    "learningStyle": "Impact-driven; deeply motivated when the curriculum connects to real-world societal or environmental issues."
+  }
+]

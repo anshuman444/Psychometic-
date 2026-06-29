@@ -1,0 +1,26 @@
+[
+  {
+    "timeframe": "30_DAYS",
+    "focus": "Exploration & Foundation",
+    "description": "Short-term goals focused on building immediate awareness of your strengths and researching your top career clusters.",
+    "milestones": 3
+  },
+  {
+    "timeframe": "90_DAYS",
+    "focus": "Skill Acquisition",
+    "description": "Medium-term goals centered around learning basic hard skills or completing entry-level certifications.",
+    "milestones": 4
+  },
+  {
+    "timeframe": "180_DAYS",
+    "focus": "Real-World Experience",
+    "description": "Goals requiring sustained effort, such as completing a project, joining a club, or securing an internship.",
+    "milestones": 3
+  },
+  {
+    "timeframe": "365_DAYS",
+    "focus": "Portfolio & Mastery",
+    "description": "Long-term goals finalizing a portfolio, leading a team, or achieving a significant academic/career milestone.",
+    "milestones": 2
+  }
+]

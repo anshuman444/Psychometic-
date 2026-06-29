@@ -1,0 +1,1454 @@
+[
+  {
+    "id": "Q_001",
+    "dimensionId": "DIM_PERS_01",
+    "text": "I enjoy interacting with new people and learning about them.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_002",
+    "dimensionId": "DIM_PERS_01",
+    "text": "I feel energized after spending time with groups of people.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_003",
+    "dimensionId": "DIM_PERS_01",
+    "text": "I actively participate in discussions, activities, or team projects.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_004",
+    "dimensionId": "DIM_PERS_01",
+    "text": "I find it easy to start conversations with people I do not know well.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_005",
+    "dimensionId": "DIM_PERS_01",
+    "text": "I prefer spending most of my free time alone rather than with others.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_006",
+    "dimensionId": "DIM_PERS_01",
+    "text": "I often avoid social situations even when there is an opportunity to participate.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_007",
+    "dimensionId": "DIM_PERS_02",
+    "text": "I complete important tasks even when I do not feel motivated.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_008",
+    "dimensionId": "DIM_PERS_02",
+    "text": "I usually plan my work or studies before getting started.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_009",
+    "dimensionId": "DIM_PERS_02",
+    "text": "People can generally rely on me to follow through on my commitments.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_010",
+    "dimensionId": "DIM_PERS_02",
+    "text": "I stay focused on tasks until they are completed.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_011",
+    "dimensionId": "DIM_PERS_02",
+    "text": "I often delay important work until the last minute.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_012",
+    "dimensionId": "DIM_PERS_02",
+    "text": "I struggle to stay organized and keep track of my responsibilities.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_013",
+    "dimensionId": "DIM_PERS_03",
+    "text": "I enjoy learning about topics even when they are not required for school or work.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_014",
+    "dimensionId": "DIM_PERS_03",
+    "text": "I like exploring new ideas, concepts, and ways of thinking.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_015",
+    "dimensionId": "DIM_PERS_03",
+    "text": "I enjoy asking questions and understanding how things work.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_016",
+    "dimensionId": "DIM_PERS_03",
+    "text": "I am excited by opportunities to try new experiences or activities.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_017",
+    "dimensionId": "DIM_PERS_03",
+    "text": "I prefer sticking to familiar ways of doing things rather than trying something new.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_018",
+    "dimensionId": "DIM_PERS_03",
+    "text": "I rarely feel interested in learning about topics outside my usual interests.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_019",
+    "dimensionId": "DIM_PERS_04",
+    "text": "I try to understand how other people might feel in different situations.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_020",
+    "dimensionId": "DIM_PERS_04",
+    "text": "I enjoy working with others to achieve a shared goal.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_021",
+    "dimensionId": "DIM_PERS_04",
+    "text": "I listen carefully to other people's opinions, even when I disagree.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_022",
+    "dimensionId": "DIM_PERS_04",
+    "text": "I am willing to support classmates, friends, or teammates when they need help.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_023",
+    "dimensionId": "DIM_PERS_04",
+    "text": "I find it difficult to understand why people react emotionally to situations.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_024",
+    "dimensionId": "DIM_PERS_04",
+    "text": "I prefer doing everything myself rather than working with others.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_025",
+    "dimensionId": "DIM_PERS_05",
+    "text": "I adjust well when plans or situations change unexpectedly.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_026",
+    "dimensionId": "DIM_PERS_05",
+    "text": "I usually recover and move forward after setbacks or disappointments.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_027",
+    "dimensionId": "DIM_PERS_05",
+    "text": "I am willing to try different approaches when something is not working.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_028",
+    "dimensionId": "DIM_PERS_05",
+    "text": "I see challenges as opportunities to learn and improve.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_029",
+    "dimensionId": "DIM_PERS_05",
+    "text": "I become very uncomfortable when things do not go according to plan.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_030",
+    "dimensionId": "DIM_PERS_05",
+    "text": "I avoid new situations because I am unsure how they will turn out.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_031",
+    "dimensionId": "DIM_COG_01",
+    "text": "I understand new concepts more easily when I see diagrams, charts, or visual examples.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_032",
+    "dimensionId": "DIM_COG_01",
+    "text": "I remember information better when it is presented visually.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_033",
+    "dimensionId": "DIM_COG_01",
+    "text": "I prefer watching a demonstration rather than only reading instructions.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_034",
+    "dimensionId": "DIM_COG_01",
+    "text": "Visual aids such as mind maps, flowcharts, or illustrations help me learn effectively.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_035",
+    "dimensionId": "DIM_COG_01",
+    "text": "I usually learn best through written explanations without needing visual support.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_036",
+    "dimensionId": "DIM_COG_01",
+    "text": "Pictures, diagrams, and visual examples rarely improve my understanding of a topic.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_037",
+    "dimensionId": "DIM_COG_02",
+    "text": "I understand concepts better when I can apply them in a real-world situation.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_038",
+    "dimensionId": "DIM_COG_02",
+    "text": "I learn more effectively through projects, activities, or experiments than through reading alone.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_039",
+    "dimensionId": "DIM_COG_02",
+    "text": "I prefer trying something myself rather than only watching or hearing about it.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_040",
+    "dimensionId": "DIM_COG_02",
+    "text": "Hands-on experiences help me remember information better.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_041",
+    "dimensionId": "DIM_COG_02",
+    "text": "I am comfortable learning a topic without needing to apply it practically.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_042",
+    "dimensionId": "DIM_COG_02",
+    "text": "I prefer learning through explanations rather than through activities or experiments.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_043",
+    "dimensionId": "DIM_COG_03",
+    "text": "I enjoy learning new things on my own without needing constant guidance.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_044",
+    "dimensionId": "DIM_COG_03",
+    "text": "When I encounter a problem, I usually try to solve it myself before asking for help.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_045",
+    "dimensionId": "DIM_COG_03",
+    "text": "I take responsibility for keeping myself on track with my learning goals.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_046",
+    "dimensionId": "DIM_COG_03",
+    "text": "I enjoy exploring topics beyond what is required in class or training.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_047",
+    "dimensionId": "DIM_COG_03",
+    "text": "I prefer having someone guide me through every step of the learning process.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_048",
+    "dimensionId": "DIM_COG_03",
+    "text": "I find it difficult to stay motivated when learning independently.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_049",
+    "dimensionId": "DIM_COG_04",
+    "text": "I learn better when I can discuss ideas with others.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_050",
+    "dimensionId": "DIM_COG_04",
+    "text": "Group activities help me understand concepts more effectively.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_051",
+    "dimensionId": "DIM_COG_04",
+    "text": "I enjoy hearing different perspectives while learning.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_052",
+    "dimensionId": "DIM_COG_04",
+    "text": "I learn useful things from classmates, peers, or teammates.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_053",
+    "dimensionId": "DIM_COG_04",
+    "text": "I prefer learning entirely on my own rather than working with others.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_054",
+    "dimensionId": "DIM_COG_04",
+    "text": "Group discussions rarely improve my understanding of a topic.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_055",
+    "dimensionId": "DIM_LRN_01",
+    "text": "I prefer having clear instructions before starting a new task.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_056",
+    "dimensionId": "DIM_LRN_01",
+    "text": "I enjoy exploring different ways of solving a problem.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_057",
+    "dimensionId": "DIM_LRN_01",
+    "text": "I feel comfortable learning without knowing exactly what the outcome will be.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_058",
+    "dimensionId": "DIM_LRN_01",
+    "text": "I enjoy open-ended projects where I can decide my own approach.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_059",
+    "dimensionId": "DIM_LRN_01",
+    "text": "I prefer step-by-step guidance rather than figuring things out myself.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_060",
+    "dimensionId": "DIM_LRN_01",
+    "text": "I enjoy experimenting and discovering solutions through exploration.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_061",
+    "dimensionId": "DIM_LRN_02",
+    "text": "Choose the word closest in meaning to “CANDID”.A) DishonestB) FrankC) CautiousD) Reserved",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_062",
+    "dimensionId": "DIM_LRN_02",
+    "text": "Choose the word most opposite in meaning to “METICULOUS”.A) CarelessB) ThoroughC) PreciseD) Detailed",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_063",
+    "dimensionId": "DIM_LRN_02",
+    "text": "AUTHOR is to BOOK as DIRECTOR is to ______.A) CameraB) FilmC) ActorD) Theatre",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_064",
+    "dimensionId": "DIM_LRN_02",
+    "text": "Despite the heavy rain, the players were ______ to finish the match before the deadline.A) reluctantB) determinedC) indifferentD) hesitant",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_065",
+    "dimensionId": "DIM_LRN_02",
+    "text": "Read the passage and answer the question.Passage: “Most students assume that revising right before an exam is the most effective way to remember information. However, research on memory shows that spacing out revision over several days, with short breaks in between, helps information move into long-term memory far more effectively than last-minute cramming.”Question: According to the passage, what is the most effective way to retain information for exams?A) Studying continuously the night beforeB) Reading the material only onceC) Spacing revision over several daysD) Avoiding breaks while studying",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_066",
+    "dimensionId": "DIM_LRN_02",
+    "text": "Read the passage and answer the question.Passage: “Many companies now allow employees to choose their own working hours, as long as they complete their tasks on time. While this increases flexibility, some employees report feeling more isolated, since they overlap with colleagues’ schedules less often.”Question: What is one drawback of flexible working hours mentioned in the passage?A) Reduced productivityB) Increased isolationC) Lower task completionD) Less flexibility",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_067",
+    "dimensionId": "DIM_LRN_03",
+    "text": "What number comes next in the series: 4, 9, 16, 25, 36, ?A) 42B) 45C) 49D) 47",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_068",
+    "dimensionId": "DIM_LRN_03",
+    "text": "A laptop is sold for ₹38,000 after a 5% discount on its marked price. What was the marked price?A) ₹39,500B) ₹40,000C) ₹40,500D) ₹39,900",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_069",
+    "dimensionId": "DIM_LRN_03",
+    "text": "The ratio of boys to girls in a class is 4:5. If there are 20 boys, how many girls are there?A) 16B) 20C) 24D) 25",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_070",
+    "dimensionId": "DIM_LRN_03",
+    "text": "The average of 4 numbers is 15. A fifth number is added and the new average becomes 16. What is the fifth number?A) 16B) 18C) 20D) 24",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_071",
+    "dimensionId": "DIM_LRN_03",
+    "text": "A train travels 180 km in 3 hours. At the same speed, how long will it take to travel 300 km?A) 4 hoursB) 4.5 hoursC) 5 hoursD) 6 hours",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_072",
+    "dimensionId": "DIM_LRN_03",
+    "text": "A shop’s sales were ₹12,000 in Week 1 and increased by 25% in Week 2. What were the Week 2 sales?A) ₹13,500B) ₹14,000C) ₹15,000D) ₹15,500",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_073",
+    "dimensionId": "DIM_LRN_04",
+    "text": "Find the next term in the series: B, D, G, K, P, ?A) UB) VC) WD) X",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_074",
+    "dimensionId": "DIM_LRN_04",
+    "text": "In a certain code, FLOWER is written as GMPXFS. How would GARDEN be written in the same code?A) HBSEFOB) HBSEFPC) GBSEFOD) HCSEFO",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_075",
+    "dimensionId": "DIM_LRN_04",
+    "text": "Which of these does not belong with the others?A) TriangleB) SquareC) PentagonD) Sphere",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_076",
+    "dimensionId": "DIM_LRN_04",
+    "text": "All members of the chess club practice every Monday. Riya practices every Monday. Which conclusion follows?A) Riya is a member of the chess clubB) Riya is not a member of the chess clubC) It cannot be determined whether Riya is a member of the chess clubD) All people who practice on Monday are chess club members",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_077",
+    "dimensionId": "DIM_LRN_04",
+    "text": "Pointing to a photograph, Rohan said, “She is the daughter of my grandfather’s only son.” Rohan is that son’s child. How is the girl in the photograph related to Rohan?A) SisterB) CousinC) NieceD) Daughter",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_078",
+    "dimensionId": "DIM_LRN_04",
+    "text": "Look at this number sequence: 3, 6, 11, 18, 27, ?A) 35B) 36C) 38D) 40",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_079",
+    "dimensionId": "DIM_MOT_01",
+    "text": "I enjoy coming up with new ideas or different ways of doing things.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_080",
+    "dimensionId": "DIM_MOT_01",
+    "text": "I often think of multiple solutions to the same problem.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_081",
+    "dimensionId": "DIM_MOT_01",
+    "text": "I enjoy brainstorming and exploring possibilities.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_082",
+    "dimensionId": "DIM_MOT_01",
+    "text": "I like experimenting with new approaches rather than always following existing methods.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_083",
+    "dimensionId": "DIM_MOT_01",
+    "text": "I prefer sticking to proven methods rather than trying new ideas.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_084",
+    "dimensionId": "DIM_MOT_01",
+    "text": "I rarely come up with original ideas or alternative solutions.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_085",
+    "dimensionId": "DIM_MOT_02",
+    "text": "A 3×3 grid follows a repeating pattern:Row 1: ▲ ● ▲Row 2: ● ▲ ●Row 3: ▲ ● ?Which symbol completes the grid?A) ▲B) ●C) ■D) ★",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_086",
+    "dimensionId": "DIM_MOT_02",
+    "text": "An arrow rotates clockwise in steps: → ↘ ↓ ↙ ?Which symbol comes next in the sequence?A) ←B) ↖C) ↑D) ↗",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_087",
+    "dimensionId": "DIM_MOT_02",
+    "text": "A square sheet of paper is folded in half vertically, then in half horizontally again. A single hole is punched through the corner where all the folds meet. How many holes will appear when the paper is fully unfolded?A) 1B) 2C) 4D) 8",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_088",
+    "dimensionId": "DIM_MOT_02",
+    "text": "A staircase is built from small cubes: Step 1 uses 1 cube, Step 2 uses 3 cubes, Step 3 uses 6 cubes, Step 4 uses 10 cubes. Following this pattern, how many cubes will Step 5 require?A) 12B) 14C) 15D) 16",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_089",
+    "dimensionId": "DIM_MOT_02",
+    "text": "A 3×3×3 cube is built from 27 unit cubes and the entire outer surface is then painted red. The large cube is taken apart into its 27 unit cubes. How many of the small cubes have paint on exactly 2 faces?A) 6B) 8C) 12D) 24",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_090",
+    "dimensionId": "DIM_MOT_02",
+    "text": "When you look at a clock in a mirror, it shows the time as 4:20. What is the actual time?A) 7:40B) 8:40C) 7:20D) 8:20",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_091",
+    "dimensionId": "DIM_MOT_03",
+    "text": "I often take initiative when I see something that needs to be done.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_092",
+    "dimensionId": "DIM_MOT_03",
+    "text": "I am comfortable taking responsibility for a group's success.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_093",
+    "dimensionId": "DIM_MOT_03",
+    "text": "People often look to me for guidance or direction.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_094",
+    "dimensionId": "DIM_MOT_03",
+    "text": "I enjoy organizing activities, projects, or teams.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_095",
+    "dimensionId": "DIM_MOT_03",
+    "text": "I prefer letting others make decisions rather than taking responsibility myself.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_096",
+    "dimensionId": "DIM_MOT_03",
+    "text": "I avoid situations where I may need to guide or influence others.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_097",
+    "dimensionId": "DIM_WRK_01",
+    "text": "I enjoy figuring out how things work.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_098",
+    "dimensionId": "DIM_WRK_01",
+    "text": "I like solving difficult problems that require careful thinking.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_099",
+    "dimensionId": "DIM_WRK_01",
+    "text": "I enjoy researching topics that interest me.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_100",
+    "dimensionId": "DIM_WRK_01",
+    "text": "I often ask questions to understand things more deeply.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_101",
+    "dimensionId": "DIM_WRK_01",
+    "text": "I lose interest when a task requires too much investigation or analysis.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_102",
+    "dimensionId": "DIM_WRK_01",
+    "text": "I prefer acting quickly rather than spending time understanding a problem.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_103",
+    "dimensionId": "DIM_WRK_02",
+    "text": "I enjoy creating something original rather than following a set formula.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_104",
+    "dimensionId": "DIM_WRK_02",
+    "text": "I enjoy expressing my ideas through writing, design, art, music, or other creative activities.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_105",
+    "dimensionId": "DIM_WRK_02",
+    "text": "I appreciate creativity, imagination, and innovation.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_106",
+    "dimensionId": "DIM_WRK_02",
+    "text": "I enjoy brainstorming new ideas and possibilities.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_107",
+    "dimensionId": "DIM_WRK_02",
+    "text": "I prefer highly structured tasks with clear rules over creative activities.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_108",
+    "dimensionId": "DIM_WRK_02",
+    "text": "Creative activities rarely interest me.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_109",
+    "dimensionId": "DIM_WRK_03",
+    "text": "I enjoy helping people solve problems or overcome challenges.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_110",
+    "dimensionId": "DIM_WRK_03",
+    "text": "I like teaching, explaining, or sharing knowledge with others.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_111",
+    "dimensionId": "DIM_WRK_03",
+    "text": "I feel motivated when I can make a positive difference in someone's life.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_112",
+    "dimensionId": "DIM_WRK_03",
+    "text": "I enjoy activities that involve supporting, guiding, or mentoring people.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_113",
+    "dimensionId": "DIM_WRK_03",
+    "text": "I would rather work with systems or objects than spend most of my time helping people.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_114",
+    "dimensionId": "DIM_WRK_03",
+    "text": "I rarely feel interested in activities focused on helping or supporting others.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_115",
+    "dimensionId": "DIM_INT_01",
+    "text": "I enjoy taking initiative when I see an opportunity to improve something.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_116",
+    "dimensionId": "DIM_INT_01",
+    "text": "I would enjoy leading a project, team, or activity.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_117",
+    "dimensionId": "DIM_INT_01",
+    "text": "I like persuading others to support an idea I believe in.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_118",
+    "dimensionId": "DIM_INT_01",
+    "text": "I am interested in creating something of my own, such as a business, project, or organization.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_119",
+    "dimensionId": "DIM_INT_01",
+    "text": "I prefer avoiding responsibility for decisions that affect others.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_120",
+    "dimensionId": "DIM_INT_01",
+    "text": "Leadership and business-related activities rarely interest me.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_121",
+    "dimensionId": "DIM_INT_02",
+    "text": "I enjoy organizing information, schedules, or activities.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_122",
+    "dimensionId": "DIM_INT_02",
+    "text": "I prefer environments where expectations and processes are clearly defined.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_123",
+    "dimensionId": "DIM_INT_02",
+    "text": "I pay attention to details and accuracy when completing tasks.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_124",
+    "dimensionId": "DIM_INT_02",
+    "text": "I enjoy planning and coordinating activities to ensure things run smoothly.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_125",
+    "dimensionId": "DIM_INT_02",
+    "text": "I dislike routines, procedures, and structured ways of working.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_126",
+    "dimensionId": "DIM_INT_02",
+    "text": "I prefer improvising rather than following established systems.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_127",
+    "dimensionId": "DIM_INT_03",
+    "text": "I enjoy building, fixing, creating, or working with physical or technical systems.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_128",
+    "dimensionId": "DIM_INT_03",
+    "text": "I like understanding how machines, tools, devices, or technologies work.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_129",
+    "dimensionId": "DIM_INT_03",
+    "text": "I enjoy hands-on activities more than purely theoretical discussions.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_130",
+    "dimensionId": "DIM_INT_03",
+    "text": "I prefer solving practical problems that produce visible results.",
+    "isReverseScored": false,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_131",
+    "dimensionId": "DIM_INT_03",
+    "text": "Working with tools, equipment, or technology rarely interests me.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  },
+  {
+    "id": "Q_132",
+    "dimensionId": "DIM_INT_03",
+    "text": "I prefer discussing ideas rather than building or creating things.",
+    "isReverseScored": true,
+    "expectedCompletionTimeSec": 8,
+    "metadata": {
+      "target_age_group": "13-22",
+      "language": "en-US"
+    }
+  }
+]

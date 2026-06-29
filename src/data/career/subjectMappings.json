@@ -1,0 +1,9 @@
+{
+  "CLUSTER_TECH": ["Computer Science", "Mathematics", "Physics"],
+  "CLUSTER_DATA": ["Statistics", "Computer Science", "Economics"],
+  "CLUSTER_HEALTHCARE": ["Biology", "Chemistry", "Psychology"],
+  "CLUSTER_BUSINESS": ["Economics", "Accounting", "Business Management"],
+  "CLUSTER_DESIGN": ["Graphic Design", "Psychology", "Computer Science"],
+  "CLUSTER_LAW": ["History", "Political Science", "English Literature"],
+  "CLUSTER_ENGINEERING": ["Physics", "Mathematics", "Computer Aided Design"]
+}

@@ -1,0 +1,6 @@
+{
+  "CLUSTER_TECH": ["Join a robotics club", "Participate in an open-source project", "Attend a local hackathon"],
+  "CLUSTER_HEALTHCARE": ["Volunteer at a local hospital", "Shadow a practicing physician", "Get CPR certified"],
+  "CLUSTER_BUSINESS": ["Start a small micro-business at school", "Join DECA or FBLA", "Manage the budget for a student club"],
+  "CLUSTER_DESIGN": ["Build a personal portfolio website", "Redesign an app you use daily as practice", "Join the school yearbook design team"]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "careerId": "CAR_001",
+    "title": "Data Scientist",
+    "clusterId": "CLUSTER_DATA",
+    "description": "Analyzes complex datasets to drive business and product decisions.",
+    "requiredSkills": ["Statistical Analysis", "Python", "Machine Learning"]
+  },
+  {
+    "careerId": "CAR_002",
+    "title": "Software Engineer",
+    "clusterId": "CLUSTER_TECH",
+    "description": "Designs and builds software applications and systems.",
+    "requiredSkills": ["Algorithm Design", "Programming", "System Architecture"]
+  },
+  {
+    "careerId": "CAR_003",
+    "title": "UX Designer",
+    "clusterId": "CLUSTER_DESIGN",
+    "description": "Designs intuitive and engaging user experiences for digital products.",
+    "requiredSkills": ["Wireframing", "User Research", "Prototyping"]
+  },
+  {
+    "careerId": "CAR_004",
+    "title": "Clinical Psychologist",
+    "clusterId": "CLUSTER_HEALTHCARE",
+    "description": "Diagnoses and treats mental, emotional, and behavioral disorders.",
+    "requiredSkills": ["Empathy", "Clinical Assessment", "Active Listening"]
+  },
+  {
+    "careerId": "CAR_005",
+    "title": "Management Consultant",
+    "clusterId": "CLUSTER_BUSINESS",
+    "description": "Advises organizations on high-level strategy and operational efficiency.",
+    "requiredSkills": ["Strategic Planning", "Financial Modeling", "Public Speaking"]
+  }
+]

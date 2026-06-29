@@ -1,0 +1,38 @@
+[
+  {
+    "pageId": 1,
+    "title": "Cover Page",
+    "requiredDependencies": ["Readiness Score", "Success Index", "22 Dimension Signature"],
+    "components": ["Hero Visualization", "Student Intelligence Fingerprint"]
+  },
+  {
+    "pageId": 2,
+    "title": "Executive Summary",
+    "requiredDependencies": ["Readiness Score", "Top Strengths", "Top Themes"],
+    "components": ["Overall Student Profile", "Strength Snapshot", "Career Snapshot"]
+  },
+  {
+    "pageId": 3,
+    "title": "Student Intelligence Fingerprint",
+    "requiredDependencies": ["22 Dimension Signature"],
+    "components": ["Fingerprint Visualization", "Unique Intelligence Identity", "Dimension Distribution"]
+  },
+  {
+    "pageId": 4,
+    "title": "Student DNA Dashboard",
+    "requiredDependencies": ["22 Dimension Signature"],
+    "components": ["Radar Chart", "Heatmaps", "Category Scores"]
+  },
+  {
+    "pageId": 29,
+    "title": "Parent Guidance Dashboard",
+    "requiredDependencies": ["Blind Spots", "Learning Styles", "Strengths"],
+    "components": ["Support Recommendations", "Communication Recommendations", "Parent Action Plan"]
+  },
+  {
+    "pageId": 30,
+    "title": "Final Intelligence Summary",
+    "requiredDependencies": ["Readiness Score", "Top Careers"],
+    "components": ["Final Summary Narrative"]
+  }
+]

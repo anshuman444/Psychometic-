@@ -1,0 +1,35 @@
+{
+  "colors": {
+    "primary": "#2DA8FF",
+    "secondary": "#57B7FF",
+    "accent": "#0D8BFF",
+    "success": "#10B981",
+    "warning": "#F59E0B",
+    "danger": "#EF4444",
+    "background": "#F8FAFC",
+    "surface": "#FFFFFF",
+    "text_primary": "#1F2937",
+    "text_secondary": "#6B7280"
+  },
+  "radar": {
+    "gridLines": 5,
+    "fillOpacity": 0.4,
+    "strokeWidth": 2,
+    "animationDuration": 1000
+  },
+  "heatmap": {
+    "cellRadius": 4,
+    "colorScale": ["#E0F2FE", "#BAE6FD", "#7DD3FC", "#38BDF8", "#0EA5E9", "#0284C7"]
+  },
+  "fingerprint": {
+    "nodeCount": 22,
+    "svgWidth": 400,
+    "svgHeight": 400,
+    "baseRadius": 150
+  },
+  "pdfOverrides": {
+    "animationDuration": 0,
+    "forceHighContrast": true,
+    "disableTooltips": true
+  }
+}

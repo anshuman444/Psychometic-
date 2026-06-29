@@ -1,0 +1,22 @@
+[
+  {
+    "targetDimension": "DIM_PERS_02",
+    "condition": "low",
+    "habit": "Use the Pomodoro technique (25 minutes focus, 5 minutes rest) for all homework assignments this week."
+  },
+  {
+    "targetDimension": "DIM_PERS_03",
+    "condition": "high",
+    "habit": "Schedule at least one group study session per week to leverage your high social energy."
+  },
+  {
+    "targetDimension": "DIM_PERS_04",
+    "condition": "low",
+    "habit": "Write down one thing you learned from a mistake at the end of every day to build resilience."
+  },
+  {
+    "targetDimension": "DIM_COG_04",
+    "condition": "high",
+    "habit": "Keep a 'brainstorm journal' and write down 3 wild ideas or inventions every morning."
+  }
+]

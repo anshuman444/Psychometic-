@@ -1,0 +1,6 @@
+{
+  "CLUSTER_TECH": ["Python Programming", "Version Control (Git)", "Algorithmic Thinking"],
+  "CLUSTER_HEALTHCARE": ["First Aid Certification", "Active Listening", "Medical Terminology"],
+  "CLUSTER_BUSINESS": ["Financial Modeling", "Public Speaking", "Negotiation"],
+  "CLUSTER_DESIGN": ["Figma Prototyping", "Color Theory", "User Empathy"]
+}
