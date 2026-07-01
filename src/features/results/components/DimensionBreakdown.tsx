@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import {
   Sparkles, Brain, BookOpen, Target, Heart, Palette,
-  ChevronDown, ChevronUp, TrendingUp, Lightbulb, Zap,
+  ChevronDown, ChevronUp, TrendingUp, Zap, Lightbulb,
   Compass, Users, Flame, Shield, Eye, Puzzle, Rocket,
-  GraduationCap, BarChart3, Wrench, Star, Info
+  GraduationCap, BarChart3, Wrench, Star
 } from 'lucide-react';
 import { DIMENSION_INSIGHTS } from '../../../data/intelligence/dimensionInsights';
 import { DimensionInfographic } from './DimensionInfographic';

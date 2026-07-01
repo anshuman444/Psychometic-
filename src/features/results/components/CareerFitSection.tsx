@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, TrendingUp, Lightbulb, Compass, ArrowRight } from 'lucide-react';
+import { Briefcase, Lightbulb, Compass, ArrowRight } from 'lucide-react';
 
 interface CareerScore {
   clusterId: string;
