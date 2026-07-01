@@ -35,9 +35,23 @@ export function calculateDimensionScore(
     const question = questionsMap.get(response.questionId);
     if (!question) throw new Error(`Question ${response.questionId} not found in map.`);
     
-    const valueToAdd = question.isReverseScored 
-      ? calculateReverseScore(response.rawValue) 
-      : response.rawValue;
+    let valueToAdd = 0;
+
+    if (question.type === 'mcq') {
+      // Map correctAnswer "A", "B", "C", "D" to 1, 2, 3, 4
+      let correctValue = 0;
+      switch(question.correctAnswer) {
+        case 'A': correctValue = 1; break;
+        case 'B': correctValue = 2; break;
+        case 'C': correctValue = 3; break;
+        case 'D': correctValue = 4; break;
+      }
+      valueToAdd = response.rawValue === correctValue ? 1 : 0;
+    } else {
+      valueToAdd = question.isReverseScored 
+        ? calculateReverseScore(response.rawValue) 
+        : response.rawValue;
+    }
       
     // Mutate response to track the calculated value for auditing
     response.calculatedValue = valueToAdd;
@@ -46,10 +60,21 @@ export function calculateDimensionScore(
   }
 
   let tier: 'low' | 'medium' | 'high';
-  if (totalScore >= 6 && totalScore <= 13) tier = 'low';
-  else if (totalScore >= 14 && totalScore <= 22) tier = 'medium';
-  else if (totalScore >= 23 && totalScore <= 30) tier = 'high';
-  else throw new Error(`Calculated score ${totalScore} is outside bounds (6-30).`);
+  
+  // Check if this is an MCQ dimension (by checking the first question)
+  const isMcq = questionsMap.get(dimensionResponses[0].questionId)?.type === 'mcq';
+
+  if (isMcq) {
+    if (totalScore >= 0 && totalScore <= 2) tier = 'low';
+    else if (totalScore >= 3 && totalScore <= 4) tier = 'medium';
+    else if (totalScore >= 5 && totalScore <= 6) tier = 'high';
+    else throw new Error(`Calculated MCQ score ${totalScore} is outside bounds (0-6).`);
+  } else {
+    if (totalScore >= 6 && totalScore <= 13) tier = 'low';
+    else if (totalScore >= 14 && totalScore <= 22) tier = 'medium';
+    else if (totalScore >= 23 && totalScore <= 30) tier = 'high';
+    else throw new Error(`Calculated score ${totalScore} is outside bounds (6-30).`);
+  }
 
   return {
     dimensionId,

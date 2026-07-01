@@ -662,7 +662,27 @@
   {
     "id": "Q_061",
     "dimensionId": "DIM_LRN_02",
-    "text": "Choose the word closest in meaning to “CANDID”.A) DishonestB) FrankC) CautiousD) Reserved",
+    "text": "Choose the word closest in meaning to “CANDID”.",
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dishonest"
+      },
+      {
+        "label": "B",
+        "text": "Frank"
+      },
+      {
+        "label": "C",
+        "text": "Cautious"
+      },
+      {
+        "label": "D",
+        "text": "Reserved"
+      }
+    ],
+    "correctAnswer": "B",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
@@ -673,7 +693,27 @@
   {
     "id": "Q_062",
     "dimensionId": "DIM_LRN_02",
-    "text": "Choose the word most opposite in meaning to “METICULOUS”.A) CarelessB) ThoroughC) PreciseD) Detailed",
+    "text": "Choose the word most opposite in meaning to “METICULOUS”.",
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "Careless"
+      },
+      {
+        "label": "B",
+        "text": "Thorough"
+      },
+      {
+        "label": "C",
+        "text": "Precise"
+      },
+      {
+        "label": "D",
+        "text": "Detailed"
+      }
+    ],
+    "correctAnswer": "A",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
@@ -684,7 +724,27 @@
   {
     "id": "Q_063",
     "dimensionId": "DIM_LRN_02",
-    "text": "AUTHOR is to BOOK as DIRECTOR is to ______.A) CameraB) FilmC) ActorD) Theatre",
+    "text": "AUTHOR is to BOOK as DIRECTOR is to ______.",
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "Camera"
+      },
+      {
+        "label": "B",
+        "text": "Film"
+      },
+      {
+        "label": "C",
+        "text": "Actor"
+      },
+      {
+        "label": "D",
+        "text": "Theatre"
+      }
+    ],
+    "correctAnswer": "B",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
@@ -695,7 +755,27 @@
   {
     "id": "Q_064",
     "dimensionId": "DIM_LRN_02",
-    "text": "Despite the heavy rain, the players were ______ to finish the match before the deadline.A) reluctantB) determinedC) indifferentD) hesitant",
+    "text": "Despite the heavy rain, the players were ______ to finish the match before the deadline.",
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "reluctant"
+      },
+      {
+        "label": "B",
+        "text": "determined"
+      },
+      {
+        "label": "C",
+        "text": "indifferent"
+      },
+      {
+        "label": "D",
+        "text": "hesitant"
+      }
+    ],
+    "correctAnswer": "B",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
@@ -706,7 +786,27 @@
   {
     "id": "Q_065",
     "dimensionId": "DIM_LRN_02",
-    "text": "Read the passage and answer the question.Passage: “Most students assume that revising right before an exam is the most effective way to remember information. However, research on memory shows that spacing out revision over several days, with short breaks in between, helps information move into long-term memory far more effectively than last-minute cramming.”Question: According to the passage, what is the most effective way to retain information for exams?A) Studying continuously the night beforeB) Reading the material only onceC) Spacing revision over several daysD) Avoiding breaks while studying",
+    "text": "Read the passage and answer the question.\n\nPassage: “Most students assume that revising right before an exam is the most effective way to remember information. However, research on memory shows that spacing out revision over several days, with short breaks in between, helps information move into long-term memory far more effectively than last-minute cramming.”\n\nQuestion: According to the passage, what is the most effective way to retain information for exams?",
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "Studying continuously the night before"
+      },
+      {
+        "label": "B",
+        "text": "Reading the material only once"
+      },
+      {
+        "label": "C",
+        "text": "Spacing revision over several days"
+      },
+      {
+        "label": "D",
+        "text": "Avoiding breaks while studying"
+      }
+    ],
+    "correctAnswer": "C",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
@@ -717,7 +817,27 @@
   {
     "id": "Q_066",
     "dimensionId": "DIM_LRN_02",
-    "text": "Read the passage and answer the question.Passage: “Many companies now allow employees to choose their own working hours, as long as they complete their tasks on time. While this increases flexibility, some employees report feeling more isolated, since they overlap with colleagues’ schedules less often.”Question: What is one drawback of flexible working hours mentioned in the passage?A) Reduced productivityB) Increased isolationC) Lower task completionD) Less flexibility",
+    "text": "Read the passage and answer the question.\n\nPassage: “Many companies now allow employees to choose their own working hours, as long as they complete their tasks on time. While this increases flexibility, some employees report feeling more isolated, since they overlap with colleagues’ schedules less often.”\n\nQuestion: What is one drawback of flexible working hours mentioned in the passage?",
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reduced productivity"
+      },
+      {
+        "label": "B",
+        "text": "Increased isolation"
+      },
+      {
+        "label": "C",
+        "text": "Lower task completion"
+      },
+      {
+        "label": "D",
+        "text": "Less flexibility"
+      }
+    ],
+    "correctAnswer": "B",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
@@ -728,134 +848,374 @@
   {
     "id": "Q_067",
     "dimensionId": "DIM_LRN_03",
-    "text": "What number comes next in the series: 4, 9, 16, 25, 36, ?A) 42B) 45C) 49D) 47",
+    "text": "What number comes next in the series: 4, 9, 16, 25, 36, ?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "42"
+      },
+      {
+        "label": "B",
+        "text": "45"
+      },
+      {
+        "label": "C",
+        "text": "49"
+      },
+      {
+        "label": "D",
+        "text": "47"
+      }
+    ],
+    "correctAnswer": "C"
   },
   {
     "id": "Q_068",
     "dimensionId": "DIM_LRN_03",
-    "text": "A laptop is sold for ₹38,000 after a 5% discount on its marked price. What was the marked price?A) ₹39,500B) ₹40,000C) ₹40,500D) ₹39,900",
+    "text": "A laptop is sold for ₹38,000 after a 5% discount on its marked price. What was the marked price?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "₹39,500"
+      },
+      {
+        "label": "B",
+        "text": "₹40,000"
+      },
+      {
+        "label": "C",
+        "text": "₹40,500"
+      },
+      {
+        "label": "D",
+        "text": "₹39,900"
+      }
+    ],
+    "correctAnswer": "B"
   },
   {
     "id": "Q_069",
     "dimensionId": "DIM_LRN_03",
-    "text": "The ratio of boys to girls in a class is 4:5. If there are 20 boys, how many girls are there?A) 16B) 20C) 24D) 25",
+    "text": "The ratio of boys to girls in a class is 4:5. If there are 20 boys, how many girls are there?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "24"
+      },
+      {
+        "label": "D",
+        "text": "25"
+      }
+    ],
+    "correctAnswer": "D"
   },
   {
     "id": "Q_070",
     "dimensionId": "DIM_LRN_03",
-    "text": "The average of 4 numbers is 15. A fifth number is added and the new average becomes 16. What is the fifth number?A) 16B) 18C) 20D) 24",
+    "text": "The average of 4 numbers is 15. A fifth number is added and the new average becomes 16. What is the fifth number?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "16"
+      },
+      {
+        "label": "B",
+        "text": "18"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      }
+    ],
+    "correctAnswer": "C"
   },
   {
     "id": "Q_071",
     "dimensionId": "DIM_LRN_03",
-    "text": "A train travels 180 km in 3 hours. At the same speed, how long will it take to travel 300 km?A) 4 hoursB) 4.5 hoursC) 5 hoursD) 6 hours",
+    "text": "A train travels 180 km in 3 hours. At the same speed, how long will it take to travel 300 km?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "4 hours"
+      },
+      {
+        "label": "B",
+        "text": "4.5 hours"
+      },
+      {
+        "label": "C",
+        "text": "5 hours"
+      },
+      {
+        "label": "D",
+        "text": "6 hours"
+      }
+    ],
+    "correctAnswer": "C"
   },
   {
     "id": "Q_072",
     "dimensionId": "DIM_LRN_03",
-    "text": "A shop’s sales were ₹12,000 in Week 1 and increased by 25% in Week 2. What were the Week 2 sales?A) ₹13,500B) ₹14,000C) ₹15,000D) ₹15,500",
+    "text": "A shop's sales were ₹12,000 in Week 1 and increased by 25% in Week 2. What were the Week 2 sales?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "₹13,500"
+      },
+      {
+        "label": "B",
+        "text": "₹14,000"
+      },
+      {
+        "label": "C",
+        "text": "₹15,000"
+      },
+      {
+        "label": "D",
+        "text": "₹15,500"
+      }
+    ],
+    "correctAnswer": "C"
   },
   {
     "id": "Q_073",
     "dimensionId": "DIM_LRN_04",
-    "text": "Find the next term in the series: B, D, G, K, P, ?A) UB) VC) WD) X",
+    "text": "Find the next term in the series: B, D, G, K, P, ?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "U"
+      },
+      {
+        "label": "B",
+        "text": "V"
+      },
+      {
+        "label": "C",
+        "text": "W"
+      },
+      {
+        "label": "D",
+        "text": "X"
+      }
+    ],
+    "correctAnswer": "C"
   },
   {
     "id": "Q_074",
     "dimensionId": "DIM_LRN_04",
-    "text": "In a certain code, FLOWER is written as GMPXFS. How would GARDEN be written in the same code?A) HBSEFOB) HBSEFPC) GBSEFOD) HCSEFO",
+    "text": "In a certain code, FLOWER is written as GMPXFS. How would GARDEN be written in the same code?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "HBSEFO"
+      },
+      {
+        "label": "B",
+        "text": "HBSEFP"
+      },
+      {
+        "label": "C",
+        "text": "GBSEFO"
+      },
+      {
+        "label": "D",
+        "text": "HCSEFO"
+      }
+    ],
+    "correctAnswer": "A"
   },
   {
     "id": "Q_075",
     "dimensionId": "DIM_LRN_04",
-    "text": "Which of these does not belong with the others?A) TriangleB) SquareC) PentagonD) Sphere",
+    "text": "Which of these does not belong with the others?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "Triangle"
+      },
+      {
+        "label": "B",
+        "text": "Square"
+      },
+      {
+        "label": "C",
+        "text": "Pentagon"
+      },
+      {
+        "label": "D",
+        "text": "Sphere"
+      }
+    ],
+    "correctAnswer": "D"
   },
   {
     "id": "Q_076",
     "dimensionId": "DIM_LRN_04",
-    "text": "All members of the chess club practice every Monday. Riya practices every Monday. Which conclusion follows?A) Riya is a member of the chess clubB) Riya is not a member of the chess clubC) It cannot be determined whether Riya is a member of the chess clubD) All people who practice on Monday are chess club members",
+    "text": "All members of the chess club practice every Monday. Riya practices every Monday. Which conclusion follows?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "Riya is a member of the chess club"
+      },
+      {
+        "label": "B",
+        "text": "Riya is not a member of the chess club"
+      },
+      {
+        "label": "C",
+        "text": "It cannot be determined whether Riya is a member of the chess club"
+      },
+      {
+        "label": "D",
+        "text": "All people who practice on Monday are chess club members"
+      }
+    ],
+    "correctAnswer": "C"
   },
   {
     "id": "Q_077",
     "dimensionId": "DIM_LRN_04",
-    "text": "Pointing to a photograph, Rohan said, “She is the daughter of my grandfather’s only son.” Rohan is that son’s child. How is the girl in the photograph related to Rohan?A) SisterB) CousinC) NieceD) Daughter",
+    "text": "Pointing to a photograph, Rohan said, \"She is the daughter of my grandfather's only son.\" Rohan is that son's child. How is the girl in the photograph related to Rohan?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sister"
+      },
+      {
+        "label": "B",
+        "text": "Cousin"
+      },
+      {
+        "label": "C",
+        "text": "Niece"
+      },
+      {
+        "label": "D",
+        "text": "Daughter"
+      }
+    ],
+    "correctAnswer": "A"
   },
   {
     "id": "Q_078",
     "dimensionId": "DIM_LRN_04",
-    "text": "Look at this number sequence: 3, 6, 11, 18, 27, ?A) 35B) 36C) 38D) 40",
+    "text": "Look at this number sequence: 3, 6, 11, 18, 27, ?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "35"
+      },
+      {
+        "label": "B",
+        "text": "36"
+      },
+      {
+        "label": "C",
+        "text": "38"
+      },
+      {
+        "label": "D",
+        "text": "40"
+      }
+    ],
+    "correctAnswer": "C"
   },
   {
     "id": "Q_079",
@@ -926,68 +1286,188 @@
   {
     "id": "Q_085",
     "dimensionId": "DIM_MOT_02",
-    "text": "A 3×3 grid follows a repeating pattern:Row 1: ▲ ● ▲Row 2: ● ▲ ●Row 3: ▲ ● ?Which symbol completes the grid?A) ▲B) ●C) ■D) ★",
+    "text": "A 3×3 grid follows a repeating pattern:\nRow 1: ▲ ● ▲\nRow 2: ● ▲ ●\nRow 3: ▲ ● ?\n\nWhich symbol completes the grid?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "▲"
+      },
+      {
+        "label": "B",
+        "text": "●"
+      },
+      {
+        "label": "C",
+        "text": "■"
+      },
+      {
+        "label": "D",
+        "text": "★"
+      }
+    ],
+    "correctAnswer": "A"
   },
   {
     "id": "Q_086",
     "dimensionId": "DIM_MOT_02",
-    "text": "An arrow rotates clockwise in steps: → ↘ ↓ ↙ ?Which symbol comes next in the sequence?A) ←B) ↖C) ↑D) ↗",
+    "text": "An arrow rotates clockwise in steps: → ↘ ↓ ↙ ?\n\nWhich symbol comes next in the sequence?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "←"
+      },
+      {
+        "label": "B",
+        "text": "↖"
+      },
+      {
+        "label": "C",
+        "text": "↑"
+      },
+      {
+        "label": "D",
+        "text": "↗"
+      }
+    ],
+    "correctAnswer": "A"
   },
   {
     "id": "Q_087",
     "dimensionId": "DIM_MOT_02",
-    "text": "A square sheet of paper is folded in half vertically, then in half horizontally again. A single hole is punched through the corner where all the folds meet. How many holes will appear when the paper is fully unfolded?A) 1B) 2C) 4D) 8",
+    "text": "A square sheet of paper is folded in half vertically, then in half horizontally again. A single hole is punched through the corner where all the folds meet. How many holes will appear when the paper is fully unfolded?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "C"
   },
   {
     "id": "Q_088",
     "dimensionId": "DIM_MOT_02",
-    "text": "A staircase is built from small cubes: Step 1 uses 1 cube, Step 2 uses 3 cubes, Step 3 uses 6 cubes, Step 4 uses 10 cubes. Following this pattern, how many cubes will Step 5 require?A) 12B) 14C) 15D) 16",
+    "text": "A staircase is built from small cubes: Step 1 uses 1 cube, Step 2 uses 3 cubes, Step 3 uses 6 cubes, Step 4 uses 10 cubes. Following this pattern, how many cubes will Step 5 require?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "14"
+      },
+      {
+        "label": "C",
+        "text": "15"
+      },
+      {
+        "label": "D",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": "C"
   },
   {
     "id": "Q_089",
     "dimensionId": "DIM_MOT_02",
-    "text": "A 3×3×3 cube is built from 27 unit cubes and the entire outer surface is then painted red. The large cube is taken apart into its 27 unit cubes. How many of the small cubes have paint on exactly 2 faces?A) 6B) 8C) 12D) 24",
+    "text": "A 3×3×3 cube is built from 27 unit cubes and the entire outer surface is then painted red. The large cube is taken apart into its 27 unit cubes. How many of the small cubes have paint on exactly 2 faces?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "24"
+      }
+    ],
+    "correctAnswer": "C"
   },
   {
     "id": "Q_090",
     "dimensionId": "DIM_MOT_02",
-    "text": "When you look at a clock in a mirror, it shows the time as 4:20. What is the actual time?A) 7:40B) 8:40C) 7:20D) 8:20",
+    "text": "When you look at a clock in a mirror, it shows the time as 4:20. What is the actual time?",
     "isReverseScored": false,
     "expectedCompletionTimeSec": 8,
     "metadata": {
       "target_age_group": "13-22",
       "language": "en-US"
-    }
+    },
+    "type": "mcq",
+    "options": [
+      {
+        "label": "A",
+        "text": "7:40"
+      },
+      {
+        "label": "B",
+        "text": "8:40"
+      },
+      {
+        "label": "C",
+        "text": "7:20"
+      },
+      {
+        "label": "D",
+        "text": "8:20"
+      }
+    ],
+    "correctAnswer": "A"
   },
   {
     "id": "Q_091",

@@ -11,11 +11,12 @@ import { PageDataResolver } from './pageDataResolver';
 import { PageRendererEngine } from './pageRendererEngine';
 import type { RenderTarget } from './pageRendererEngine';
 import React from 'react';
+import reportStructure from '../../data/report/report_structure.json';
 
 export class ReportEngine {
   
   /**
-   * Initializes a full 30-page report generation run.
+   * Initializes a full report generation run based on report_structure.json.
    */
   static async generateReport(
     studentId: string, 
@@ -33,8 +34,8 @@ export class ReportEngine {
 
     const renderedPages: React.ReactElement[] = [];
 
-    // 2. Iterate through the exact 30 pages specified in the Report Structure schema
-    const totalPages = 30; // Corresponds to report_structure.json
+    // 2. Iterate through the pages specified in the Report Structure schema
+    const totalPages = reportStructure.length;
 
     for (let pageNum = 1; pageNum <= totalPages; pageNum++) {
       // 3. Resolve exact dependencies for this specific page

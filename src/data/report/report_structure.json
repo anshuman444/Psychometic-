@@ -24,13 +24,79 @@
     "components": ["Radar Chart", "Heatmaps", "Category Scores"]
   },
   {
-    "pageId": 29,
+    "pageId": 5,
+    "title": "Personality Profile (Part 1)",
+    "requiredDependencies": ["DIM_PERS_01", "DIM_PERS_02", "DIM_PERS_03"],
+    "components": ["DimensionCard_DIM_PERS_01", "DimensionCard_DIM_PERS_02", "DimensionCard_DIM_PERS_03"]
+  },
+  {
+    "pageId": 6,
+    "title": "Personality Profile (Part 2)",
+    "requiredDependencies": ["DIM_PERS_04", "DIM_PERS_05"],
+    "components": ["DimensionCard_DIM_PERS_04", "DimensionCard_DIM_PERS_05"]
+  },
+  {
+    "pageId": 7,
+    "title": "Learning Style Profile (Part 1)",
+    "requiredDependencies": ["DIM_COG_01", "DIM_COG_02", "DIM_COG_03"],
+    "components": ["DimensionCard_DIM_COG_01", "DimensionCard_DIM_COG_02", "DimensionCard_DIM_COG_03"]
+  },
+  {
+    "pageId": 8,
+    "title": "Learning Style Profile (Part 2)",
+    "requiredDependencies": ["DIM_COG_04", "DIM_LRN_01"],
+    "components": ["DimensionCard_DIM_COG_04", "DimensionCard_DIM_LRN_01"]
+  },
+  {
+    "pageId": 9,
+    "title": "Skills & Abilities Profile (Part 1)",
+    "requiredDependencies": ["DIM_LRN_02", "DIM_LRN_03", "DIM_LRN_04"],
+    "components": ["DimensionCard_DIM_LRN_02", "DimensionCard_DIM_LRN_03", "DimensionCard_DIM_LRN_04"]
+  },
+  {
+    "pageId": 10,
+    "title": "Skills & Abilities Profile (Part 2)",
+    "requiredDependencies": ["DIM_MOT_01", "DIM_MOT_02", "DIM_MOT_03"],
+    "components": ["DimensionCard_DIM_MOT_01", "DimensionCard_DIM_MOT_02", "DimensionCard_DIM_MOT_03"]
+  },
+  {
+    "pageId": 11,
+    "title": "Career Interest Profile (Part 1)",
+    "requiredDependencies": ["DIM_WRK_01", "DIM_WRK_02", "DIM_WRK_03"],
+    "components": ["DimensionCard_DIM_WRK_01", "DimensionCard_DIM_WRK_02", "DimensionCard_DIM_WRK_03"]
+  },
+  {
+    "pageId": 12,
+    "title": "Career Interest Profile (Part 2)",
+    "requiredDependencies": ["DIM_INT_01", "DIM_INT_02", "DIM_INT_03"],
+    "components": ["DimensionCard_DIM_INT_01", "DimensionCard_DIM_INT_02", "DimensionCard_DIM_INT_03"]
+  },
+  {
+    "pageId": 13,
+    "title": "Student Success Blueprint",
+    "requiredDependencies": ["Top Strengths", "Hidden Strengths", "Blind Spots", "Learning Environment Fit"],
+    "components": ["Strengths Highlight", "Blind Spots Insight", "Learning Fit Assessment"]
+  },
+  {
+    "pageId": 14,
+    "title": "Career Discovery Summary",
+    "requiredDependencies": ["Top Themes", "Career Recommendations"],
+    "components": ["Theme Overview", "Top Career Matches", "Alternative Pathways"]
+  },
+  {
+    "pageId": 15,
+    "title": "Growth Roadmap",
+    "requiredDependencies": ["Roadmap", "Skills to Build", "Experiences to Pursue"],
+    "components": ["Short-term Goals", "Medium-term Goals", "Long-term Vision"]
+  },
+  {
+    "pageId": 16,
     "title": "Parent Guidance Dashboard",
     "requiredDependencies": ["Blind Spots", "Learning Styles", "Strengths"],
     "components": ["Support Recommendations", "Communication Recommendations", "Parent Action Plan"]
   },
   {
-    "pageId": 30,
+    "pageId": 17,
     "title": "Final Intelligence Summary",
     "requiredDependencies": ["Readiness Score", "Top Careers"],
     "components": ["Final Summary Narrative"]

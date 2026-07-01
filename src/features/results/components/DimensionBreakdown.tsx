@@ -6,6 +6,7 @@ import {
   GraduationCap, BarChart3, Wrench, Star, Info
 } from 'lucide-react';
 import { DIMENSION_INSIGHTS } from '../../../data/intelligence/dimensionInsights';
+import { DimensionInfographic } from './DimensionInfographic';
 
 interface Dimension {
   id: string;
@@ -215,26 +216,14 @@ const DimensionCard: React.FC<{ dim: Dimension; categoryColor: string; index: nu
       {/* ── Expandable Body ── */}
       {isExpanded && (
         <div className="dim-card__body">
-          {/* What It Means + Why It Matters */}
-          {insightData && (
-            <div className="dim-card__deep-overview">
-              <div className="dim-card__what-it-means">
-                <div className="dim-card__section-label">
-                  <Info size={14} />
-                  <span>What This Dimension Measures</span>
-                </div>
-                <p>{insightData.whatItMeans}</p>
-              </div>
-              <div className="dim-card__why-it-matters">
-                <div className="dim-card__section-label">
-                  <Lightbulb size={14} />
-                  <span>Why It Matters for Your Future</span>
-                </div>
-                <p>{insightData.whyItMatters}</p>
-              </div>
-            </div>
-          )}
-
+          <DimensionInfographic 
+            score={dim.normalizedScore} 
+            tier={dim.tier} 
+            categoryColor={categoryColor} 
+            dimensionId={dim.id}
+            insightText={tierInsights?.strengths?.[0] || 'A unique facet of your cognitive profile.'}
+          />
+          
           {/* 3-Column Insight Grid */}
           <div className="dim-card__insight-grid">
             {/* Strength Profile */}
@@ -244,7 +233,7 @@ const DimensionCard: React.FC<{ dim: Dimension; categoryColor: string; index: nu
                 <h5>Core Strength Profile</h5>
               </div>
               <ul className="dim-card__insight-list">
-                {(tierInsights?.strengths || []).map((s, i) => <li key={i}>{s}</li>)}
+                {(tierInsights?.strengths || []).slice(0, 2).map((s, i) => <li key={i}>{s}</li>)}
               </ul>
             </div>
 
@@ -254,8 +243,8 @@ const DimensionCard: React.FC<{ dim: Dimension; categoryColor: string; index: nu
                 <span className="dim-card__insight-icon dim-card__insight-icon--growth">◬</span>
                 <h5>Key Growth Area</h5>
               </div>
-              <ul className="dim-card__insight-list">
-                {(tierInsights?.growth || []).map((g, i) => <li key={i}>{g}</li>)}
+              <ul className="dim-card__insight-list dim-card__insight-list--growth">
+                {(tierInsights?.growth || []).slice(0, 1).map((s, i) => <li key={i}>{s}</li>)}
               </ul>
             </div>
 
@@ -266,7 +255,7 @@ const DimensionCard: React.FC<{ dim: Dimension; categoryColor: string; index: nu
                 <h5>Actionable Steps</h5>
               </div>
               <ul className="dim-card__insight-list">
-                {(tierInsights?.tips || []).map((t, i) => <li key={i}>{t}</li>)}
+                {(tierInsights?.tips || []).slice(0, 2).map((s, i) => <li key={i}>{s}</li>)}
               </ul>
             </div>
           </div>

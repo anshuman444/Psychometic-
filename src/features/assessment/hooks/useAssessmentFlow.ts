@@ -61,15 +61,15 @@ export function useAssessmentFlow(userId: string): [AssessmentFlowState, Assessm
 
   // Dimension name lookup
   const dimensionNameMap: Record<string, string> = {
-    DIM_PERS_01: 'Openness', DIM_PERS_02: 'Conscientiousness', DIM_PERS_03: 'Social Energy',
-    DIM_PERS_04: 'Resilience', DIM_PERS_05: 'Empathy',
-    DIM_COG_01: 'Abstract Reasoning', DIM_COG_02: 'Analytical Thinking',
-    DIM_COG_03: 'Strategic Thinking', DIM_COG_04: 'Creative Problem Solving',
-    DIM_LRN_01: 'Self-Directed Learning', DIM_LRN_02: 'Hands-on Application',
-    DIM_LRN_03: 'Collaborative Learning', DIM_LRN_04: 'Structured Learning',
-    DIM_MOT_01: 'Intrinsic Drive', DIM_MOT_02: 'Extrinsic Ambition', DIM_MOT_03: 'Purpose Orientation',
-    DIM_WRK_01: 'Execution Focus', DIM_WRK_02: 'Quality Focus', DIM_WRK_03: 'Autonomy Preference',
-    DIM_INT_01: 'Technical Interest', DIM_INT_02: 'Scientific Interest', DIM_INT_03: 'Creative Interest',
+    DIM_PERS_01: 'Social Energy', DIM_PERS_02: 'Conscientiousness & Discipline', DIM_PERS_03: 'Curiosity & Openness',
+    DIM_PERS_04: 'Collaboration & Empathy', DIM_PERS_05: 'Adaptability & Resilience',
+    DIM_COG_01: 'Visual Learning Preference', DIM_COG_02: 'Practical & Experiential Learning',
+    DIM_COG_03: 'Independent Learning', DIM_COG_04: 'Collaborative Learning',
+    DIM_LRN_01: 'Structured vs Exploratory Learning', DIM_LRN_02: 'Verbal Ability',
+    DIM_LRN_03: 'Numerical Ability', DIM_LRN_04: 'Logical Reasoning',
+    DIM_MOT_01: 'Creative Thinking', DIM_MOT_02: 'Spatial & Visual Reasoning', DIM_MOT_03: 'Leadership Potential',
+    DIM_WRK_01: 'Investigative Interest', DIM_WRK_02: 'Artistic Interest', DIM_WRK_03: 'Social Interest',
+    DIM_INT_01: 'Enterprising Interest', DIM_INT_02: 'Conventional Interest', DIM_INT_03: 'Realistic Interest',
   };
 
   const currentDimensionName = currentQuestion

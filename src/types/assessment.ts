@@ -8,6 +8,11 @@ export type DimensionCategory =
   | 'SkillsAndAbilities' 
   | 'CareerInterest';
 
+export interface MCQOption {
+  label: string;  // "A", "B", "C", "D"
+  text: string;   // The option text
+}
+
 export interface Question {
   id: string;
   dimensionId: string;
@@ -15,6 +20,10 @@ export interface Question {
   isReverseScored: boolean;
   // Metadata for quality control and analytics
   expectedCompletionTimeSec: number;
+  // MCQ support
+  type?: 'likert' | 'mcq';
+  options?: MCQOption[];
+  correctAnswer?: string; // "A", "B", "C", or "D" for MCQ questions
 }
 
 export interface DimensionNarrative {

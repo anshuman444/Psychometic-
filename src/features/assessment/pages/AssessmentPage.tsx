@@ -75,6 +75,8 @@ export const AssessmentPage: React.FC = () => {
             dimensionName={state.currentDimensionName}
             isReverseScored={state.currentQuestion.isReverseScored}
             selectedValue={existingAnswer?.rawValue}
+            type={state.currentQuestion.type as 'likert' | 'mcq'}
+            options={state.currentQuestion.options}
             onAnswer={actions.answerQuestion}
             onBack={actions.goBack}
             canGoBack={state.currentIndex > 0}

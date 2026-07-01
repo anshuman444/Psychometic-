@@ -10,6 +10,8 @@
 
 import React from 'react';
 
+import type { MCQOption } from '../../../types/assessment';
+
 interface QuestionCardProps {
   questionNumber: number;
   totalQuestions: number;
@@ -17,6 +19,8 @@ interface QuestionCardProps {
   dimensionName: string;
   isReverseScored: boolean;
   selectedValue?: number;
+  type?: 'likert' | 'mcq';
+  options?: MCQOption[];
   onAnswer: (value: number) => void;
   onBack: () => void;
   canGoBack: boolean;
@@ -36,10 +40,23 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   questionText,
   dimensionName,
   selectedValue,
+  type = 'likert',
+  options = [],
   onAnswer,
   onBack,
   canGoBack,
 }) => {
+  // Mapping A, B, C, D to 1, 2, 3, 4 for the orchestrator
+  const getMcqValue = (label: string) => {
+    switch(label) {
+      case 'A': return 1;
+      case 'B': return 2;
+      case 'C': return 3;
+      case 'D': return 4;
+      default: return 0;
+    }
+  };
+
   return (
     <div className="question-card" key={questionNumber}>
       <div className="question-card__header">
@@ -51,21 +68,42 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
 
       <p className="question-card__text">{questionText}</p>
 
-      <div className="question-card__likert">
-        {LIKERT_OPTIONS.map((option) => (
-          <button
-            key={option.value}
-            className={`question-card__likert-btn ${
-              selectedValue === option.value ? 'question-card__likert-btn--selected' : ''
-            }`}
-            onClick={() => onAnswer(option.value)}
-            aria-label={option.label}
-          >
-            <span className="question-card__likert-value">{option.value}</span>
-            <span className="question-card__likert-label">{option.label}</span>
-          </button>
-        ))}
-      </div>
+      {type === 'mcq' && options && options.length > 0 ? (
+        <div className="question-card__mcq">
+          {options.map((option) => {
+            const val = getMcqValue(option.label);
+            return (
+              <button
+                key={option.label}
+                className={`question-card__mcq-btn ${
+                  selectedValue === val ? 'question-card__mcq-btn--selected' : ''
+                }`}
+                onClick={() => onAnswer(val)}
+                aria-label={option.label}
+              >
+                <span className="question-card__mcq-label">{option.label}</span>
+                <span className="question-card__mcq-text">{option.text}</span>
+              </button>
+            );
+          })}
+        </div>
+      ) : (
+        <div className="question-card__likert">
+          {LIKERT_OPTIONS.map((option) => (
+            <button
+              key={option.value}
+              className={`question-card__likert-btn ${
+                selectedValue === option.value ? 'question-card__likert-btn--selected' : ''
+              }`}
+              onClick={() => onAnswer(option.value)}
+              aria-label={option.label}
+            >
+              <span className="question-card__likert-value">{option.value}</span>
+              <span className="question-card__likert-label">{option.label}</span>
+            </button>
+          ))}
+        </div>
+      )}
 
       <div className="question-card__nav">
         {canGoBack && (

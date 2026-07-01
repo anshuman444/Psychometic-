@@ -22,8 +22,6 @@ import { useCurrentUser } from '../../../lib/PlatformContext';
 import { useAssessmentResults } from '../hooks/useAssessmentResults';
 import { ScoreRings } from '../components/ScoreRings';
 import { DimensionBreakdown } from '../components/DimensionBreakdown';
-import { DimensionDeepDiveView } from '../components/DimensionDeepDiveView';
-import { DimensionDeepDivePrintView } from '../components/DimensionDeepDivePrintView';
 import { ThemeCards } from '../components/ThemeCards';
 import { CareerFitSection } from '../components/CareerFitSection';
 import { RoadmapTimeline } from '../components/RoadmapTimeline';
@@ -211,10 +209,7 @@ export const ResultsPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Dimension Deep Dives */}
-      <section className="results-section">
-        <DimensionDeepDiveView dimensions={displayData.dimensions} />
-      </section>
+
 
       {/* Career Fit */}
       <section className="results-section" data-pdf-block="true">
@@ -230,12 +225,7 @@ export const ResultsPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Hidden Full Dimension Deep Dives (Only for PDF Export) */}
-      <div id="pdf-extended-content" style={{ display: 'none' }}>
-        {displayData.dimensions.map(dim => (
-          <DimensionDeepDivePrintView key={dim.id} dimension={dim} />
-        ))}
-      </div>
+
     </div>
   );
 };
