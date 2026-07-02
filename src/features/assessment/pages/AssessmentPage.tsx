@@ -42,7 +42,7 @@ export const AssessmentPage: React.FC = () => {
   // Logo component to reuse
   const LogoHeader = () => (
     <div className="absolute top-6 left-6 z-10">
-      <img src="/logo.png" alt="VidyaLoop" style={{ height: '32px', width: 'auto' }} className="object-contain" />
+      <img src="/logo.png" alt="VidyaLoop" style={{ height: '80px', width: 'auto' }} className="object-contain" />
     </div>
   );
 
