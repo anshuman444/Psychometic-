@@ -1,6 +1,16 @@
 {
-  "CLUSTER_TECH": ["Join a robotics club", "Participate in an open-source project", "Attend a local hackathon"],
-  "CLUSTER_HEALTHCARE": ["Volunteer at a local hospital", "Shadow a practicing physician", "Get CPR certified"],
-  "CLUSTER_BUSINESS": ["Start a small micro-business at school", "Join DECA or FBLA", "Manage the budget for a student club"],
-  "CLUSTER_DESIGN": ["Build a personal portfolio website", "Redesign an app you use daily as practice", "Join the school yearbook design team"]
+  "DEPT_BUMA": ["Start a small business at school", "Join DECA, FBLA, or BizQuiz", "Manage the budget for a student club", "Shadow a local entrepreneur", "Run a fundraising campaign"],
+  "DEPT_CRAR": ["Build a personal portfolio website", "Redesign an app you use daily", "Join the school yearbook design team", "Create a short film or animation", "Participate in a design hackathon"],
+  "DEPT_EDHU": ["Tutor younger students in a subject you love", "Help organize a school workshop", "Volunteer at a literacy campaign", "Create an educational YouTube channel", "Assist a teacher as a classroom aide"],
+  "DEPT_ENMO": ["Join a robotics or maker club", "Build a model bridge or machine", "Attend a local engineering fair", "Complete an online CAD tutorial", "Participate in a science Olympiad"],
+  "DEPT_HELI": ["Volunteer at a local hospital or clinic", "Shadow a practicing physician", "Get CPR / First Aid certified", "Intern at a pharmacy", "Participate in a health awareness drive"],
+  "DEPT_HOTR": ["Organize a school event or cultural fest", "Intern at a local hotel or restaurant", "Plan a community travel itinerary", "Volunteer at tourism information centers", "Take a food safety / hospitality course"],
+  "DEPT_LAPO": ["Join the school debate / MUN club", "Intern at a local law firm or NGO", "Write opinion editorials for the school paper", "Attend a local court proceeding", "Participate in a mock parliament"],
+  "DEPT_MECO": ["Start a blog, podcast, or YouTube channel", "Write for the school newspaper", "Cover school events as a student journalist", "Create a social media campaign for a cause", "Take an online storytelling course"],
+  "DEPT_SCRE": ["Conduct an independent science experiment", "Attend a science research camp", "Submit a paper to a student research journal", "Join a citizen science project", "Participate in a national science fair"],
+  "DEPT_SKTR": ["Take a weekend trade skills workshop", "Build furniture or small electronics at home", "Apprentice at a local workshop", "Participate in a maker faire", "Complete an online electrical safety course"],
+  "DEPT_SOIM": ["Volunteer at an NGO or community service org", "Organize a neighborhood clean-up drive", "Join a social entrepreneurship program", "Mentor underprivileged students", "Start a peer-support group at school"],
+  "DEPT_SPWE": ["Join a school sports team or fitness club", "Volunteer at a community sports event", "Track your personal fitness data over 3 months", "Shadow a sports coach or physiotherapist", "Take an online sports nutrition course"],
+  "DEPT_SUEN": ["Conduct a local environmental audit", "Start a recycling initiative at school", "Volunteer at a tree-planting drive", "Build a small solar-powered project", "Write about climate change for the school paper"],
+  "DEPT_TEDI": ["Join a coding club or robotics team", "Participate in an open-source project on GitHub", "Attend a local hackathon", "Build your own app or website", "Take an online cybersecurity or AI course"]
 }

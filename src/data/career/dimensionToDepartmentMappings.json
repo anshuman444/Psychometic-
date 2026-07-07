@@ -1,0 +1,157 @@
+{
+  "_description": "Direct mapping from each of the 22 psychometric dimensions to the 14 career departments. Each dimension maps to exactly 4 departments with weights summing to 1.0. This ensures every department receives contributions from 6-7 dimensions — balanced and unbiased.",
+  "DIM_COG_01": {
+    "_name": "Abstract Reasoning",
+    "DEPT_ENMO": 0.2274,
+    "DEPT_LAPO": 0.2589,
+    "DEPT_SCRE": 0.2294,
+    "DEPT_TEDI": 0.2842
+  },
+  "DIM_COG_02": {
+    "_name": "Analytical Thinking",
+    "DEPT_BUMA": 0.3093,
+    "DEPT_HELI": 0.2265,
+    "DEPT_SCRE": 0.1867,
+    "DEPT_TEDI": 0.2776
+  },
+  "DIM_COG_03": {
+    "_name": "Strategic Thinking",
+    "DEPT_BUMA": 0.3185,
+    "DEPT_LAPO": 0.279,
+    "DEPT_SOIM": 0.3005,
+    "DEPT_TEDI": 0.1021
+  },
+  "DIM_COG_04": {
+    "_name": "Creative Problem Solving",
+    "DEPT_CRAR": 0.2141,
+    "DEPT_ENMO": 0.1524,
+    "DEPT_MECO": 0.2682,
+    "DEPT_SUEN": 0.3653
+  },
+  "DIM_INT_01": {
+    "_name": "Technical Interest",
+    "DEPT_ENMO": 0.2878,
+    "DEPT_SCRE": 0.0645,
+    "DEPT_SKTR": 0.3279,
+    "DEPT_TEDI": 0.3197
+  },
+  "DIM_INT_02": {
+    "_name": "Scientific Interest",
+    "DEPT_ENMO": 0.1396,
+    "DEPT_HELI": 0.2847,
+    "DEPT_SCRE": 0.219,
+    "DEPT_SUEN": 0.3568
+  },
+  "DIM_INT_03": {
+    "_name": "Creative Interest",
+    "DEPT_CRAR": 0.2218,
+    "DEPT_HOTR": 0.2393,
+    "DEPT_MECO": 0.2858,
+    "DEPT_SPWE": 0.2531
+  },
+  "DIM_LRN_01": {
+    "_name": "Self-Directed Learning",
+    "DEPT_CRAR": 0.1832,
+    "DEPT_SCRE": 0.1973,
+    "DEPT_SUEN": 0.375,
+    "DEPT_TEDI": 0.2445
+  },
+  "DIM_LRN_02": {
+    "_name": "Hands-on Application",
+    "DEPT_CRAR": 0.125,
+    "DEPT_ENMO": 0.2002,
+    "DEPT_SKTR": 0.3421,
+    "DEPT_SPWE": 0.3328
+  },
+  "DIM_LRN_03": {
+    "_name": "Collaborative Learning",
+    "DEPT_BUMA": 0.1385,
+    "DEPT_EDHU": 0.3008,
+    "DEPT_HOTR": 0.2748,
+    "DEPT_SOIM": 0.2859
+  },
+  "DIM_LRN_04": {
+    "_name": "Structured Learning",
+    "DEPT_BUMA": 0.2326,
+    "DEPT_EDHU": 0.2694,
+    "DEPT_HELI": 0.2129,
+    "DEPT_LAPO": 0.2852
+  },
+  "DIM_MOT_01": {
+    "_name": "Intrinsic Drive",
+    "DEPT_CRAR": 0.2395,
+    "DEPT_EDHU": 0.275,
+    "DEPT_SCRE": 0.172,
+    "DEPT_SOIM": 0.3136
+  },
+  "DIM_MOT_02": {
+    "_name": "Extrinsic Ambition",
+    "DEPT_BUMA": 0.2977,
+    "DEPT_HOTR": 0.27,
+    "DEPT_LAPO": 0.2173,
+    "DEPT_MECO": 0.215
+  },
+  "DIM_MOT_03": {
+    "_name": "Purpose Orientation",
+    "DEPT_EDHU": 0.2304,
+    "DEPT_HELI": 0.1166,
+    "DEPT_SOIM": 0.3679,
+    "DEPT_SPWE": 0.285
+  },
+  "DIM_PERS_01": {
+    "_name": "Openness",
+    "DEPT_CRAR": 0.2887,
+    "DEPT_MECO": 0.31,
+    "DEPT_SCRE": 0.1481,
+    "DEPT_SUEN": 0.2533
+  },
+  "DIM_PERS_02": {
+    "_name": "Conscientiousness",
+    "DEPT_BUMA": 0.2749,
+    "DEPT_HELI": 0.2097,
+    "DEPT_LAPO": 0.2341,
+    "DEPT_SKTR": 0.2812
+  },
+  "DIM_PERS_03": {
+    "_name": "Social Energy",
+    "DEPT_EDHU": 0.1764,
+    "DEPT_HOTR": 0.2901,
+    "DEPT_MECO": 0.1925,
+    "DEPT_SPWE": 0.341
+  },
+  "DIM_PERS_04": {
+    "_name": "Resilience",
+    "DEPT_ENMO": 0.173,
+    "DEPT_SKTR": 0.2464,
+    "DEPT_SPWE": 0.3595,
+    "DEPT_SUEN": 0.2211
+  },
+  "DIM_PERS_05": {
+    "_name": "Empathy",
+    "DEPT_EDHU": 0.3194,
+    "DEPT_HELI": 0.202,
+    "DEPT_HOTR": 0.1751,
+    "DEPT_SOIM": 0.3036
+  },
+  "DIM_WRK_01": {
+    "_name": "Execution Focus",
+    "DEPT_ENMO": 0.1823,
+    "DEPT_HOTR": 0.3223,
+    "DEPT_SKTR": 0.3739,
+    "DEPT_TEDI": 0.1215
+  },
+  "DIM_WRK_02": {
+    "_name": "Quality Focus",
+    "DEPT_ENMO": 0.2086,
+    "DEPT_HELI": 0.3191,
+    "DEPT_LAPO": 0.2969,
+    "DEPT_SCRE": 0.1754
+  },
+  "DIM_WRK_03": {
+    "_name": "Autonomy Preference",
+    "DEPT_CRAR": 0.2992,
+    "DEPT_MECO": 0.2999,
+    "DEPT_SCRE": 0.1791,
+    "DEPT_TEDI": 0.2218
+  }
+}

@@ -1,6 +1,16 @@
 {
-  "CLUSTER_TECH": ["Python Programming", "Version Control (Git)", "Algorithmic Thinking"],
-  "CLUSTER_HEALTHCARE": ["First Aid Certification", "Active Listening", "Medical Terminology"],
-  "CLUSTER_BUSINESS": ["Financial Modeling", "Public Speaking", "Negotiation"],
-  "CLUSTER_DESIGN": ["Figma Prototyping", "Color Theory", "User Empathy"]
+  "DEPT_BUMA": ["Financial Modeling", "Public Speaking", "Negotiation", "Data-Driven Decision Making", "Excel & Spreadsheet Mastery"],
+  "DEPT_CRAR": ["Figma & Adobe Creative Suite", "Color Theory & Typography", "Storytelling & Narrative Design", "Video Editing", "User Empathy & Research"],
+  "DEPT_EDHU": ["Curriculum Design", "Classroom Management", "Research Writing", "Assessment Development", "Mentorship Techniques"],
+  "DEPT_ENMO": ["CAD Software (AutoCAD, SolidWorks)", "Project Planning & Scheduling", "MATLAB / Simulation Tools", "Structural Analysis", "Sustainability Engineering"],
+  "DEPT_HELI": ["First Aid & CPR Certification", "Medical Terminology", "Active Listening & Patient Care", "Lab Techniques", "Research Ethics"],
+  "DEPT_HOTR": ["Customer Service Excellence", "Event Coordination", "Culinary Skills", "Cross-Cultural Communication", "Booking & Reservation Systems"],
+  "DEPT_LAPO": ["Legal Research & Drafting", "Critical Argumentation", "Policy Analysis", "Regulatory Compliance", "Public Administration"],
+  "DEPT_MECO": ["Content Writing & Copywriting", "Social Media Strategy", "Audio/Video Production", "SEO & Analytics", "Brand Storytelling"],
+  "DEPT_SCRE": ["Scientific Method & Experiment Design", "Statistical Analysis (R, SPSS)", "Academic Paper Writing", "Lab Safety & Equipment", "Data Visualization"],
+  "DEPT_SKTR": ["Precision Measurement Tools", "Electrical Wiring & Circuitry", "Welding & Fabrication", "Machine Operation Safety", "Blueprint Reading"],
+  "DEPT_SOIM": ["Grant Writing", "Community Organizing", "Impact Measurement", "Cross-Cultural Sensitivity", "Volunteer Management"],
+  "DEPT_SPWE": ["Sports Coaching Fundamentals", "Nutrition Planning", "Fitness Assessment", "Injury Prevention", "Sports Analytics"],
+  "DEPT_SUEN": ["Carbon Footprint Analysis", "Environmental Impact Assessment", "Renewable Energy Systems", "Sustainability Reporting", "GIS Mapping"],
+  "DEPT_TEDI": ["Python / JavaScript Programming", "Version Control (Git)", "Cloud Computing Basics (AWS/GCP)", "Algorithmic Thinking", "Database Management (SQL)"]
 }

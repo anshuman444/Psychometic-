@@ -32,8 +32,8 @@ import { BlindSpotEngine } from '../utils/intelligence/blindSpotEngine';
 import { HiddenStrengthEngine } from '../utils/intelligence/hiddenStrengthEngine';
 import { MotivationEngine } from '../utils/intelligence/motivationEngine';
 import { generateVisualProfileData } from '../utils/intelligence/fingerprintEngine';
-import { CareerFitEngine } from '../utils/career/careerFitEngine';
-import { CareerRecommendationEngine } from '../utils/career/careerRecommendationEngine';
+import { CareerFitEngine, type DepartmentFitResult } from '../utils/career/careerFitEngine';
+import { CareerRecommendationEngine, type CareerRecommendation } from '../utils/career/careerRecommendationEngine';
 import { GrowthRoadmapEngine } from '../utils/roadmap/growthRoadmapEngine';
 import { ThemeCalculationEngine, type ThemeScore } from '../utils/intelligence/themeCalculation';
 
@@ -83,9 +83,10 @@ export interface OrchestratorResult {
   /** Motivation */
   motivationProfile: { primary: string; secondary: string };
 
-  /** Career Fit */
-  careerScores: { clusterId: string; fitScore: number }[];
-  careerRecommendations: ReturnType<typeof CareerRecommendationEngine.generateRecommendations>;
+  /** Career Fit — Department-based */
+  careerScores: { clusterId: string; fitScore: number }[]; // backward compat
+  careerDepartments: DepartmentFitResult[];
+  careerRecommendations: CareerRecommendation | null;
 
   /** Growth Roadmap */
   roadmap: ReturnType<typeof GrowthRoadmapEngine.generateRoadmap>;
@@ -105,7 +106,11 @@ for (const q of questionsData) {
     dimensionId: q.dimensionId,
     text: q.text,
     isReverseScored: q.isReverseScored,
-    expectedCompletionTimeSec: 10,
+    expectedCompletionTimeSec: q.expectedCompletionTimeSec || 10,
+    // CRITICAL: Must pass type + correctAnswer so scoringEngine correctly handles MCQ dimensions
+    type: (q as any).type,
+    correctAnswer: (q as any).correctAnswer,
+    options: (q as any).options,
   });
 }
 
@@ -200,16 +205,22 @@ export async function runAssessmentPipeline(
   const motivationProfile = MotivationEngine.determineMotivationProfile(dimScoreMap);
 
   // ─────────────────────────────────────────
-  // Step 9: Career Fit Scores + Recommendations
+  // Step 9: Career Fit Scores + Recommendations (Department-based)
   // ─────────────────────────────────────────
   const top3Themes = themeCalcScores.slice(0, 3);
-  const careerScores = CareerFitEngine.calculateFit(top3Themes, readinessScore, successIndex);
-  const careerRecommendations = CareerRecommendationEngine.generateRecommendations(careerScores);
+  const careerDepartments = CareerFitEngine.calculateFit(top3Themes, readinessScore, successIndex, dimScoreMap);
+  const careerRecommendations = CareerRecommendationEngine.generateRecommendations(careerDepartments);
+
+  // Backward-compatible careerScores (maps departments to the old { clusterId, fitScore } shape)
+  const careerScores = careerDepartments.map(d => ({
+    clusterId: d.departmentId,
+    fitScore: d.fitScore,
+  }));
 
   // ─────────────────────────────────────────
   // Step 10: Growth Roadmap
   // ─────────────────────────────────────────
-  const primaryCareerCluster = careerScores[0]?.clusterId || 'GENERAL';
+  const primaryCareerCluster = careerDepartments[0]?.departmentId || 'GENERAL';
   const roadmap = GrowthRoadmapEngine.generateRoadmap(primaryCareerCluster, blindSpots, topStrengths);
 
   // ─────────────────────────────────────────
@@ -245,10 +256,12 @@ export async function runAssessmentPipeline(
       })),
     },
     career_scores: {
-      version: '1.0',
-      clusters: careerScores.map(c => ({
-        clusterId: c.clusterId,
-        fitScore: c.fitScore,
+      version: '2.0',
+      departments: careerDepartments.map(d => ({
+        departmentId: d.departmentId,
+        departmentName: d.departmentName,
+        fitScore: d.fitScore,
+        topCategories: d.topCategories,
       })),
     },
     strengths: topStrengths,
@@ -272,6 +285,7 @@ export async function runAssessmentPipeline(
     hiddenStrengths,
     motivationProfile,
     careerScores,
+    careerDepartments,
     careerRecommendations,
     roadmap,
     fingerprint,

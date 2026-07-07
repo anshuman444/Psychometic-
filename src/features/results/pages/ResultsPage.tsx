@@ -27,6 +27,9 @@ import { CareerFitSection } from '../components/CareerFitSection';
 import { RoadmapTimeline } from '../components/RoadmapTimeline';
 import { StrengthsBlindSpots } from '../components/StrengthsBlindSpots';
 import { ProfileInfographics } from '../components/ProfileInfographics';
+import { ThemeConstellation } from '../components/ThemeConstellation';
+import { CareerAffinityChart } from '../components/CareerAffinityChart';
+import { HeadVsHeartGauge } from '../components/HeadVsHeartGauge';
 
 import { useState } from 'react';
 import { exportReportToPDF } from '../../../utils/report/pdfEngine';
@@ -172,16 +175,21 @@ export const ResultsPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Themes */}
+      {/* Theme Constellation & Cards */}
+      <section className="results-section" data-pdf-block="true">
+        <ThemeConstellation themes={displayData.themes} />
+      </section>
+
       <section className="results-section" data-pdf-block="true">
         <div className="card">
           <ThemeCards themes={displayData.themes} />
         </div>
       </section>
 
-      {/* Profile Infographics */}
+      {/* Profile Infographics & Balance Gauge */}
       <section className="results-section" data-pdf-block="true">
         <div className="card">
+          <HeadVsHeartGauge dimensions={displayData.dimensions} />
           <ProfileInfographics
             dimensions={displayData.dimensions}
             readinessScore={displayData.readinessScore}
@@ -211,10 +219,14 @@ export const ResultsPage: React.FC = () => {
 
 
 
-      {/* Career Fit */}
+      {/* Career Fit & Affinity Distribution */}
       <section className="results-section" data-pdf-block="true">
         <div className="card">
-          <CareerFitSection careerScores={displayData.careerScores} />
+          <CareerFitSection careerRecommendations={displayData.careerRecommendations} />
+          <CareerAffinityChart 
+            careerRecommendations={displayData.careerRecommendations} 
+            allCareerScores={displayData.careerScores} 
+          />
         </div>
       </section>
 

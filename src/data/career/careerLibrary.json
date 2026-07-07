@@ -1,0 +1,1920 @@
+{
+  "departments": [
+    {
+      "id": "DEPT_BUMA",
+      "name": "Business & Management",
+      "categories": [
+        {
+          "id": "CAT_BUMA_AC",
+          "name": "Accounting",
+          "professions": [
+            {
+              "id": "BUMA-AC-001",
+              "title": "Accountant"
+            },
+            {
+              "id": "BUMA-AC-002",
+              "title": "Accounts Executive"
+            },
+            {
+              "id": "BUMA-AC-003",
+              "title": "Auditor"
+            },
+            {
+              "id": "BUMA-AC-004",
+              "title": "Chartered Accountant"
+            },
+            {
+              "id": "BUMA-AC-005",
+              "title": "Compliance Accountant"
+            },
+            {
+              "id": "BUMA-AC-006",
+              "title": "Cost Accountant"
+            },
+            {
+              "id": "BUMA-AC-007",
+              "title": "Forensic Accountant"
+            },
+            {
+              "id": "BUMA-AC-008",
+              "title": "Internal Auditor"
+            },
+            {
+              "id": "BUMA-AC-009",
+              "title": "Payroll Accountant"
+            },
+            {
+              "id": "BUMA-AC-010",
+              "title": "Tax Consultant"
+            }
+          ]
+        },
+        {
+          "id": "CAT_BUMA_BUMA",
+          "name": "Business Management",
+          "professions": [
+            {
+              "id": "BUMA-BUMA-001",
+              "title": "Agile Coach"
+            },
+            {
+              "id": "BUMA-BUMA-002",
+              "title": "Branch Manager"
+            },
+            {
+              "id": "BUMA-BUMA-003",
+              "title": "Business Consultant"
+            },
+            {
+              "id": "BUMA-BUMA-004",
+              "title": "Change Management Consultant"
+            },
+            {
+              "id": "BUMA-BUMA-005",
+              "title": "Delivery Manager"
+            },
+            {
+              "id": "BUMA-BUMA-006",
+              "title": "Digital Transformation Consultant"
+            },
+            {
+              "id": "BUMA-BUMA-007",
+              "title": "General Manager"
+            },
+            {
+              "id": "BUMA-BUMA-008",
+              "title": "Innovation Consultant"
+            },
+            {
+              "id": "BUMA-BUMA-009",
+              "title": "Innovation Consultant"
+            },
+            {
+              "id": "BUMA-BUMA-010",
+              "title": "Innovation Manager"
+            },
+            {
+              "id": "BUMA-BUMA-011",
+              "title": "Operations Manager"
+            },
+            {
+              "id": "BUMA-BUMA-012",
+              "title": "PMO Analyst"
+            },
+            {
+              "id": "BUMA-BUMA-013",
+              "title": "Product Manager"
+            },
+            {
+              "id": "BUMA-BUMA-014",
+              "title": "Program Manager"
+            },
+            {
+              "id": "BUMA-BUMA-015",
+              "title": "Project Manager"
+            },
+            {
+              "id": "BUMA-BUMA-016",
+              "title": "Scrum Master"
+            },
+            {
+              "id": "BUMA-BUMA-017",
+              "title": "Strategy Consultant"
+            },
+            {
+              "id": "BUMA-BUMA-018",
+              "title": "Transformation Manager"
+            }
+          ]
+        },
+        {
+          "id": "CAT_BUMA_DIMA",
+          "name": "Digital Marketing",
+          "professions": [
+            {
+              "id": "BUMA-DIMA-001",
+              "title": "Affiliate Marketing Manager"
+            }
+          ]
+        },
+        {
+          "id": "CAT_BUMA_EN",
+          "name": "Entrepreneurship",
+          "professions": [
+            {
+              "id": "BUMA-EN-001",
+              "title": "Startup Founder"
+            }
+          ]
+        },
+        {
+          "id": "CAT_BUMA_FIIN",
+          "name": "Finance & Investment",
+          "professions": [
+            {
+              "id": "BUMA-FIIN-001",
+              "title": "Bank Manager"
+            },
+            {
+              "id": "BUMA-FIIN-002",
+              "title": "Corporate Finance Associate"
+            },
+            {
+              "id": "BUMA-FIIN-003",
+              "title": "Credit Analyst"
+            },
+            {
+              "id": "BUMA-FIIN-004",
+              "title": "Equity Research Analyst"
+            },
+            {
+              "id": "BUMA-FIIN-005",
+              "title": "FinTech Analyst"
+            },
+            {
+              "id": "BUMA-FIIN-006",
+              "title": "Financial Analyst"
+            },
+            {
+              "id": "BUMA-FIIN-007",
+              "title": "Financial Planner"
+            },
+            {
+              "id": "BUMA-FIIN-008",
+              "title": "Financial Risk Modeler"
+            },
+            {
+              "id": "BUMA-FIIN-009",
+              "title": "Fraud Analyst"
+            },
+            {
+              "id": "BUMA-FIIN-010",
+              "title": "Investment Banker"
+            },
+            {
+              "id": "BUMA-FIIN-011",
+              "title": "Loan Officer"
+            },
+            {
+              "id": "BUMA-FIIN-012",
+              "title": "Portfolio Manager"
+            },
+            {
+              "id": "BUMA-FIIN-013",
+              "title": "Quant Developer"
+            },
+            {
+              "id": "BUMA-FIIN-014",
+              "title": "Relationship Manager"
+            },
+            {
+              "id": "BUMA-FIIN-015",
+              "title": "Risk Manager"
+            },
+            {
+              "id": "BUMA-FIIN-016",
+              "title": "Trade Finance Specialist"
+            },
+            {
+              "id": "BUMA-FIIN-017",
+              "title": "Treasury Analyst"
+            },
+            {
+              "id": "BUMA-FIIN-018",
+              "title": "Venture Capital Analyst"
+            },
+            {
+              "id": "BUMA-FIIN-019",
+              "title": "Wealth Manager"
+            }
+          ]
+        },
+        {
+          "id": "CAT_BUMA_HOTO",
+          "name": "Hospitality & Tourism",
+          "professions": [
+            {
+              "id": "BUMA-HOTO-001",
+              "title": "Cabin Crew"
+            },
+            {
+              "id": "BUMA-HOTO-002",
+              "title": "Chef"
+            },
+            {
+              "id": "BUMA-HOTO-003",
+              "title": "Event Planner"
+            },
+            {
+              "id": "BUMA-HOTO-004",
+              "title": "Guest Relations Executive"
+            },
+            {
+              "id": "BUMA-HOTO-005",
+              "title": "Hotel Manager"
+            },
+            {
+              "id": "BUMA-HOTO-006",
+              "title": "Pilot"
+            },
+            {
+              "id": "BUMA-HOTO-007",
+              "title": "Resort Operations Manager"
+            },
+            {
+              "id": "BUMA-HOTO-008",
+              "title": "Restaurant Manager"
+            },
+            {
+              "id": "BUMA-HOTO-009",
+              "title": "Tour Manager"
+            },
+            {
+              "id": "BUMA-HOTO-010",
+              "title": "Travel Consultant"
+            }
+          ]
+        },
+        {
+          "id": "CAT_BUMA_HURE",
+          "name": "Human Resources",
+          "professions": [
+            {
+              "id": "BUMA-HURE-001",
+              "title": "Career Counselor"
+            },
+            {
+              "id": "BUMA-HURE-002",
+              "title": "Compensation Analyst"
+            },
+            {
+              "id": "BUMA-HURE-003",
+              "title": "Corporate Trainer"
+            },
+            {
+              "id": "BUMA-HURE-004",
+              "title": "Employee Relations Specialist"
+            },
+            {
+              "id": "BUMA-HURE-005",
+              "title": "HR Business Partner"
+            },
+            {
+              "id": "BUMA-HURE-006",
+              "title": "HR Executive"
+            },
+            {
+              "id": "BUMA-HURE-007",
+              "title": "HR Manager"
+            },
+            {
+              "id": "BUMA-HURE-008",
+              "title": "Learning & Development Specialist"
+            },
+            {
+              "id": "BUMA-HURE-009",
+              "title": "Payroll Specialist"
+            },
+            {
+              "id": "BUMA-HURE-010",
+              "title": "Recruiter"
+            },
+            {
+              "id": "BUMA-HURE-011",
+              "title": "Talent Acquisition Specialist"
+            },
+            {
+              "id": "BUMA-HURE-012",
+              "title": "Training Manager"
+            }
+          ]
+        },
+        {
+          "id": "CAT_BUMA_LURE",
+          "name": "Luxury & Retail",
+          "professions": [
+            {
+              "id": "BUMA-LURE-001",
+              "title": "Luxury Brand Consultant"
+            }
+          ]
+        },
+        {
+          "id": "CAT_BUMA_MASA",
+          "name": "Marketing & Sales",
+          "professions": [
+            {
+              "id": "BUMA-MASA-001",
+              "title": "Account Manager"
+            },
+            {
+              "id": "BUMA-MASA-002",
+              "title": "Advertising Executive"
+            },
+            {
+              "id": "BUMA-MASA-003",
+              "title": "Brand Manager"
+            },
+            {
+              "id": "BUMA-MASA-004",
+              "title": "Business Development Executive"
+            },
+            {
+              "id": "BUMA-MASA-005",
+              "title": "CRM Executive"
+            },
+            {
+              "id": "BUMA-MASA-006",
+              "title": "CRM Specialist"
+            },
+            {
+              "id": "BUMA-MASA-007",
+              "title": "Campaign Manager"
+            },
+            {
+              "id": "BUMA-MASA-008",
+              "title": "Channel Sales Manager"
+            },
+            {
+              "id": "BUMA-MASA-009",
+              "title": "Content Strategist"
+            },
+            {
+              "id": "BUMA-MASA-010",
+              "title": "Creative Strategist"
+            },
+            {
+              "id": "BUMA-MASA-011",
+              "title": "Customer Success Manager"
+            },
+            {
+              "id": "BUMA-MASA-012",
+              "title": "Digital Marketing Executive"
+            },
+            {
+              "id": "BUMA-MASA-013",
+              "title": "Email Marketing Specialist"
+            },
+            {
+              "id": "BUMA-MASA-014",
+              "title": "Enterprise Sales Manager"
+            },
+            {
+              "id": "BUMA-MASA-015",
+              "title": "Growth Hacker"
+            },
+            {
+              "id": "BUMA-MASA-016",
+              "title": "Influencer Marketing Manager"
+            },
+            {
+              "id": "BUMA-MASA-017",
+              "title": "Inside Sales Specialist"
+            },
+            {
+              "id": "BUMA-MASA-018",
+              "title": "Key Account Manager"
+            },
+            {
+              "id": "BUMA-MASA-019",
+              "title": "Marketing Analyst"
+            },
+            {
+              "id": "BUMA-MASA-020",
+              "title": "Media Planner"
+            },
+            {
+              "id": "BUMA-MASA-021",
+              "title": "PR Specialist"
+            },
+            {
+              "id": "BUMA-MASA-022",
+              "title": "Retail Sales Associate"
+            },
+            {
+              "id": "BUMA-MASA-023",
+              "title": "SEM Specialist"
+            },
+            {
+              "id": "BUMA-MASA-024",
+              "title": "SEO Specialist"
+            },
+            {
+              "id": "BUMA-MASA-025",
+              "title": "Sales Consultant"
+            },
+            {
+              "id": "BUMA-MASA-026",
+              "title": "Sales Executive"
+            },
+            {
+              "id": "BUMA-MASA-027",
+              "title": "Social Media Manager"
+            },
+            {
+              "id": "BUMA-MASA-028",
+              "title": "Territory Sales Manager"
+            }
+          ]
+        },
+        {
+          "id": "CAT_BUMA_OP",
+          "name": "Operations",
+          "professions": [
+            {
+              "id": "BUMA-OP-001",
+              "title": "Business Operations Associate"
+            },
+            {
+              "id": "BUMA-OP-002",
+              "title": "Change Manager"
+            },
+            {
+              "id": "BUMA-OP-003",
+              "title": "Lean Six Sigma Consultant"
+            },
+            {
+              "id": "BUMA-OP-004",
+              "title": "Operations Executive"
+            },
+            {
+              "id": "BUMA-OP-005",
+              "title": "Process Improvement Analyst"
+            },
+            {
+              "id": "BUMA-OP-006",
+              "title": "Quality Analyst"
+            },
+            {
+              "id": "BUMA-OP-007",
+              "title": "Revenue Operations Analyst"
+            },
+            {
+              "id": "BUMA-OP-008",
+              "title": "Service Delivery Manager"
+            },
+            {
+              "id": "BUMA-OP-009",
+              "title": "Vendor Manager"
+            }
+          ]
+        },
+        {
+          "id": "CAT_BUMA_REE",
+          "name": "Retail & E-Commerce",
+          "professions": [
+            {
+              "id": "BUMA-REE-001",
+              "title": "Catalog Manager"
+            },
+            {
+              "id": "BUMA-REE-002",
+              "title": "E-Commerce Manager"
+            },
+            {
+              "id": "BUMA-REE-003",
+              "title": "Fulfillment Coordinator"
+            },
+            {
+              "id": "BUMA-REE-004",
+              "title": "Inventory Controller"
+            },
+            {
+              "id": "BUMA-REE-005",
+              "title": "Marketplace Specialist"
+            },
+            {
+              "id": "BUMA-REE-006",
+              "title": "Merchandiser"
+            },
+            {
+              "id": "BUMA-REE-007",
+              "title": "Retail Buyer"
+            },
+            {
+              "id": "BUMA-REE-008",
+              "title": "Retail Operations Executive"
+            },
+            {
+              "id": "BUMA-REE-009",
+              "title": "Shopify Developer"
+            },
+            {
+              "id": "BUMA-REE-010",
+              "title": "Store Manager"
+            }
+          ]
+        },
+        {
+          "id": "CAT_BUMA_SUCH",
+          "name": "Supply Chain & Logistics",
+          "professions": [
+            {
+              "id": "BUMA-SUCH-001",
+              "title": "Customs Clearance Officer"
+            },
+            {
+              "id": "BUMA-SUCH-002",
+              "title": "Demand Planner"
+            },
+            {
+              "id": "BUMA-SUCH-003",
+              "title": "Distribution Manager"
+            },
+            {
+              "id": "BUMA-SUCH-004",
+              "title": "Export-Import Specialist"
+            },
+            {
+              "id": "BUMA-SUCH-005",
+              "title": "Fleet Operations Manager"
+            },
+            {
+              "id": "BUMA-SUCH-006",
+              "title": "Inventory Analyst"
+            },
+            {
+              "id": "BUMA-SUCH-007",
+              "title": "Logistics Manager"
+            },
+            {
+              "id": "BUMA-SUCH-008",
+              "title": "Procurement Specialist"
+            },
+            {
+              "id": "BUMA-SUCH-009",
+              "title": "Shipping Coordinator"
+            },
+            {
+              "id": "BUMA-SUCH-010",
+              "title": "Supply Chain Analyst"
+            },
+            {
+              "id": "BUMA-SUCH-011",
+              "title": "Warehouse Manager"
+            }
+          ]
+        },
+        {
+          "id": "CAT_BUMA_SU",
+          "name": "Sustainability",
+          "professions": [
+            {
+              "id": "BUMA-SU-001",
+              "title": "ESG Analyst"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPT_CRAR",
+      "name": "Creative Arts & Design",
+      "categories": [
+        {
+          "id": "CAT_CRAR_DECR",
+          "name": "Design & Creative",
+          "professions": [
+            {
+              "id": "CRAR-DECR-001",
+              "title": "Creative Director"
+            },
+            {
+              "id": "CRAR-DECR-002",
+              "title": "Graphic Designer"
+            },
+            {
+              "id": "CRAR-DECR-003",
+              "title": "Illustrator"
+            },
+            {
+              "id": "CRAR-DECR-004",
+              "title": "Interaction Designer"
+            },
+            {
+              "id": "CRAR-DECR-005",
+              "title": "Motion Graphic Designer"
+            },
+            {
+              "id": "CRAR-DECR-006",
+              "title": "Product Designer"
+            },
+            {
+              "id": "CRAR-DECR-007",
+              "title": "UI Designer"
+            },
+            {
+              "id": "CRAR-DECR-008",
+              "title": "UI Motion Designer"
+            },
+            {
+              "id": "CRAR-DECR-009",
+              "title": "UX Designer"
+            },
+            {
+              "id": "CRAR-DECR-010",
+              "title": "UX Researcher"
+            },
+            {
+              "id": "CRAR-DECR-011",
+              "title": "Visual Designer"
+            }
+          ]
+        },
+        {
+          "id": "CAT_CRAR_MECO",
+          "name": "Media & Content",
+          "professions": [
+            {
+              "id": "CRAR-MECO-001",
+              "title": "Actor"
+            },
+            {
+              "id": "CRAR-MECO-002",
+              "title": "Animator"
+            },
+            {
+              "id": "CRAR-MECO-003",
+              "title": "Choreographer"
+            },
+            {
+              "id": "CRAR-MECO-004",
+              "title": "Content Creator"
+            },
+            {
+              "id": "CRAR-MECO-005",
+              "title": "Editor"
+            },
+            {
+              "id": "CRAR-MECO-006",
+              "title": "Event Manager"
+            },
+            {
+              "id": "CRAR-MECO-007",
+              "title": "Film Director"
+            },
+            {
+              "id": "CRAR-MECO-008",
+              "title": "Journalist"
+            },
+            {
+              "id": "CRAR-MECO-009",
+              "title": "Music Producer"
+            },
+            {
+              "id": "CRAR-MECO-010",
+              "title": "Photographer"
+            },
+            {
+              "id": "CRAR-MECO-011",
+              "title": "Screenwriter"
+            },
+            {
+              "id": "CRAR-MECO-012",
+              "title": "Sound Engineer"
+            },
+            {
+              "id": "CRAR-MECO-013",
+              "title": "Video Editor"
+            },
+            {
+              "id": "CRAR-MECO-014",
+              "title": "Virtual Production Artist"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPT_EDHU",
+      "name": "Education & Human Development",
+      "categories": [
+        {
+          "id": "CAT_EDHU_ED",
+          "name": "Education",
+          "professions": [
+            {
+              "id": "EDHU-ED-001",
+              "title": "Academic Coordinator"
+            },
+            {
+              "id": "EDHU-ED-002",
+              "title": "Academic Researcher"
+            },
+            {
+              "id": "EDHU-ED-003",
+              "title": "Curriculum Developer"
+            },
+            {
+              "id": "EDHU-ED-004",
+              "title": "Education Counselor"
+            },
+            {
+              "id": "EDHU-ED-005",
+              "title": "Lecturer"
+            },
+            {
+              "id": "EDHU-ED-006",
+              "title": "Online Tutor"
+            },
+            {
+              "id": "EDHU-ED-007",
+              "title": "Professor"
+            },
+            {
+              "id": "EDHU-ED-008",
+              "title": "School Administrator"
+            },
+            {
+              "id": "EDHU-ED-009",
+              "title": "Special Education Teacher"
+            },
+            {
+              "id": "EDHU-ED-010",
+              "title": "Teacher"
+            }
+          ]
+        },
+        {
+          "id": "CAT_EDHU_EDTE",
+          "name": "Educational Technology",
+          "professions": [
+            {
+              "id": "EDHU-EDTE-001",
+              "title": "EdTech Product Specialist"
+            }
+          ]
+        },
+        {
+          "id": "CAT_EDHU_LEDE",
+          "name": "Learning Design",
+          "professions": [
+            {
+              "id": "EDHU-LEDE-001",
+              "title": "Learning Experience Designer"
+            }
+          ]
+        },
+        {
+          "id": "CAT_EDHU_RESC",
+          "name": "Research & Science",
+          "professions": [
+            {
+              "id": "EDHU-RESC-001",
+              "title": "Behavioral Researcher"
+            },
+            {
+              "id": "EDHU-RESC-002",
+              "title": "Economic Researcher"
+            },
+            {
+              "id": "EDHU-RESC-003",
+              "title": "Lab Research Assistant"
+            },
+            {
+              "id": "EDHU-RESC-004",
+              "title": "Policy Researcher"
+            },
+            {
+              "id": "EDHU-RESC-005",
+              "title": "Research Analyst"
+            },
+            {
+              "id": "EDHU-RESC-006",
+              "title": "Scientific Researcher"
+            },
+            {
+              "id": "EDHU-RESC-007",
+              "title": "Survey Research Analyst"
+            },
+            {
+              "id": "EDHU-RESC-008",
+              "title": "Think Tank Associate"
+            },
+            {
+              "id": "EDHU-RESC-009",
+              "title": "User Researcher"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPT_ENMO",
+      "name": "Engineering & Mobility",
+      "categories": [
+        {
+          "id": "CAT_ENMO_EMTE",
+          "name": "Emerging Technologies",
+          "professions": [
+            {
+              "id": "ENMO-EMTE-001",
+              "title": "Drone Pilot"
+            }
+          ]
+        },
+        {
+          "id": "CAT_ENMO_EN",
+          "name": "Engineering",
+          "professions": [
+            {
+              "id": "ENMO-EN-001",
+              "title": "Architect"
+            },
+            {
+              "id": "ENMO-EN-002",
+              "title": "CAD Designer"
+            },
+            {
+              "id": "ENMO-EN-003",
+              "title": "CNC Programmer"
+            },
+            {
+              "id": "ENMO-EN-004",
+              "title": "Civil Engineer"
+            },
+            {
+              "id": "ENMO-EN-005",
+              "title": "Construction Manager"
+            },
+            {
+              "id": "ENMO-EN-006",
+              "title": "Control Systems Engineer"
+            },
+            {
+              "id": "ENMO-EN-007",
+              "title": "Electrical Engineer"
+            },
+            {
+              "id": "ENMO-EN-008",
+              "title": "Electronics Engineer"
+            },
+            {
+              "id": "ENMO-EN-009",
+              "title": "Embedded Engineer"
+            },
+            {
+              "id": "ENMO-EN-010",
+              "title": "Environmental Engineer"
+            },
+            {
+              "id": "ENMO-EN-011",
+              "title": "Factory Manager"
+            },
+            {
+              "id": "ENMO-EN-012",
+              "title": "GIS Specialist"
+            },
+            {
+              "id": "ENMO-EN-013",
+              "title": "Industrial Engineer"
+            },
+            {
+              "id": "ENMO-EN-014",
+              "title": "Instrumentation Engineer"
+            },
+            {
+              "id": "ENMO-EN-015",
+              "title": "Interior Designer"
+            },
+            {
+              "id": "ENMO-EN-016",
+              "title": "Maintenance Engineer"
+            },
+            {
+              "id": "ENMO-EN-017",
+              "title": "Manufacturing Engineer"
+            },
+            {
+              "id": "ENMO-EN-018",
+              "title": "Mechanical Engineer"
+            },
+            {
+              "id": "ENMO-EN-019",
+              "title": "PCB Designer"
+            },
+            {
+              "id": "ENMO-EN-020",
+              "title": "Plant Engineer"
+            },
+            {
+              "id": "ENMO-EN-021",
+              "title": "Power Systems Engineer"
+            },
+            {
+              "id": "ENMO-EN-022",
+              "title": "Production Engineer"
+            },
+            {
+              "id": "ENMO-EN-023",
+              "title": "Production Supervisor"
+            },
+            {
+              "id": "ENMO-EN-024",
+              "title": "Quality Control Engineer"
+            },
+            {
+              "id": "ENMO-EN-025",
+              "title": "Quantity Surveyor"
+            },
+            {
+              "id": "ENMO-EN-026",
+              "title": "Renewable Energy Engineer"
+            },
+            {
+              "id": "ENMO-EN-027",
+              "title": "Semiconductor Engineer"
+            },
+            {
+              "id": "ENMO-EN-028",
+              "title": "Site Engineer"
+            },
+            {
+              "id": "ENMO-EN-029",
+              "title": "Structural Engineer"
+            },
+            {
+              "id": "ENMO-EN-030",
+              "title": "Tool Design Engineer"
+            },
+            {
+              "id": "ENMO-EN-031",
+              "title": "Urban Planner"
+            },
+            {
+              "id": "ENMO-EN-032",
+              "title": "VLSI Engineer"
+            }
+          ]
+        },
+        {
+          "id": "CAT_ENMO_MOTR",
+          "name": "Mobility & Transport",
+          "professions": [
+            {
+              "id": "ENMO-MOTR-001",
+              "title": "Autonomous Vehicle Specialist"
+            },
+            {
+              "id": "ENMO-MOTR-002",
+              "title": "EV Infrastructure Specialist"
+            }
+          ]
+        },
+        {
+          "id": "CAT_ENMO_REEN",
+          "name": "Renewable Energy",
+          "professions": [
+            {
+              "id": "ENMO-REEN-001",
+              "title": "Renewable Energy Consultant"
+            }
+          ]
+        },
+        {
+          "id": "CAT_ENMO_URPL",
+          "name": "Urban Planning",
+          "professions": [
+            {
+              "id": "ENMO-URPL-001",
+              "title": "Smart City Planner"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPT_HELI",
+      "name": "Healthcare & Life Sciences",
+      "categories": [
+        {
+          "id": "CAT_HELI_BI",
+          "name": "Bioinformatics",
+          "professions": [
+            {
+              "id": "HELI-BI-001",
+              "title": "Bioinformatics Analyst"
+            },
+            {
+              "id": "HELI-BI-002",
+              "title": "Bioinformatics Analyst"
+            }
+          ]
+        },
+        {
+          "id": "CAT_HELI_BI",
+          "name": "Biotechnology",
+          "professions": [
+            {
+              "id": "HELI-BI-003",
+              "title": "Biomedical Engineer"
+            },
+            {
+              "id": "HELI-BI-004",
+              "title": "Biotechnologist"
+            },
+            {
+              "id": "HELI-BI-005",
+              "title": "Clinical Data Manager"
+            },
+            {
+              "id": "HELI-BI-006",
+              "title": "Drug Safety Associate"
+            },
+            {
+              "id": "HELI-BI-007",
+              "title": "Genetic Researcher"
+            },
+            {
+              "id": "HELI-BI-008",
+              "title": "Microbiologist"
+            },
+            {
+              "id": "HELI-BI-009",
+              "title": "Molecular Biologist"
+            },
+            {
+              "id": "HELI-BI-010",
+              "title": "Pharmaceutical Scientist"
+            },
+            {
+              "id": "HELI-BI-011",
+              "title": "Research Associate"
+            }
+          ]
+        },
+        {
+          "id": "CAT_HELI_HE",
+          "name": "Healthcare",
+          "professions": [
+            {
+              "id": "HELI-HE-001",
+              "title": "Clinical Research Associate"
+            },
+            {
+              "id": "HELI-HE-002",
+              "title": "Dentist"
+            },
+            {
+              "id": "HELI-HE-003",
+              "title": "Doctor"
+            },
+            {
+              "id": "HELI-HE-004",
+              "title": "Healthcare Analyst"
+            },
+            {
+              "id": "HELI-HE-005",
+              "title": "Hospital Administrator"
+            },
+            {
+              "id": "HELI-HE-006",
+              "title": "Lab Technician"
+            },
+            {
+              "id": "HELI-HE-007",
+              "title": "Medical Coder"
+            },
+            {
+              "id": "HELI-HE-008",
+              "title": "Mental Health Specialist"
+            },
+            {
+              "id": "HELI-HE-009",
+              "title": "Nurse"
+            },
+            {
+              "id": "HELI-HE-010",
+              "title": "Nutritionist"
+            },
+            {
+              "id": "HELI-HE-011",
+              "title": "Pharmacist"
+            },
+            {
+              "id": "HELI-HE-012",
+              "title": "Physiotherapist"
+            },
+            {
+              "id": "HELI-HE-013",
+              "title": "Psychologist"
+            },
+            {
+              "id": "HELI-HE-014",
+              "title": "Radiology Technician"
+            },
+            {
+              "id": "HELI-HE-015",
+              "title": "Surgeon"
+            }
+          ]
+        },
+        {
+          "id": "CAT_HELI_HETE",
+          "name": "Healthcare Technology",
+          "professions": [
+            {
+              "id": "HELI-HETE-001",
+              "title": "Health Informatics Specialist"
+            },
+            {
+              "id": "HELI-HETE-002",
+              "title": "Telemedicine Coordinator"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPT_HOTR",
+      "name": "Hospitality, Travel & Services",
+      "categories": [
+        {
+          "id": "CAT_HOTR_AV",
+          "name": "Aviation",
+          "professions": [
+            {
+              "id": "HOTR-AV-001",
+              "title": "Airline Operations Analyst"
+            }
+          ]
+        },
+        {
+          "id": "CAT_HOTR_EVMA",
+          "name": "Event Management",
+          "professions": [
+            {
+              "id": "HOTR-EVMA-001",
+              "title": "Wedding Planner"
+            }
+          ]
+        },
+        {
+          "id": "CAT_HOTR_HOTO",
+          "name": "Hospitality & Tourism",
+          "professions": [
+            {
+              "id": "HOTR-HOTO-001",
+              "title": "Hotel Revenue Manager"
+            },
+            {
+              "id": "HOTR-HOTO-002",
+              "title": "Travel Experience Designer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPT_LAPO",
+      "name": "Law, Policy & Governance",
+      "categories": [
+        {
+          "id": "CAT_LAPO_GODE",
+          "name": "Government & Defense",
+          "professions": [
+            {
+              "id": "LAPO-GODE-001",
+              "title": "Civil Servant"
+            },
+            {
+              "id": "LAPO-GODE-002",
+              "title": "Defense Analyst"
+            },
+            {
+              "id": "LAPO-GODE-003",
+              "title": "Disaster Management Specialist"
+            },
+            {
+              "id": "LAPO-GODE-004",
+              "title": "Fire Safety Officer"
+            },
+            {
+              "id": "LAPO-GODE-005",
+              "title": "Intelligence Analyst"
+            },
+            {
+              "id": "LAPO-GODE-006",
+              "title": "Military Officer"
+            },
+            {
+              "id": "LAPO-GODE-007",
+              "title": "Police Officer"
+            },
+            {
+              "id": "LAPO-GODE-008",
+              "title": "Public Relations Officer"
+            },
+            {
+              "id": "LAPO-GODE-009",
+              "title": "Social Welfare Officer"
+            },
+            {
+              "id": "LAPO-GODE-010",
+              "title": "Urban Development Officer"
+            }
+          ]
+        },
+        {
+          "id": "CAT_LAPO_LE",
+          "name": "Legal",
+          "professions": [
+            {
+              "id": "LAPO-LE-001",
+              "title": "Arbitration Specialist"
+            },
+            {
+              "id": "LAPO-LE-002",
+              "title": "Compliance Officer"
+            },
+            {
+              "id": "LAPO-LE-003",
+              "title": "Contract Manager"
+            },
+            {
+              "id": "LAPO-LE-004",
+              "title": "Corporate Legal Advisor"
+            },
+            {
+              "id": "LAPO-LE-005",
+              "title": "IP Consultant"
+            },
+            {
+              "id": "LAPO-LE-006",
+              "title": "Lawyer"
+            },
+            {
+              "id": "LAPO-LE-007",
+              "title": "Legal Analyst"
+            },
+            {
+              "id": "LAPO-LE-008",
+              "title": "Legal Researcher"
+            },
+            {
+              "id": "LAPO-LE-009",
+              "title": "Litigation Associate"
+            },
+            {
+              "id": "LAPO-LE-010",
+              "title": "Policy Advisor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPT_MECO",
+      "name": "Media & Communication",
+      "categories": [
+        {
+          "id": "CAT_MECO_MECO",
+          "name": "Media & Content",
+          "professions": [
+            {
+              "id": "MECO-MECO-001",
+              "title": "Creator Economy Consultant"
+            },
+            {
+              "id": "MECO-MECO-002",
+              "title": "Creator Partnership Manager"
+            },
+            {
+              "id": "MECO-MECO-003",
+              "title": "Creator Partnership Manager"
+            },
+            {
+              "id": "MECO-MECO-004",
+              "title": "Influencer Manager"
+            },
+            {
+              "id": "MECO-MECO-005",
+              "title": "Podcast Producer"
+            },
+            {
+              "id": "MECO-MECO-006",
+              "title": "Podcast Producer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPT_SCRE",
+      "name": "Science & Research",
+      "categories": [
+        {
+          "id": "CAT_SCRE_EMTE",
+          "name": "Emerging Technologies",
+          "professions": [
+            {
+              "id": "SCRE-EMTE-001",
+              "title": "Quantum Computing Researcher"
+            },
+            {
+              "id": "SCRE-EMTE-002",
+              "title": "Space Technology Analyst"
+            }
+          ]
+        },
+        {
+          "id": "CAT_SCRE_GESC",
+          "name": "Geospatial Sciences",
+          "professions": [
+            {
+              "id": "SCRE-GESC-001",
+              "title": "Geospatial Analyst"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPT_SKTR",
+      "name": "Skilled Trades & Vocational",
+      "categories": [
+        {
+          "id": "CAT_SKTR_MOTR",
+          "name": "Mobility & Transport",
+          "professions": [
+            {
+              "id": "SKTR-MOTR-001",
+              "title": "Auto Sales Consultant"
+            },
+            {
+              "id": "SKTR-MOTR-002",
+              "title": "Automobile Engineer"
+            },
+            {
+              "id": "SKTR-MOTR-003",
+              "title": "Autonomous Vehicle Engineer"
+            },
+            {
+              "id": "SKTR-MOTR-004",
+              "title": "EV Specialist"
+            },
+            {
+              "id": "SKTR-MOTR-005",
+              "title": "Fleet Analyst"
+            },
+            {
+              "id": "SKTR-MOTR-006",
+              "title": "Logistics Driver Manager"
+            },
+            {
+              "id": "SKTR-MOTR-007",
+              "title": "Marine Engineer"
+            },
+            {
+              "id": "SKTR-MOTR-008",
+              "title": "Service Advisor"
+            },
+            {
+              "id": "SKTR-MOTR-009",
+              "title": "Transportation Planner"
+            },
+            {
+              "id": "SKTR-MOTR-010",
+              "title": "Vehicle Diagnostics Specialist"
+            }
+          ]
+        },
+        {
+          "id": "CAT_SKTR_TR",
+          "name": "Trades",
+          "professions": [
+            {
+              "id": "SKTR-TR-001",
+              "title": "Automotive Technician"
+            },
+            {
+              "id": "SKTR-TR-002",
+              "title": "Carpenter"
+            },
+            {
+              "id": "SKTR-TR-003",
+              "title": "Construction Worker"
+            },
+            {
+              "id": "SKTR-TR-004",
+              "title": "Electrician"
+            },
+            {
+              "id": "SKTR-TR-005",
+              "title": "Elevator Technician"
+            },
+            {
+              "id": "SKTR-TR-006",
+              "title": "HVAC Technician"
+            },
+            {
+              "id": "SKTR-TR-007",
+              "title": "Machine Operator"
+            },
+            {
+              "id": "SKTR-TR-008",
+              "title": "Plumber"
+            },
+            {
+              "id": "SKTR-TR-009",
+              "title": "Refrigeration Mechanic"
+            },
+            {
+              "id": "SKTR-TR-010",
+              "title": "Welder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPT_SOIM",
+      "name": "Social Impact & Development",
+      "categories": [
+        {
+          "id": "CAT_SOIM_CODE",
+          "name": "Community Development",
+          "professions": [
+            {
+              "id": "SOIM-CODE-001",
+              "title": "Community Builder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPT_SPWE",
+      "name": "Sports & Wellness",
+      "categories": [
+        {
+          "id": "CAT_SPWE_SPFI",
+          "name": "Sports & Fitness",
+          "professions": [
+            {
+              "id": "SPWE-SPFI-001",
+              "title": "Athlete Manager"
+            },
+            {
+              "id": "SPWE-SPFI-002",
+              "title": "Sports Performance Analyst"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPT_SUEN",
+      "name": "Sustainability & Environment",
+      "categories": [
+        {
+          "id": "CAT_SUEN_CLSU",
+          "name": "Climate & Sustainability",
+          "professions": [
+            {
+              "id": "SUEN-CLSU-001",
+              "title": "Carbon Analyst"
+            },
+            {
+              "id": "SUEN-CLSU-002",
+              "title": "Climate Risk Analyst"
+            }
+          ]
+        },
+        {
+          "id": "CAT_SUEN_SU",
+          "name": "Sustainability",
+          "professions": [
+            {
+              "id": "SUEN-SU-001",
+              "title": "Sustainability Consultant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEPT_TEDI",
+      "name": "Technology & Digital",
+      "categories": [
+        {
+          "id": "CAT_TEDI_ARIN",
+          "name": "Artificial Intelligence & Data",
+          "professions": [
+            {
+              "id": "TEDI-ARIN-001",
+              "title": "AI Engineer"
+            },
+            {
+              "id": "TEDI-ARIN-002",
+              "title": "AI Ethics Consultant"
+            },
+            {
+              "id": "TEDI-ARIN-003",
+              "title": "AI Product Strategist"
+            },
+            {
+              "id": "TEDI-ARIN-004",
+              "title": "AI Researcher"
+            },
+            {
+              "id": "TEDI-ARIN-005",
+              "title": "BI Developer"
+            },
+            {
+              "id": "TEDI-ARIN-006",
+              "title": "Big Data Engineer"
+            },
+            {
+              "id": "TEDI-ARIN-007",
+              "title": "Business Analyst"
+            },
+            {
+              "id": "TEDI-ARIN-008",
+              "title": "Computer Vision Engineer"
+            },
+            {
+              "id": "TEDI-ARIN-009",
+              "title": "Data Analyst"
+            },
+            {
+              "id": "TEDI-ARIN-010",
+              "title": "Data Architect"
+            },
+            {
+              "id": "TEDI-ARIN-011",
+              "title": "Data Engineer"
+            },
+            {
+              "id": "TEDI-ARIN-012",
+              "title": "Data Scientist"
+            },
+            {
+              "id": "TEDI-ARIN-013",
+              "title": "Decision Scientist"
+            },
+            {
+              "id": "TEDI-ARIN-014",
+              "title": "ETL Developer"
+            },
+            {
+              "id": "TEDI-ARIN-015",
+              "title": "Generative AI Specialist"
+            },
+            {
+              "id": "TEDI-ARIN-016",
+              "title": "MLOps Engineer"
+            },
+            {
+              "id": "TEDI-ARIN-017",
+              "title": "Machine Learning Engineer"
+            },
+            {
+              "id": "TEDI-ARIN-018",
+              "title": "NLP Engineer"
+            },
+            {
+              "id": "TEDI-ARIN-019",
+              "title": "Power BI Developer"
+            },
+            {
+              "id": "TEDI-ARIN-020",
+              "title": "Prompt Engineer"
+            },
+            {
+              "id": "TEDI-ARIN-021",
+              "title": "Quantitative Analyst"
+            },
+            {
+              "id": "TEDI-ARIN-022",
+              "title": "Research Scientist"
+            },
+            {
+              "id": "TEDI-ARIN-023",
+              "title": "Tableau Developer"
+            }
+          ]
+        },
+        {
+          "id": "CAT_TEDI_AU",
+          "name": "Automation",
+          "professions": [
+            {
+              "id": "TEDI-AU-001",
+              "title": "RPA Developer"
+            }
+          ]
+        },
+        {
+          "id": "CAT_TEDI_CYCL",
+          "name": "Cybersecurity & Cloud",
+          "professions": [
+            {
+              "id": "TEDI-CYCL-001",
+              "title": "AWS Engineer"
+            },
+            {
+              "id": "TEDI-CYCL-002",
+              "title": "Azure Engineer"
+            },
+            {
+              "id": "TEDI-CYCL-003",
+              "title": "Cloud Architect"
+            },
+            {
+              "id": "TEDI-CYCL-004",
+              "title": "Cloud Engineer"
+            },
+            {
+              "id": "TEDI-CYCL-005",
+              "title": "Cloud Security Engineer"
+            },
+            {
+              "id": "TEDI-CYCL-006",
+              "title": "Cyber Forensics Expert"
+            },
+            {
+              "id": "TEDI-CYCL-007",
+              "title": "Cybersecurity Analyst"
+            },
+            {
+              "id": "TEDI-CYCL-008",
+              "title": "Data Privacy Officer"
+            },
+            {
+              "id": "TEDI-CYCL-009",
+              "title": "DevSecOps Engineer"
+            },
+            {
+              "id": "TEDI-CYCL-010",
+              "title": "Ethical Hacker"
+            },
+            {
+              "id": "TEDI-CYCL-011",
+              "title": "Google Cloud Engineer"
+            },
+            {
+              "id": "TEDI-CYCL-012",
+              "title": "IAM Engineer"
+            },
+            {
+              "id": "TEDI-CYCL-013",
+              "title": "Incident Response Specialist"
+            },
+            {
+              "id": "TEDI-CYCL-014",
+              "title": "Network Security Engineer"
+            },
+            {
+              "id": "TEDI-CYCL-015",
+              "title": "Penetration Tester"
+            },
+            {
+              "id": "TEDI-CYCL-016",
+              "title": "SOC Analyst"
+            },
+            {
+              "id": "TEDI-CYCL-017",
+              "title": "Security Consultant"
+            },
+            {
+              "id": "TEDI-CYCL-018",
+              "title": "Security Engineer"
+            },
+            {
+              "id": "TEDI-CYCL-019",
+              "title": "Threat Analyst"
+            }
+          ]
+        },
+        {
+          "id": "CAT_TEDI_EMTE",
+          "name": "Emerging Technologies",
+          "professions": [
+            {
+              "id": "TEDI-EMTE-001",
+              "title": "AI Auditor"
+            },
+            {
+              "id": "TEDI-EMTE-002",
+              "title": "AI Governance Officer"
+            },
+            {
+              "id": "TEDI-EMTE-003",
+              "title": "Autonomous Mobility Manager"
+            },
+            {
+              "id": "TEDI-EMTE-004",
+              "title": "Bio-AI Researcher"
+            },
+            {
+              "id": "TEDI-EMTE-005",
+              "title": "Climate Tech Strategist"
+            },
+            {
+              "id": "TEDI-EMTE-006",
+              "title": "Digital Twin Engineer"
+            },
+            {
+              "id": "TEDI-EMTE-007",
+              "title": "Human-AI Interaction Designer"
+            },
+            {
+              "id": "TEDI-EMTE-008",
+              "title": "Metaverse Architect"
+            },
+            {
+              "id": "TEDI-EMTE-009",
+              "title": "Metaverse Strategist"
+            },
+            {
+              "id": "TEDI-EMTE-010",
+              "title": "Quantum Software Engineer"
+            },
+            {
+              "id": "TEDI-EMTE-011",
+              "title": "Synthetic Media Specialist"
+            }
+          ]
+        },
+        {
+          "id": "CAT_TEDI_MECO",
+          "name": "Media & Content",
+          "professions": [
+            {
+              "id": "TEDI-MECO-001",
+              "title": "Affiliate Marketer"
+            },
+            {
+              "id": "TEDI-MECO-002",
+              "title": "Community Manager"
+            },
+            {
+              "id": "TEDI-MECO-003",
+              "title": "Digital Creator"
+            },
+            {
+              "id": "TEDI-MECO-004",
+              "title": "Influencer"
+            },
+            {
+              "id": "TEDI-MECO-005",
+              "title": "Newsletter Writer"
+            },
+            {
+              "id": "TEDI-MECO-006",
+              "title": "Online Coach"
+            },
+            {
+              "id": "TEDI-MECO-007",
+              "title": "Personal Branding Consultant"
+            },
+            {
+              "id": "TEDI-MECO-008",
+              "title": "UGC Creator"
+            },
+            {
+              "id": "TEDI-MECO-009",
+              "title": "YouTuber"
+            }
+          ]
+        },
+        {
+          "id": "CAT_TEDI_SOIT",
+          "name": "Software & IT",
+          "professions": [
+            {
+              "id": "TEDI-SOIT-001",
+              "title": "API Developer"
+            },
+            {
+              "id": "TEDI-SOIT-002",
+              "title": "Android Developer"
+            },
+            {
+              "id": "TEDI-SOIT-003",
+              "title": "Backend Developer"
+            },
+            {
+              "id": "TEDI-SOIT-004",
+              "title": "C++ Developer"
+            },
+            {
+              "id": "TEDI-SOIT-005",
+              "title": "DevOps Engineer"
+            },
+            {
+              "id": "TEDI-SOIT-006",
+              "title": "Frontend Developer"
+            },
+            {
+              "id": "TEDI-SOIT-007",
+              "title": "Full Stack Developer"
+            },
+            {
+              "id": "TEDI-SOIT-008",
+              "title": "Game Developer"
+            },
+            {
+              "id": "TEDI-SOIT-009",
+              "title": "Golang Developer"
+            },
+            {
+              "id": "TEDI-SOIT-010",
+              "title": "Java Developer"
+            },
+            {
+              "id": "TEDI-SOIT-011",
+              "title": "JavaScript Developer"
+            },
+            {
+              "id": "TEDI-SOIT-012",
+              "title": "Mobile App Developer"
+            },
+            {
+              "id": "TEDI-SOIT-013",
+              "title": "No-Code Developer"
+            },
+            {
+              "id": "TEDI-SOIT-014",
+              "title": "Node.js Developer"
+            },
+            {
+              "id": "TEDI-SOIT-015",
+              "title": "PHP Developer"
+            },
+            {
+              "id": "TEDI-SOIT-016",
+              "title": "Python Developer"
+            },
+            {
+              "id": "TEDI-SOIT-017",
+              "title": "React Developer"
+            },
+            {
+              "id": "TEDI-SOIT-018",
+              "title": "Ruby Developer"
+            },
+            {
+              "id": "TEDI-SOIT-019",
+              "title": "SaaS Operations Specialist"
+            },
+            {
+              "id": "TEDI-SOIT-020",
+              "title": "Software Engineer"
+            },
+            {
+              "id": "TEDI-SOIT-021",
+              "title": "Web Developer"
+            },
+            {
+              "id": "TEDI-SOIT-022",
+              "title": "iOS Developer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

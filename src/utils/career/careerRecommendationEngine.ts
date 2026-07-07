@@ -1,36 +1,60 @@
-import careerDatabase from '../../data/career/careerDatabase.json';
 import subjectMappings from '../../data/career/subjectMappings.json';
 import skillRecommendations from '../../data/career/skillRecommendations.json';
 import experienceRecommendations from '../../data/career/experienceRecommendations.json';
+import type { DepartmentFitResult } from './careerFitEngine';
+
+export interface CareerRecommendation {
+  /** The primary (top) department ID */
+  primaryDepartmentId: string;
+  /** Top 3 departments with scores and categories */
+  topDepartments: {
+    departmentId: string;
+    departmentName: string;
+    fitScore: number;
+    topCategories: string[];
+  }[];
+  /** Recommended academic subjects (from primary department) */
+  recommendedSubjects: string[];
+  /** Recommended skills to build (from primary department) */
+  recommendedSkills: string[];
+  /** Recommended experiences (from primary department) */
+  recommendedExperiences: string[];
+}
 
 export class CareerRecommendationEngine {
   /**
-   * Generates deep recommendations (Subjects, Skills, Experiences, Specific Careers)
-   * based on the student's top matched Career Clusters.
+   * Generates career recommendations based on the student's top matched departments.
+   * Returns: Top 3 departments with categories, plus subjects/skills/experiences.
+   *
+   * NOTE: No specific professions are included in the recommendation output.
+   * Professions are dynamic and are browsed via the Career Library page.
    */
-  static generateRecommendations(topClusters: { clusterId: string; fitScore: number }[]) {
-    const primaryClusterId = topClusters[0]?.clusterId;
-    
-    if (!primaryClusterId) return null;
+  static generateRecommendations(
+    topDepartments: DepartmentFitResult[]
+  ): CareerRecommendation | null {
 
-    // 1. Extract Specific Careers
-    const specificCareers = careerDatabase.filter(c => c.clusterId === primaryClusterId);
+    const primaryDept = topDepartments[0];
+    if (!primaryDept) return null;
 
-    // 2. Extract Academic Subjects
-    const subjects = (subjectMappings as any)[primaryClusterId] || [];
+    // Take top 3 departments
+    const top3 = topDepartments.slice(0, 3).map(d => ({
+      departmentId: d.departmentId,
+      departmentName: d.departmentName,
+      fitScore: d.fitScore,
+      topCategories: d.topCategories,
+    }));
 
-    // 3. Extract Skills
-    const skills = (skillRecommendations as any)[primaryClusterId] || [];
-
-    // 4. Extract Experiences
-    const experiences = (experienceRecommendations as any)[primaryClusterId] || [];
+    // Extract recommendations keyed by department ID
+    const subjects = (subjectMappings as Record<string, string[]>)[primaryDept.departmentId] || [];
+    const skills = (skillRecommendations as Record<string, string[]>)[primaryDept.departmentId] || [];
+    const experiences = (experienceRecommendations as Record<string, string[]>)[primaryDept.departmentId] || [];
 
     return {
-      primaryClusterId,
-      recommendedCareers: specificCareers,
+      primaryDepartmentId: primaryDept.departmentId,
+      topDepartments: top3,
       recommendedSubjects: subjects,
       recommendedSkills: skills,
-      recommendedExperiences: experiences
+      recommendedExperiences: experiences,
     };
   }
 }

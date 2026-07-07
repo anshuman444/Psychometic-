@@ -1,103 +1,161 @@
 import React from 'react';
-import { Briefcase, Lightbulb, Compass, ArrowRight } from 'lucide-react';
-
-interface CareerScore {
-  clusterId: string;
-  fitScore: number;
-}
+import { Briefcase, Lightbulb, Compass, ArrowRight, ChevronRight, BookOpen, Wrench, Rocket } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import type { CareerRecommendation } from '../../../utils/career/careerRecommendationEngine';
 
 interface CareerFitSectionProps {
-  careerScores: CareerScore[];
+  careerRecommendations: CareerRecommendation | null;
 }
 
-/** Readable cluster names */
-const CLUSTER_NAMES: Record<string, string> = {
-  TECH_ENGINEERING: 'Technology & Engineering',
-  SCIENCE_RESEARCH: 'Science & Research',
-  BUSINESS_MANAGEMENT: 'Business & Management',
-  CREATIVE_ARTS: 'Creative Arts & Design',
-  HEALTH_MEDICINE: 'Health & Medicine',
-  EDUCATION_TRAINING: 'Education & Training',
-  LAW_GOVERNANCE: 'Law & Governance',
-  SOCIAL_IMPACT: 'Social Impact & NPO',
-  MEDIA_COMMUNICATION: 'Media & Communication',
-  FINANCE_ANALYTICS: 'Finance & Analytics',
-};
+/** Icon color palette for ranked departments */
+const RANK_COLORS = ['#2DA8FF', '#8B5CF6', '#10B981'];
+const RANK_BG = ['rgba(45, 168, 255, 0.06)', 'rgba(139, 92, 246, 0.06)', 'rgba(16, 185, 129, 0.06)'];
+const RANK_BORDER = ['rgba(45, 168, 255, 0.25)', 'rgba(139, 92, 246, 0.25)', 'rgba(16, 185, 129, 0.25)'];
 
-export const CareerFitSection: React.FC<CareerFitSectionProps> = ({ careerScores }) => {
-  const topCareers = careerScores.slice(0, 5);
+export const CareerFitSection: React.FC<CareerFitSectionProps> = ({ careerRecommendations }) => {
+  const navigate = useNavigate();
 
-  if (topCareers.length === 0) {
+  if (!careerRecommendations || careerRecommendations.topDepartments.length === 0) {
     return null;
   }
+
+  const { topDepartments, recommendedSubjects, recommendedSkills, recommendedExperiences } = careerRecommendations;
 
   return (
     <div className="career-fit-section">
       <h3 className="card-title" style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '1.4rem' }}>
         <Lightbulb size={24} color="var(--primary)" />
-        Career Insights: Choosing Your Path
+        Career Insights: Your Recommended Domains
       </h3>
-      
+
       <p style={{ color: 'var(--text-muted)', lineHeight: 1.6, marginBottom: '24px', fontSize: '1rem' }}>
-        Based on our deep understanding of your cognitive strengths, personality themes, and learning style, we have synthesized these powerful insights into recommended career clusters. These recommendations answer the core question of <strong>"what career should I choose?"</strong> and serve as the perfect starting point for your journey into our Career Library.
+        Based on your cognitive strengths, personality themes, and learning style, we have identified the
+        career <strong>departments</strong> and <strong>categories</strong> where you are most likely to thrive.
+        These are your ideal domains — explore them further in the Career Library.
       </p>
 
-      <div className="career-fit-section__list" style={{ display: 'grid', gap: '12px' }}>
-        {topCareers.map((career, index) => {
-          const name = CLUSTER_NAMES[career.clusterId] || career.clusterId;
-          const isTop = index === 0;
-          return (
-            <div
-              key={career.clusterId}
-              className={`career-fit-item ${isTop ? 'career-fit-item--top' : ''}`}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                padding: '16px',
-                background: isTop ? 'rgba(45, 168, 255, 0.05)' : 'var(--bg-card)',
-                border: `1px solid ${isTop ? 'var(--primary)' : 'var(--border-light)'}`,
-                borderRadius: '12px',
-                gap: '16px'
-              }}
-            >
-              <div className="career-fit-item__rank" style={{
-                width: '32px', height: '32px', 
-                borderRadius: '50%', background: isTop ? 'var(--primary)' : 'var(--surface)',
-                color: isTop ? 'white' : 'var(--dark)',
-                display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold'
+      {/* ── Top 3 Departments ── */}
+      <div style={{ display: 'grid', gap: '16px', marginBottom: '32px' }}>
+        {topDepartments.map((dept, index) => (
+          <div
+            key={dept.departmentId}
+            style={{
+              padding: '20px',
+              background: RANK_BG[index] || 'var(--bg-card)',
+              border: `1px solid ${RANK_BORDER[index] || 'var(--border-light)'}`,
+              borderRadius: '14px',
+              transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+            }}
+          >
+            {/* Department Header */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '14px' }}>
+              <div style={{
+                width: '36px', height: '36px',
+                borderRadius: '50%',
+                background: RANK_COLORS[index] || 'var(--surface)',
+                color: 'white',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                fontWeight: 'bold', fontSize: '1rem',
+                flexShrink: 0,
               }}>
                 {index + 1}
               </div>
-              <div className="career-fit-item__info" style={{ flex: 1 }}>
-                <span className="career-fit-item__name" style={{ fontWeight: 600, fontSize: '1.1rem', color: 'var(--dark)' }}>
-                  {name}
+              <div style={{ flex: 1 }}>
+                <span style={{ fontWeight: 700, fontSize: '1.15rem', color: 'var(--dark)' }}>
+                  {dept.departmentName}
                 </span>
-                <div className="career-fit-item__bar" style={{ height: '6px', background: 'var(--surface)', borderRadius: '3px', marginTop: '8px', overflow: 'hidden' }}>
+                <div style={{ height: '5px', background: 'var(--surface)', borderRadius: '3px', marginTop: '6px', overflow: 'hidden' }}>
                   <div
-                    className="career-fit-item__bar-fill"
-                    style={{ width: `${career.fitScore}%`, height: '100%', background: isTop ? 'var(--primary)' : 'var(--text-muted)' }}
+                    style={{
+                      width: `${dept.fitScore}%`,
+                      height: '100%',
+                      background: RANK_COLORS[index] || 'var(--text-muted)',
+                      borderRadius: '3px',
+                      transition: 'width 0.8s ease',
+                    }}
                   />
                 </div>
               </div>
-              <div className="career-fit-item__score" style={{ display: 'flex', alignItems: 'center', gap: '4px', fontWeight: 'bold', color: 'var(--dark)' }}>
-                <Compass size={16} color="var(--primary)" />
-                {career.fitScore.toFixed(0)}% Match
+              <div style={{ display: 'flex', alignItems: 'center', gap: '4px', fontWeight: 'bold', color: 'var(--dark)', flexShrink: 0 }}>
+                <Compass size={16} color={RANK_COLORS[index]} />
+                {dept.fitScore.toFixed(0)}%
               </div>
             </div>
-          );
-        })}
+
+            {/* Categories within this department */}
+            {dept.topCategories.length > 0 && (
+              <div style={{ paddingLeft: '50px' }}>
+                <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                  Categories you can explore
+                </span>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginTop: '8px' }}>
+                  {dept.topCategories.map((cat) => (
+                    <span
+                      key={cat}
+                      style={{
+                        padding: '5px 12px',
+                        background: 'var(--bg-card)',
+                        border: '1px solid var(--border-light)',
+                        borderRadius: '20px',
+                        fontSize: '0.85rem',
+                        color: 'var(--dark)',
+                        fontWeight: 500,
+                      }}
+                    >
+                      {cat}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        ))}
       </div>
 
-      <div style={{ marginTop: '32px', padding: '24px', background: 'linear-gradient(135deg, rgba(45, 168, 255, 0.1), rgba(45, 168, 255, 0.02))', borderRadius: '12px', border: '1px solid rgba(45, 168, 255, 0.2)' }}>
+
+
+      {/* ── Go to Career Library CTA ── */}
+      <div style={{
+        marginTop: '8px',
+        padding: '24px',
+        background: 'linear-gradient(135deg, rgba(45, 168, 255, 0.1), rgba(45, 168, 255, 0.02))',
+        borderRadius: '12px',
+        border: '1px solid rgba(45, 168, 255, 0.2)',
+      }}>
         <h4 style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '1.2rem', marginBottom: '12px', color: 'var(--dark)' }}>
           <Briefcase size={20} color="var(--primary)" />
-          Next Step: The Career Library
+          Next Step: Explore the Career Library
         </h4>
         <p style={{ color: 'var(--text-muted)', lineHeight: 1.5, marginBottom: '16px' }}>
-          Now that you have a deep understanding of your ideal career directions, it's time to validate and explore. Head over to the Career Library to take specialized course tests for your recommended clusters.
+          Your domains are set — now explore the full Career Library to discover all the professions 
+          within your recommended departments. Browse categories, search careers, and plan your path.
         </p>
-        <button className="btn-primary" style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '14px', borderRadius: '8px', fontWeight: 'bold', border: 'none', cursor: 'pointer', background: 'var(--primary)', color: 'white' }}>
-          Explore Recommended Courses <ArrowRight size={18} />
+        <button
+          onClick={() => navigate('/career-library', {
+            state: {
+              recommendedDepartments: topDepartments.map(d => d.departmentId),
+            },
+          })}
+          style={{
+            width: '100%',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '8px',
+            padding: '14px',
+            borderRadius: '8px',
+            fontWeight: 'bold',
+            border: 'none',
+            cursor: 'pointer',
+            background: 'var(--primary)',
+            color: 'white',
+            fontSize: '1rem',
+            transition: 'opacity 0.2s',
+          }}
+          onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.9')}
+          onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
+        >
+          Go to Career Library <ArrowRight size={18} />
         </button>
       </div>
     </div>

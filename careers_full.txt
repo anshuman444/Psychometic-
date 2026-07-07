@@ -1,0 +1,387 @@
+﻿Career ID,Department,Category,Profession
+BUMA-AC-001,Business & Management,Accounting,Accountant
+BUMA-AC-002,Business & Management,Accounting,Accounts Executive
+BUMA-AC-003,Business & Management,Accounting,Auditor
+BUMA-AC-004,Business & Management,Accounting,Chartered Accountant
+BUMA-AC-005,Business & Management,Accounting,Compliance Accountant
+BUMA-AC-006,Business & Management,Accounting,Cost Accountant
+BUMA-AC-007,Business & Management,Accounting,Forensic Accountant
+BUMA-AC-008,Business & Management,Accounting,Internal Auditor
+BUMA-AC-009,Business & Management,Accounting,Payroll Accountant
+BUMA-AC-010,Business & Management,Accounting,Tax Consultant
+BUMA-BUMA-001,Business & Management,Business Management,Agile Coach
+BUMA-BUMA-002,Business & Management,Business Management,Branch Manager
+BUMA-BUMA-003,Business & Management,Business Management,Business Consultant
+BUMA-BUMA-004,Business & Management,Business Management,Change Management Consultant
+BUMA-BUMA-005,Business & Management,Business Management,Delivery Manager
+BUMA-BUMA-006,Business & Management,Business Management,Digital Transformation Consultant
+BUMA-BUMA-007,Business & Management,Business Management,General Manager
+BUMA-BUMA-008,Business & Management,Business Management,Innovation Consultant
+BUMA-BUMA-009,Business & Management,Business Management,Innovation Consultant
+BUMA-BUMA-010,Business & Management,Business Management,Innovation Manager
+BUMA-BUMA-011,Business & Management,Business Management,Operations Manager
+BUMA-BUMA-012,Business & Management,Business Management,PMO Analyst
+BUMA-BUMA-013,Business & Management,Business Management,Product Manager
+BUMA-BUMA-014,Business & Management,Business Management,Program Manager
+BUMA-BUMA-015,Business & Management,Business Management,Project Manager
+BUMA-BUMA-016,Business & Management,Business Management,Scrum Master
+BUMA-BUMA-017,Business & Management,Business Management,Strategy Consultant
+BUMA-BUMA-018,Business & Management,Business Management,Transformation Manager
+BUMA-DIMA-001,Business & Management,Digital Marketing,Affiliate Marketing Manager
+BUMA-EN-001,Business & Management,Entrepreneurship,Startup Founder
+BUMA-FIIN-001,Business & Management,Finance & Investment,Bank Manager
+BUMA-FIIN-002,Business & Management,Finance & Investment,Corporate Finance Associate
+BUMA-FIIN-003,Business & Management,Finance & Investment,Credit Analyst
+BUMA-FIIN-004,Business & Management,Finance & Investment,Equity Research Analyst
+BUMA-FIIN-005,Business & Management,Finance & Investment,FinTech Analyst
+BUMA-FIIN-006,Business & Management,Finance & Investment,Financial Analyst
+BUMA-FIIN-007,Business & Management,Finance & Investment,Financial Planner
+BUMA-FIIN-008,Business & Management,Finance & Investment,Financial Risk Modeler
+BUMA-FIIN-009,Business & Management,Finance & Investment,Fraud Analyst
+BUMA-FIIN-010,Business & Management,Finance & Investment,Investment Banker
+BUMA-FIIN-011,Business & Management,Finance & Investment,Loan Officer
+BUMA-FIIN-012,Business & Management,Finance & Investment,Portfolio Manager
+BUMA-FIIN-013,Business & Management,Finance & Investment,Quant Developer
+BUMA-FIIN-014,Business & Management,Finance & Investment,Relationship Manager
+BUMA-FIIN-015,Business & Management,Finance & Investment,Risk Manager
+BUMA-FIIN-016,Business & Management,Finance & Investment,Trade Finance Specialist
+BUMA-FIIN-017,Business & Management,Finance & Investment,Treasury Analyst
+BUMA-FIIN-018,Business & Management,Finance & Investment,Venture Capital Analyst
+BUMA-FIIN-019,Business & Management,Finance & Investment,Wealth Manager
+BUMA-HOTO-001,Business & Management,Hospitality & Tourism,Cabin Crew
+BUMA-HOTO-002,Business & Management,Hospitality & Tourism,Chef
+BUMA-HOTO-003,Business & Management,Hospitality & Tourism,Event Planner
+BUMA-HOTO-004,Business & Management,Hospitality & Tourism,Guest Relations Executive
+BUMA-HOTO-005,Business & Management,Hospitality & Tourism,Hotel Manager
+BUMA-HOTO-006,Business & Management,Hospitality & Tourism,Pilot
+BUMA-HOTO-007,Business & Management,Hospitality & Tourism,Resort Operations Manager
+BUMA-HOTO-008,Business & Management,Hospitality & Tourism,Restaurant Manager
+BUMA-HOTO-009,Business & Management,Hospitality & Tourism,Tour Manager
+BUMA-HOTO-010,Business & Management,Hospitality & Tourism,Travel Consultant
+BUMA-HURE-001,Business & Management,Human Resources,Career Counselor
+BUMA-HURE-002,Business & Management,Human Resources,Compensation Analyst
+BUMA-HURE-003,Business & Management,Human Resources,Corporate Trainer
+BUMA-HURE-004,Business & Management,Human Resources,Employee Relations Specialist
+BUMA-HURE-005,Business & Management,Human Resources,HR Business Partner
+BUMA-HURE-006,Business & Management,Human Resources,HR Executive
+BUMA-HURE-007,Business & Management,Human Resources,HR Manager
+BUMA-HURE-008,Business & Management,Human Resources,Learning & Development Specialist
+BUMA-HURE-009,Business & Management,Human Resources,Payroll Specialist
+BUMA-HURE-010,Business & Management,Human Resources,Recruiter
+BUMA-HURE-011,Business & Management,Human Resources,Talent Acquisition Specialist
+BUMA-HURE-012,Business & Management,Human Resources,Training Manager
+BUMA-LURE-001,Business & Management,Luxury & Retail,Luxury Brand Consultant
+BUMA-MASA-001,Business & Management,Marketing & Sales,Account Manager
+BUMA-MASA-002,Business & Management,Marketing & Sales,Advertising Executive
+BUMA-MASA-003,Business & Management,Marketing & Sales,Brand Manager
+BUMA-MASA-004,Business & Management,Marketing & Sales,Business Development Executive
+BUMA-MASA-005,Business & Management,Marketing & Sales,CRM Executive
+BUMA-MASA-006,Business & Management,Marketing & Sales,CRM Specialist
+BUMA-MASA-007,Business & Management,Marketing & Sales,Campaign Manager
+BUMA-MASA-008,Business & Management,Marketing & Sales,Channel Sales Manager
+BUMA-MASA-009,Business & Management,Marketing & Sales,Content Strategist
+BUMA-MASA-010,Business & Management,Marketing & Sales,Creative Strategist
+BUMA-MASA-011,Business & Management,Marketing & Sales,Customer Success Manager
+BUMA-MASA-012,Business & Management,Marketing & Sales,Digital Marketing Executive
+BUMA-MASA-013,Business & Management,Marketing & Sales,Email Marketing Specialist
+BUMA-MASA-014,Business & Management,Marketing & Sales,Enterprise Sales Manager
+BUMA-MASA-015,Business & Management,Marketing & Sales,Growth Hacker
+BUMA-MASA-016,Business & Management,Marketing & Sales,Influencer Marketing Manager
+BUMA-MASA-017,Business & Management,Marketing & Sales,Inside Sales Specialist
+BUMA-MASA-018,Business & Management,Marketing & Sales,Key Account Manager
+BUMA-MASA-019,Business & Management,Marketing & Sales,Marketing Analyst
+BUMA-MASA-020,Business & Management,Marketing & Sales,Media Planner
+BUMA-MASA-021,Business & Management,Marketing & Sales,PR Specialist
+BUMA-MASA-022,Business & Management,Marketing & Sales,Retail Sales Associate
+BUMA-MASA-023,Business & Management,Marketing & Sales,SEM Specialist
+BUMA-MASA-024,Business & Management,Marketing & Sales,SEO Specialist
+BUMA-MASA-025,Business & Management,Marketing & Sales,Sales Consultant
+BUMA-MASA-026,Business & Management,Marketing & Sales,Sales Executive
+BUMA-MASA-027,Business & Management,Marketing & Sales,Social Media Manager
+BUMA-MASA-028,Business & Management,Marketing & Sales,Territory Sales Manager
+BUMA-OP-001,Business & Management,Operations,Business Operations Associate
+BUMA-OP-002,Business & Management,Operations,Change Manager
+BUMA-OP-003,Business & Management,Operations,Lean Six Sigma Consultant
+BUMA-OP-004,Business & Management,Operations,Operations Executive
+BUMA-OP-005,Business & Management,Operations,Process Improvement Analyst
+BUMA-OP-006,Business & Management,Operations,Quality Analyst
+BUMA-OP-007,Business & Management,Operations,Revenue Operations Analyst
+BUMA-OP-008,Business & Management,Operations,Service Delivery Manager
+BUMA-OP-009,Business & Management,Operations,Vendor Manager
+BUMA-REE-001,Business & Management,Retail & E-Commerce,Catalog Manager
+BUMA-REE-002,Business & Management,Retail & E-Commerce,E-Commerce Manager
+BUMA-REE-003,Business & Management,Retail & E-Commerce,Fulfillment Coordinator
+BUMA-REE-004,Business & Management,Retail & E-Commerce,Inventory Controller
+BUMA-REE-005,Business & Management,Retail & E-Commerce,Marketplace Specialist
+BUMA-REE-006,Business & Management,Retail & E-Commerce,Merchandiser
+BUMA-REE-007,Business & Management,Retail & E-Commerce,Retail Buyer
+BUMA-REE-008,Business & Management,Retail & E-Commerce,Retail Operations Executive
+BUMA-REE-009,Business & Management,Retail & E-Commerce,Shopify Developer
+BUMA-REE-010,Business & Management,Retail & E-Commerce,Store Manager
+BUMA-SUCH-001,Business & Management,Supply Chain & Logistics,Customs Clearance Officer
+BUMA-SUCH-002,Business & Management,Supply Chain & Logistics,Demand Planner
+BUMA-SUCH-003,Business & Management,Supply Chain & Logistics,Distribution Manager
+BUMA-SUCH-004,Business & Management,Supply Chain & Logistics,Export-Import Specialist
+BUMA-SUCH-005,Business & Management,Supply Chain & Logistics,Fleet Operations Manager
+BUMA-SUCH-006,Business & Management,Supply Chain & Logistics,Inventory Analyst
+BUMA-SUCH-007,Business & Management,Supply Chain & Logistics,Logistics Manager
+BUMA-SUCH-008,Business & Management,Supply Chain & Logistics,Procurement Specialist
+BUMA-SUCH-009,Business & Management,Supply Chain & Logistics,Shipping Coordinator
+BUMA-SUCH-010,Business & Management,Supply Chain & Logistics,Supply Chain Analyst
+BUMA-SUCH-011,Business & Management,Supply Chain & Logistics,Warehouse Manager
+BUMA-SU-001,Business & Management,Sustainability,ESG Analyst
+CRAR-DECR-001,Creative Arts & Design,Design & Creative,Creative Director
+CRAR-DECR-002,Creative Arts & Design,Design & Creative,Graphic Designer
+CRAR-DECR-003,Creative Arts & Design,Design & Creative,Illustrator
+CRAR-DECR-004,Creative Arts & Design,Design & Creative,Interaction Designer
+CRAR-DECR-005,Creative Arts & Design,Design & Creative,Motion Graphic Designer
+CRAR-DECR-006,Creative Arts & Design,Design & Creative,Product Designer
+CRAR-DECR-007,Creative Arts & Design,Design & Creative,UI Designer
+CRAR-DECR-008,Creative Arts & Design,Design & Creative,UI Motion Designer
+CRAR-DECR-009,Creative Arts & Design,Design & Creative,UX Designer
+CRAR-DECR-010,Creative Arts & Design,Design & Creative,UX Researcher
+CRAR-DECR-011,Creative Arts & Design,Design & Creative,Visual Designer
+CRAR-MECO-001,Creative Arts & Design,Media & Content,Actor
+CRAR-MECO-002,Creative Arts & Design,Media & Content,Animator
+CRAR-MECO-003,Creative Arts & Design,Media & Content,Choreographer
+CRAR-MECO-004,Creative Arts & Design,Media & Content,Content Creator
+CRAR-MECO-005,Creative Arts & Design,Media & Content,Editor
+CRAR-MECO-006,Creative Arts & Design,Media & Content,Event Manager
+CRAR-MECO-007,Creative Arts & Design,Media & Content,Film Director
+CRAR-MECO-008,Creative Arts & Design,Media & Content,Journalist
+CRAR-MECO-009,Creative Arts & Design,Media & Content,Music Producer
+CRAR-MECO-010,Creative Arts & Design,Media & Content,Photographer
+CRAR-MECO-011,Creative Arts & Design,Media & Content,Screenwriter
+CRAR-MECO-012,Creative Arts & Design,Media & Content,Sound Engineer
+CRAR-MECO-013,Creative Arts & Design,Media & Content,Video Editor
+CRAR-MECO-014,Creative Arts & Design,Media & Content,Virtual Production Artist
+EDHU-ED-001,Education & Human Development,Education,Academic Coordinator
+EDHU-ED-002,Education & Human Development,Education,Academic Researcher
+EDHU-ED-003,Education & Human Development,Education,Curriculum Developer
+EDHU-ED-004,Education & Human Development,Education,Education Counselor
+EDHU-ED-005,Education & Human Development,Education,Lecturer
+EDHU-ED-006,Education & Human Development,Education,Online Tutor
+EDHU-ED-007,Education & Human Development,Education,Professor
+EDHU-ED-008,Education & Human Development,Education,School Administrator
+EDHU-ED-009,Education & Human Development,Education,Special Education Teacher
+EDHU-ED-010,Education & Human Development,Education,Teacher
+EDHU-EDTE-001,Education & Human Development,Educational Technology,EdTech Product Specialist
+EDHU-LEDE-001,Education & Human Development,Learning Design,Learning Experience Designer
+EDHU-RESC-001,Education & Human Development,Research & Science,Behavioral Researcher
+EDHU-RESC-002,Education & Human Development,Research & Science,Economic Researcher
+EDHU-RESC-003,Education & Human Development,Research & Science,Lab Research Assistant
+EDHU-RESC-004,Education & Human Development,Research & Science,Policy Researcher
+EDHU-RESC-005,Education & Human Development,Research & Science,Research Analyst
+EDHU-RESC-006,Education & Human Development,Research & Science,Scientific Researcher
+EDHU-RESC-007,Education & Human Development,Research & Science,Survey Research Analyst
+EDHU-RESC-008,Education & Human Development,Research & Science,Think Tank Associate
+EDHU-RESC-009,Education & Human Development,Research & Science,User Researcher
+ENMO-EMTE-001,Engineering & Mobility,Emerging Technologies,Drone Pilot
+ENMO-EN-001,Engineering & Mobility,Engineering,Architect
+ENMO-EN-002,Engineering & Mobility,Engineering,CAD Designer
+ENMO-EN-003,Engineering & Mobility,Engineering,CNC Programmer
+ENMO-EN-004,Engineering & Mobility,Engineering,Civil Engineer
+ENMO-EN-005,Engineering & Mobility,Engineering,Construction Manager
+ENMO-EN-006,Engineering & Mobility,Engineering,Control Systems Engineer
+ENMO-EN-007,Engineering & Mobility,Engineering,Electrical Engineer
+ENMO-EN-008,Engineering & Mobility,Engineering,Electronics Engineer
+ENMO-EN-009,Engineering & Mobility,Engineering,Embedded Engineer
+ENMO-EN-010,Engineering & Mobility,Engineering,Environmental Engineer
+ENMO-EN-011,Engineering & Mobility,Engineering,Factory Manager
+ENMO-EN-012,Engineering & Mobility,Engineering,GIS Specialist
+ENMO-EN-013,Engineering & Mobility,Engineering,Industrial Engineer
+ENMO-EN-014,Engineering & Mobility,Engineering,Instrumentation Engineer
+ENMO-EN-015,Engineering & Mobility,Engineering,Interior Designer
+ENMO-EN-016,Engineering & Mobility,Engineering,Maintenance Engineer
+ENMO-EN-017,Engineering & Mobility,Engineering,Manufacturing Engineer
+ENMO-EN-018,Engineering & Mobility,Engineering,Mechanical Engineer
+ENMO-EN-019,Engineering & Mobility,Engineering,PCB Designer
+ENMO-EN-020,Engineering & Mobility,Engineering,Plant Engineer
+ENMO-EN-021,Engineering & Mobility,Engineering,Power Systems Engineer
+ENMO-EN-022,Engineering & Mobility,Engineering,Production Engineer
+ENMO-EN-023,Engineering & Mobility,Engineering,Production Supervisor
+ENMO-EN-024,Engineering & Mobility,Engineering,Quality Control Engineer
+ENMO-EN-025,Engineering & Mobility,Engineering,Quantity Surveyor
+ENMO-EN-026,Engineering & Mobility,Engineering,Renewable Energy Engineer
+ENMO-EN-027,Engineering & Mobility,Engineering,Semiconductor Engineer
+ENMO-EN-028,Engineering & Mobility,Engineering,Site Engineer
+ENMO-EN-029,Engineering & Mobility,Engineering,Structural Engineer
+ENMO-EN-030,Engineering & Mobility,Engineering,Tool Design Engineer
+ENMO-EN-031,Engineering & Mobility,Engineering,Urban Planner
+ENMO-EN-032,Engineering & Mobility,Engineering,VLSI Engineer
+ENMO-MOTR-001,Engineering & Mobility,Mobility & Transport,Autonomous Vehicle Specialist
+ENMO-MOTR-002,Engineering & Mobility,Mobility & Transport,EV Infrastructure Specialist
+ENMO-REEN-001,Engineering & Mobility,Renewable Energy,Renewable Energy Consultant
+ENMO-URPL-001,Engineering & Mobility,Urban Planning,Smart City Planner
+HELI-BI-001,Healthcare & Life Sciences,Bioinformatics,Bioinformatics Analyst
+HELI-BI-002,Healthcare & Life Sciences,Bioinformatics,Bioinformatics Analyst
+HELI-BI-003,Healthcare & Life Sciences,Biotechnology,Biomedical Engineer
+HELI-BI-004,Healthcare & Life Sciences,Biotechnology,Biotechnologist
+HELI-BI-005,Healthcare & Life Sciences,Biotechnology,Clinical Data Manager
+HELI-BI-006,Healthcare & Life Sciences,Biotechnology,Drug Safety Associate
+HELI-BI-007,Healthcare & Life Sciences,Biotechnology,Genetic Researcher
+HELI-BI-008,Healthcare & Life Sciences,Biotechnology,Microbiologist
+HELI-BI-009,Healthcare & Life Sciences,Biotechnology,Molecular Biologist
+HELI-BI-010,Healthcare & Life Sciences,Biotechnology,Pharmaceutical Scientist
+HELI-BI-011,Healthcare & Life Sciences,Biotechnology,Research Associate
+HELI-HE-001,Healthcare & Life Sciences,Healthcare,Clinical Research Associate
+HELI-HE-002,Healthcare & Life Sciences,Healthcare,Dentist
+HELI-HE-003,Healthcare & Life Sciences,Healthcare,Doctor
+HELI-HE-004,Healthcare & Life Sciences,Healthcare,Healthcare Analyst
+HELI-HE-005,Healthcare & Life Sciences,Healthcare,Hospital Administrator
+HELI-HE-006,Healthcare & Life Sciences,Healthcare,Lab Technician
+HELI-HE-007,Healthcare & Life Sciences,Healthcare,Medical Coder
+HELI-HE-008,Healthcare & Life Sciences,Healthcare,Mental Health Specialist
+HELI-HE-009,Healthcare & Life Sciences,Healthcare,Nurse
+HELI-HE-010,Healthcare & Life Sciences,Healthcare,Nutritionist
+HELI-HE-011,Healthcare & Life Sciences,Healthcare,Pharmacist
+HELI-HE-012,Healthcare & Life Sciences,Healthcare,Physiotherapist
+HELI-HE-013,Healthcare & Life Sciences,Healthcare,Psychologist
+HELI-HE-014,Healthcare & Life Sciences,Healthcare,Radiology Technician
+HELI-HE-015,Healthcare & Life Sciences,Healthcare,Surgeon
+HELI-HETE-001,Healthcare & Life Sciences,Healthcare Technology,Health Informatics Specialist
+HELI-HETE-002,Healthcare & Life Sciences,Healthcare Technology,Telemedicine Coordinator
+HOTR-AV-001,"Hospitality, Travel & Services",Aviation,Airline Operations Analyst
+HOTR-EVMA-001,"Hospitality, Travel & Services",Event Management,Wedding Planner
+HOTR-HOTO-001,"Hospitality, Travel & Services",Hospitality & Tourism,Hotel Revenue Manager
+HOTR-HOTO-002,"Hospitality, Travel & Services",Hospitality & Tourism,Travel Experience Designer
+LAPO-GODE-001,"Law, Policy & Governance",Government & Defense,Civil Servant
+LAPO-GODE-002,"Law, Policy & Governance",Government & Defense,Defense Analyst
+LAPO-GODE-003,"Law, Policy & Governance",Government & Defense,Disaster Management Specialist
+LAPO-GODE-004,"Law, Policy & Governance",Government & Defense,Fire Safety Officer
+LAPO-GODE-005,"Law, Policy & Governance",Government & Defense,Intelligence Analyst
+LAPO-GODE-006,"Law, Policy & Governance",Government & Defense,Military Officer
+LAPO-GODE-007,"Law, Policy & Governance",Government & Defense,Police Officer
+LAPO-GODE-008,"Law, Policy & Governance",Government & Defense,Public Relations Officer
+LAPO-GODE-009,"Law, Policy & Governance",Government & Defense,Social Welfare Officer
+LAPO-GODE-010,"Law, Policy & Governance",Government & Defense,Urban Development Officer
+LAPO-LE-001,"Law, Policy & Governance",Legal,Arbitration Specialist
+LAPO-LE-002,"Law, Policy & Governance",Legal,Compliance Officer
+LAPO-LE-003,"Law, Policy & Governance",Legal,Contract Manager
+LAPO-LE-004,"Law, Policy & Governance",Legal,Corporate Legal Advisor
+LAPO-LE-005,"Law, Policy & Governance",Legal,IP Consultant
+LAPO-LE-006,"Law, Policy & Governance",Legal,Lawyer
+LAPO-LE-007,"Law, Policy & Governance",Legal,Legal Analyst
+LAPO-LE-008,"Law, Policy & Governance",Legal,Legal Researcher
+LAPO-LE-009,"Law, Policy & Governance",Legal,Litigation Associate
+LAPO-LE-010,"Law, Policy & Governance",Legal,Policy Advisor
+MECO-MECO-001,Media & Communication,Media & Content,Creator Economy Consultant
+MECO-MECO-002,Media & Communication,Media & Content,Creator Partnership Manager
+MECO-MECO-003,Media & Communication,Media & Content,Creator Partnership Manager
+MECO-MECO-004,Media & Communication,Media & Content,Influencer Manager
+MECO-MECO-005,Media & Communication,Media & Content,Podcast Producer
+MECO-MECO-006,Media & Communication,Media & Content,Podcast Producer
+SCRE-EMTE-001,Science & Research,Emerging Technologies,Quantum Computing Researcher
+SCRE-EMTE-002,Science & Research,Emerging Technologies,Space Technology Analyst
+SCRE-GESC-001,Science & Research,Geospatial Sciences,Geospatial Analyst
+SKTR-MOTR-001,Skilled Trades & Vocational,Mobility & Transport,Auto Sales Consultant
+SKTR-MOTR-002,Skilled Trades & Vocational,Mobility & Transport,Automobile Engineer
+SKTR-MOTR-003,Skilled Trades & Vocational,Mobility & Transport,Autonomous Vehicle Engineer
+SKTR-MOTR-004,Skilled Trades & Vocational,Mobility & Transport,EV Specialist
+SKTR-MOTR-005,Skilled Trades & Vocational,Mobility & Transport,Fleet Analyst
+SKTR-MOTR-006,Skilled Trades & Vocational,Mobility & Transport,Logistics Driver Manager
+SKTR-MOTR-007,Skilled Trades & Vocational,Mobility & Transport,Marine Engineer
+SKTR-MOTR-008,Skilled Trades & Vocational,Mobility & Transport,Service Advisor
+SKTR-MOTR-009,Skilled Trades & Vocational,Mobility & Transport,Transportation Planner
+SKTR-MOTR-010,Skilled Trades & Vocational,Mobility & Transport,Vehicle Diagnostics Specialist
+SKTR-TR-001,Skilled Trades & Vocational,Trades,Automotive Technician
+SKTR-TR-002,Skilled Trades & Vocational,Trades,Carpenter
+SKTR-TR-003,Skilled Trades & Vocational,Trades,Construction Worker
+SKTR-TR-004,Skilled Trades & Vocational,Trades,Electrician
+SKTR-TR-005,Skilled Trades & Vocational,Trades,Elevator Technician
+SKTR-TR-006,Skilled Trades & Vocational,Trades,HVAC Technician
+SKTR-TR-007,Skilled Trades & Vocational,Trades,Machine Operator
+SKTR-TR-008,Skilled Trades & Vocational,Trades,Plumber
+SKTR-TR-009,Skilled Trades & Vocational,Trades,Refrigeration Mechanic
+SKTR-TR-010,Skilled Trades & Vocational,Trades,Welder
+SOIM-CODE-001,Social Impact & Development,Community Development,Community Builder
+SPWE-SPFI-001,Sports & Wellness,Sports & Fitness,Athlete Manager
+SPWE-SPFI-002,Sports & Wellness,Sports & Fitness,Sports Performance Analyst
+SUEN-CLSU-001,Sustainability & Environment,Climate & Sustainability,Carbon Analyst
+SUEN-CLSU-002,Sustainability & Environment,Climate & Sustainability,Climate Risk Analyst
+SUEN-SU-001,Sustainability & Environment,Sustainability,Sustainability Consultant
+TEDI-ARIN-001,Technology & Digital,Artificial Intelligence & Data,AI Engineer
+TEDI-ARIN-002,Technology & Digital,Artificial Intelligence & Data,AI Ethics Consultant
+TEDI-ARIN-003,Technology & Digital,Artificial Intelligence & Data,AI Product Strategist
+TEDI-ARIN-004,Technology & Digital,Artificial Intelligence & Data,AI Researcher
+TEDI-ARIN-005,Technology & Digital,Artificial Intelligence & Data,BI Developer
+TEDI-ARIN-006,Technology & Digital,Artificial Intelligence & Data,Big Data Engineer
+TEDI-ARIN-007,Technology & Digital,Artificial Intelligence & Data,Business Analyst
+TEDI-ARIN-008,Technology & Digital,Artificial Intelligence & Data,Computer Vision Engineer
+TEDI-ARIN-009,Technology & Digital,Artificial Intelligence & Data,Data Analyst
+TEDI-ARIN-010,Technology & Digital,Artificial Intelligence & Data,Data Architect
+TEDI-ARIN-011,Technology & Digital,Artificial Intelligence & Data,Data Engineer
+TEDI-ARIN-012,Technology & Digital,Artificial Intelligence & Data,Data Scientist
+TEDI-ARIN-013,Technology & Digital,Artificial Intelligence & Data,Decision Scientist
+TEDI-ARIN-014,Technology & Digital,Artificial Intelligence & Data,ETL Developer
+TEDI-ARIN-015,Technology & Digital,Artificial Intelligence & Data,Generative AI Specialist
+TEDI-ARIN-016,Technology & Digital,Artificial Intelligence & Data,MLOps Engineer
+TEDI-ARIN-017,Technology & Digital,Artificial Intelligence & Data,Machine Learning Engineer
+TEDI-ARIN-018,Technology & Digital,Artificial Intelligence & Data,NLP Engineer
+TEDI-ARIN-019,Technology & Digital,Artificial Intelligence & Data,Power BI Developer
+TEDI-ARIN-020,Technology & Digital,Artificial Intelligence & Data,Prompt Engineer
+TEDI-ARIN-021,Technology & Digital,Artificial Intelligence & Data,Quantitative Analyst
+TEDI-ARIN-022,Technology & Digital,Artificial Intelligence & Data,Research Scientist
+TEDI-ARIN-023,Technology & Digital,Artificial Intelligence & Data,Tableau Developer
+TEDI-AU-001,Technology & Digital,Automation,RPA Developer
+TEDI-CYCL-001,Technology & Digital,Cybersecurity & Cloud,AWS Engineer
+TEDI-CYCL-002,Technology & Digital,Cybersecurity & Cloud,Azure Engineer
+TEDI-CYCL-003,Technology & Digital,Cybersecurity & Cloud,Cloud Architect
+TEDI-CYCL-004,Technology & Digital,Cybersecurity & Cloud,Cloud Engineer
+TEDI-CYCL-005,Technology & Digital,Cybersecurity & Cloud,Cloud Security Engineer
+TEDI-CYCL-006,Technology & Digital,Cybersecurity & Cloud,Cyber Forensics Expert
+TEDI-CYCL-007,Technology & Digital,Cybersecurity & Cloud,Cybersecurity Analyst
+TEDI-CYCL-008,Technology & Digital,Cybersecurity & Cloud,Data Privacy Officer
+TEDI-CYCL-009,Technology & Digital,Cybersecurity & Cloud,DevSecOps Engineer
+TEDI-CYCL-010,Technology & Digital,Cybersecurity & Cloud,Ethical Hacker
+TEDI-CYCL-011,Technology & Digital,Cybersecurity & Cloud,Google Cloud Engineer
+TEDI-CYCL-012,Technology & Digital,Cybersecurity & Cloud,IAM Engineer
+TEDI-CYCL-013,Technology & Digital,Cybersecurity & Cloud,Incident Response Specialist
+TEDI-CYCL-014,Technology & Digital,Cybersecurity & Cloud,Network Security Engineer
+TEDI-CYCL-015,Technology & Digital,Cybersecurity & Cloud,Penetration Tester
+TEDI-CYCL-016,Technology & Digital,Cybersecurity & Cloud,SOC Analyst
+TEDI-CYCL-017,Technology & Digital,Cybersecurity & Cloud,Security Consultant
+TEDI-CYCL-018,Technology & Digital,Cybersecurity & Cloud,Security Engineer
+TEDI-CYCL-019,Technology & Digital,Cybersecurity & Cloud,Threat Analyst
+TEDI-EMTE-001,Technology & Digital,Emerging Technologies,AI Auditor
+TEDI-EMTE-002,Technology & Digital,Emerging Technologies,AI Governance Officer
+TEDI-EMTE-003,Technology & Digital,Emerging Technologies,Autonomous Mobility Manager
+TEDI-EMTE-004,Technology & Digital,Emerging Technologies,Bio-AI Researcher
+TEDI-EMTE-005,Technology & Digital,Emerging Technologies,Climate Tech Strategist
+TEDI-EMTE-006,Technology & Digital,Emerging Technologies,Digital Twin Engineer
+TEDI-EMTE-007,Technology & Digital,Emerging Technologies,Human-AI Interaction Designer
+TEDI-EMTE-008,Technology & Digital,Emerging Technologies,Metaverse Architect
+TEDI-EMTE-009,Technology & Digital,Emerging Technologies,Metaverse Strategist
+TEDI-EMTE-010,Technology & Digital,Emerging Technologies,Quantum Software Engineer
+TEDI-EMTE-011,Technology & Digital,Emerging Technologies,Synthetic Media Specialist
+TEDI-MECO-001,Technology & Digital,Media & Content,Affiliate Marketer
+TEDI-MECO-002,Technology & Digital,Media & Content,Community Manager
+TEDI-MECO-003,Technology & Digital,Media & Content,Digital Creator
+TEDI-MECO-004,Technology & Digital,Media & Content,Influencer
+TEDI-MECO-005,Technology & Digital,Media & Content,Newsletter Writer
+TEDI-MECO-006,Technology & Digital,Media & Content,Online Coach
+TEDI-MECO-007,Technology & Digital,Media & Content,Personal Branding Consultant
+TEDI-MECO-008,Technology & Digital,Media & Content,UGC Creator
+TEDI-MECO-009,Technology & Digital,Media & Content,YouTuber
+TEDI-SOIT-001,Technology & Digital,Software & IT,API Developer
+TEDI-SOIT-002,Technology & Digital,Software & IT,Android Developer
+TEDI-SOIT-003,Technology & Digital,Software & IT,Backend Developer
+TEDI-SOIT-004,Technology & Digital,Software & IT,C++ Developer
+TEDI-SOIT-005,Technology & Digital,Software & IT,DevOps Engineer
+TEDI-SOIT-006,Technology & Digital,Software & IT,Frontend Developer
+TEDI-SOIT-007,Technology & Digital,Software & IT,Full Stack Developer
+TEDI-SOIT-008,Technology & Digital,Software & IT,Game Developer
+TEDI-SOIT-009,Technology & Digital,Software & IT,Golang Developer
+TEDI-SOIT-010,Technology & Digital,Software & IT,Java Developer
+TEDI-SOIT-011,Technology & Digital,Software & IT,JavaScript Developer
+TEDI-SOIT-012,Technology & Digital,Software & IT,Mobile App Developer
+TEDI-SOIT-013,Technology & Digital,Software & IT,No-Code Developer
+TEDI-SOIT-014,Technology & Digital,Software & IT,Node.js Developer
+TEDI-SOIT-015,Technology & Digital,Software & IT,PHP Developer
+TEDI-SOIT-016,Technology & Digital,Software & IT,Python Developer
+TEDI-SOIT-017,Technology & Digital,Software & IT,React Developer
+TEDI-SOIT-018,Technology & Digital,Software & IT,Ruby Developer
+TEDI-SOIT-019,Technology & Digital,Software & IT,SaaS Operations Specialist
+TEDI-SOIT-020,Technology & Digital,Software & IT,Software Engineer
+TEDI-SOIT-021,Technology & Digital,Software & IT,Web Developer
+TEDI-SOIT-022,Technology & Digital,Software & IT,iOS Developer

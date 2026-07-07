@@ -13,6 +13,7 @@ import { getLatestAssessmentResult } from '../../../services/supabaseService';
 import dimensionDefs from '../../../data/intelligence/dimensionDefinitions.json';
 import themesData from '../../../data/intelligence/themes.json';
 import type { OrchestratorResult } from '../../../services/assessmentOrchestrator';
+import type { CareerRecommendation } from '../../../utils/career/careerRecommendationEngine';
 
 export interface ResolvedResults {
   /** Whether data is still loading */
@@ -54,6 +55,7 @@ export interface DisplayData {
   hiddenStrengths: { id: string; name: string; score: number }[];
   motivationProfile: { primary: string; secondary: string };
   careerScores: { clusterId: string; fitScore: number }[];
+  careerRecommendations: CareerRecommendation | null;
   roadmap: Record<string, any>;
 }
 
@@ -113,6 +115,7 @@ function buildDisplayData(result: OrchestratorResult): DisplayData {
     })),
     motivationProfile: result.motivationProfile,
     careerScores: result.careerScores,
+    careerRecommendations: result.careerRecommendations,
     roadmap: result.roadmap,
   };
 }
@@ -178,7 +181,21 @@ export function useAssessmentResults(): ResolvedResults {
               id: h.id, name: resolveDimensionName(h.id), score: h.score,
             })),
             motivationProfile: row.motivation_profile || { primary: '', secondary: '' },
-            careerScores: row.career_scores?.clusters || [],
+            careerScores: row.career_scores?.departments?.map((d: any) => ({
+              clusterId: d.departmentId, fitScore: d.fitScore,
+            })) || row.career_scores?.clusters || [],
+            careerRecommendations: row.career_scores?.departments ? {
+              primaryDepartmentId: row.career_scores.departments[0]?.departmentId || '',
+              topDepartments: (row.career_scores.departments || []).slice(0, 3).map((d: any) => ({
+                departmentId: d.departmentId,
+                departmentName: d.departmentName,
+                fitScore: d.fitScore,
+                topCategories: d.topCategories || [],
+              })),
+              recommendedSubjects: [],
+              recommendedSkills: [],
+              recommendedExperiences: [],
+            } : null,
             roadmap: row.roadmap || {},
           };
           setDisplayData(dbDisplayData);

@@ -1,74 +1,99 @@
 {
   "THEME_RESEARCHER": {
-    "DIM_COG_02": 0.35,
-    "DIM_COG_01": 0.25,
-    "DIM_PERS_01": 0.20,
-    "DIM_PERS_02": 0.20
+    "DIM_COG_01": 0.1022,
+    "DIM_COG_02": 0.1099,
+    "DIM_INT_02": 0.5455,
+    "DIM_LRN_01": 0.1146,
+    "DIM_PERS_01": 0.0605,
+    "DIM_PERS_02": 0.0673
   },
   "THEME_INNOVATOR": {
-    "DIM_PERS_01": 0.35,
-    "DIM_COG_04": 0.25,
-    "DIM_LRN_01": 0.20,
-    "DIM_PERS_04": 0.20
+    "DIM_COG_04": 0.1336,
+    "DIM_INT_01": 0.2974,
+    "DIM_LRN_01": 0.2215,
+    "DIM_PERS_01": 0.1038,
+    "DIM_PERS_04": 0.073,
+    "DIM_WRK_03": 0.1707
   },
   "THEME_CREATOR": {
-    "DIM_PERS_01": 0.30,
-    "DIM_LRN_02": 0.30,
-    "DIM_PERS_03": 0.20,
-    "DIM_COG_04": 0.20
+    "DIM_COG_04": 0.1353,
+    "DIM_INT_03": 0.2899,
+    "DIM_LRN_02": 0.1962,
+    "DIM_MOT_01": 0.2492,
+    "DIM_PERS_01": 0.0788,
+    "DIM_PERS_03": 0.0505
   },
   "THEME_BUILDER": {
-    "DIM_PERS_02": 0.35,
-    "DIM_LRN_04": 0.25,
-    "DIM_COG_02": 0.20,
-    "DIM_PERS_04": 0.20
+    "DIM_COG_02": 0.0929,
+    "DIM_LRN_02": 0.159,
+    "DIM_LRN_04": 0.2053,
+    "DIM_PERS_02": 0.1896,
+    "DIM_PERS_04": 0.0799,
+    "DIM_WRK_01": 0.2734
   },
   "THEME_STRATEGIST": {
-    "DIM_COG_01": 0.30,
-    "DIM_COG_03": 0.30,
-    "DIM_PERS_04": 0.20,
-    "DIM_LRN_01": 0.20
+    "DIM_COG_01": 0.1245,
+    "DIM_COG_03": 0.3204,
+    "DIM_LRN_01": 0.2093,
+    "DIM_MOT_02": 0.1642,
+    "DIM_PERS_04": 0.069,
+    "DIM_WRK_02": 0.1126
   },
   "THEME_LEADER": {
-    "DIM_PERS_03": 0.35,
-    "DIM_PERS_05": 0.25,
-    "DIM_PERS_02": 0.20,
-    "DIM_COG_03": 0.20
+    "DIM_COG_03": 0.2251,
+    "DIM_MOT_02": 0.1922,
+    "DIM_PERS_02": 0.1439,
+    "DIM_PERS_03": 0.138,
+    "DIM_PERS_05": 0.1119,
+    "DIM_WRK_03": 0.1889
   },
   "THEME_EDUCATOR": {
-    "DIM_PERS_05": 0.35,
-    "DIM_LRN_03": 0.25,
-    "DIM_PERS_03": 0.20,
-    "DIM_LRN_04": 0.20
+    "DIM_LRN_03": 0.1862,
+    "DIM_LRN_04": 0.1129,
+    "DIM_MOT_01": 0.2962,
+    "DIM_MOT_03": 0.1626,
+    "DIM_PERS_03": 0.09,
+    "DIM_PERS_05": 0.152
   },
   "THEME_ENTREPRENEUR": {
-    "DIM_PERS_04": 0.35,
-    "DIM_PERS_03": 0.25,
-    "DIM_COG_04": 0.20,
-    "DIM_PERS_01": 0.20
+    "DIM_COG_04": 0.1091,
+    "DIM_MOT_02": 0.1891,
+    "DIM_PERS_01": 0.0565,
+    "DIM_PERS_03": 0.0815,
+    "DIM_PERS_04": 0.106,
+    "DIM_WRK_01": 0.2721,
+    "DIM_WRK_03": 0.1858
   },
   "THEME_PROBLEM_SOLVER": {
-    "DIM_COG_02": 0.30,
-    "DIM_COG_01": 0.30,
-    "DIM_LRN_04": 0.20,
-    "DIM_PERS_04": 0.20
+    "DIM_COG_01": 0.1723,
+    "DIM_COG_02": 0.1852,
+    "DIM_LRN_02": 0.1902,
+    "DIM_LRN_04": 0.1228,
+    "DIM_PERS_04": 0.0956,
+    "DIM_WRK_02": 0.2339
   },
   "THEME_COMMUNICATOR": {
-    "DIM_PERS_03": 0.35,
-    "DIM_LRN_03": 0.25,
-    "DIM_PERS_01": 0.20,
-    "DIM_PERS_05": 0.20
+    "DIM_INT_03": 0.2555,
+    "DIM_LRN_03": 0.2301,
+    "DIM_MOT_03": 0.1005,
+    "DIM_PERS_01": 0.1158,
+    "DIM_PERS_03": 0.1854,
+    "DIM_PERS_05": 0.1127
   },
   "THEME_ANALYST": {
-    "DIM_COG_02": 0.40,
-    "DIM_PERS_02": 0.25,
-    "DIM_COG_01": 0.20,
-    "DIM_LRN_04": 0.15
+    "DIM_COG_01": 0.1465,
+    "DIM_COG_02": 0.1575,
+    "DIM_INT_01": 0.2481,
+    "DIM_LRN_04": 0.1044,
+    "DIM_PERS_02": 0.1447,
+    "DIM_WRK_02": 0.1989
   },
   "THEME_CHANGE_MAKER": {
-    "DIM_PERS_05": 0.35,
-    "DIM_PERS_04": 0.25,
-    "DIM_PERS_01": 0.20,
-    "DIM_COG_04": 0.20
+    "DIM_COG_04": 0.1675,
+    "DIM_LRN_03": 0.1293,
+    "DIM_MOT_03": 0.2823,
+    "DIM_PERS_01": 0.1301,
+    "DIM_PERS_04": 0.122,
+    "DIM_PERS_05": 0.1689
   }
 }

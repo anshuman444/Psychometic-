@@ -1,9 +1,16 @@
 {
-  "CLUSTER_TECH": ["Computer Science", "Mathematics", "Physics"],
-  "CLUSTER_DATA": ["Statistics", "Computer Science", "Economics"],
-  "CLUSTER_HEALTHCARE": ["Biology", "Chemistry", "Psychology"],
-  "CLUSTER_BUSINESS": ["Economics", "Accounting", "Business Management"],
-  "CLUSTER_DESIGN": ["Graphic Design", "Psychology", "Computer Science"],
-  "CLUSTER_LAW": ["History", "Political Science", "English Literature"],
-  "CLUSTER_ENGINEERING": ["Physics", "Mathematics", "Computer Aided Design"]
+  "DEPT_BUMA": ["Economics", "Accounting", "Business Management", "Marketing", "Commerce"],
+  "DEPT_CRAR": ["Graphic Design", "Fine Arts", "Communication Design", "Media Studies", "Visual Arts"],
+  "DEPT_EDHU": ["Education", "Psychology", "Sociology", "English Literature", "Philosophy"],
+  "DEPT_ENMO": ["Physics", "Mathematics", "Mechanical Engineering", "Computer Aided Design", "Electronics"],
+  "DEPT_HELI": ["Biology", "Chemistry", "Biochemistry", "Psychology", "Anatomy"],
+  "DEPT_HOTR": ["Hospitality Management", "Travel & Tourism", "Event Management", "Food Science", "Geography"],
+  "DEPT_LAPO": ["History", "Political Science", "English Literature", "Law", "Sociology"],
+  "DEPT_MECO": ["Mass Communication", "Journalism", "Media Studies", "English", "Film Studies"],
+  "DEPT_SCRE": ["Physics", "Chemistry", "Mathematics", "Research Methodology", "Environmental Science"],
+  "DEPT_SKTR": ["Workshop Technology", "Technical Drawing", "Mathematics", "Physics", "Material Science"],
+  "DEPT_SOIM": ["Social Work", "Sociology", "Political Science", "Psychology", "Public Administration"],
+  "DEPT_SPWE": ["Physical Education", "Sports Science", "Nutrition", "Biology", "Psychology"],
+  "DEPT_SUEN": ["Environmental Science", "Geography", "Biology", "Chemistry", "Sustainability Studies"],
+  "DEPT_TEDI": ["Computer Science", "Mathematics", "Statistics", "Data Science", "Information Technology"]
 }
