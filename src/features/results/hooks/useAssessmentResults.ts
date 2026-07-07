@@ -186,7 +186,7 @@ export function useAssessmentResults(): ResolvedResults {
             })) || row.career_scores?.clusters || [],
             careerRecommendations: row.career_scores?.departments ? {
               primaryDepartmentId: row.career_scores.departments[0]?.departmentId || '',
-              topDepartments: (row.career_scores.departments || []).slice(0, 3).map((d: any) => ({
+              topDepartments: (row.career_scores.departments || []).map((d: any) => ({
                 departmentId: d.departmentId,
                 departmentName: d.departmentName,
                 fitScore: d.fitScore,

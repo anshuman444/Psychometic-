@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, Lightbulb, Compass, ArrowRight } from 'lucide-react';
+import { Briefcase, Lightbulb, Compass, ArrowRight, ChevronDown, ChevronUp } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import type { CareerRecommendation } from '../../../utils/career/careerRecommendationEngine';
 
@@ -14,12 +14,15 @@ const RANK_BORDER = ['rgba(45, 168, 255, 0.25)', 'rgba(139, 92, 246, 0.25)', 'rg
 
 export const CareerFitSection: React.FC<CareerFitSectionProps> = ({ careerRecommendations }) => {
   const navigate = useNavigate();
+  const [showAllDepts, setShowAllDepts] = React.useState(false);
 
   if (!careerRecommendations || careerRecommendations.topDepartments.length === 0) {
     return null;
   }
 
   const { topDepartments } = careerRecommendations;
+  const top3 = topDepartments.slice(0, 3);
+  const remaining = topDepartments.slice(3);
 
   return (
     <div className="career-fit-section">
@@ -31,12 +34,12 @@ export const CareerFitSection: React.FC<CareerFitSectionProps> = ({ careerRecomm
       <p style={{ color: 'var(--text-muted)', lineHeight: 1.6, marginBottom: '24px', fontSize: '1rem' }}>
         Based on your cognitive strengths, personality themes, and learning style, we have identified the
         career <strong>departments</strong> and <strong>categories</strong> where you are most likely to thrive.
-        These are your ideal domains — explore them further in the Career Library.
+        All {topDepartments.length} career domains are evaluated and ranked for you.
       </p>
 
-      {/* ── Top 3 Departments ── */}
-      <div style={{ display: 'grid', gap: '16px', marginBottom: '32px' }}>
-        {topDepartments.map((dept, index) => (
+      {/* ── Top 3 Departments (Featured Cards) ── */}
+      <div style={{ display: 'grid', gap: '16px', marginBottom: '24px' }}>
+        {top3.map((dept, index) => (
           <div
             key={dept.departmentId}
             onClick={() => navigate('/career-library', {
@@ -63,12 +66,10 @@ export const CareerFitSection: React.FC<CareerFitSectionProps> = ({ careerRecomm
               e.currentTarget.style.boxShadow = 'none';
             }}
           >
-            {/* Click indicator icon */}
             <div style={{ position: 'absolute', top: '20px', right: '20px', color: RANK_COLORS[index] || 'var(--text-muted)' }}>
               <ArrowRight size={20} style={{ opacity: 0.6 }} />
             </div>
 
-            {/* Department Header */}
             <div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '14px', paddingRight: '32px' }}>
               <div style={{
                 width: '36px', height: '36px',
@@ -103,7 +104,6 @@ export const CareerFitSection: React.FC<CareerFitSectionProps> = ({ careerRecomm
               </div>
             </div>
 
-            {/* Categories within this department */}
             {dept.topCategories.length > 0 && (
               <div style={{ paddingLeft: '50px' }}>
                 <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
@@ -133,7 +133,109 @@ export const CareerFitSection: React.FC<CareerFitSectionProps> = ({ careerRecomm
         ))}
       </div>
 
+      {/* ── Remaining Departments (4-14) — Compact Ranked List ── */}
+      {remaining.length > 0 && (
+        <div style={{ marginBottom: '24px' }}>
+          <button
+            onClick={() => setShowAllDepts(!showAllDepts)}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px',
+              padding: '12px 16px',
+              width: '100%',
+              background: 'rgba(45, 168, 255, 0.04)',
+              border: '1px solid var(--border-light)',
+              borderRadius: '10px',
+              cursor: 'pointer',
+              color: 'var(--dark)',
+              fontWeight: 600,
+              fontSize: '0.95rem',
+              transition: 'background 0.2s',
+            }}
+            onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(45, 168, 255, 0.08)'}
+            onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(45, 168, 255, 0.04)'}
+          >
+            <Briefcase size={18} color="var(--primary)" />
+            {showAllDepts ? 'Hide' : 'View'} All Other Career Domains ({remaining.length} more)
+            {showAllDepts ? <ChevronUp size={18} style={{ marginLeft: 'auto' }} /> : <ChevronDown size={18} style={{ marginLeft: 'auto' }} />}
+          </button>
 
+          {showAllDepts && (
+            <div style={{
+              marginTop: '12px',
+              border: '1px solid var(--border-light)',
+              borderRadius: '12px',
+              overflow: 'hidden',
+            }}>
+              {remaining.map((dept, idx) => {
+                const rank = idx + 4;
+                const maxScore = topDepartments[0]?.fitScore || 100;
+                const barWidth = Math.max(5, (dept.fitScore / maxScore) * 100);
+
+                return (
+                  <div
+                    key={dept.departmentId}
+                    onClick={() => navigate('/career-library', {
+                      state: {
+                        recommendedDepartments: topDepartments.map(d => d.departmentId),
+                        preSelectedDepartment: dept.departmentId,
+                      },
+                    })}
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '12px',
+                      padding: '14px 16px',
+                      borderBottom: idx < remaining.length - 1 ? '1px solid var(--border-light)' : 'none',
+                      cursor: 'pointer',
+                      transition: 'background 0.15s',
+                    }}
+                    onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(45, 168, 255, 0.04)'}
+                    onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
+                  >
+                    {/* Rank */}
+                    <span style={{
+                      width: '28px', height: '28px',
+                      borderRadius: '50%',
+                      background: 'var(--background)',
+                      border: '1px solid var(--border-light)',
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                      fontWeight: 600, fontSize: '0.8rem', color: 'var(--text-muted)',
+                      flexShrink: 0,
+                    }}>
+                      {rank}
+                    </span>
+
+                    {/* Name + Bar */}
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <div style={{ fontWeight: 600, fontSize: '0.95rem', color: 'var(--dark)', marginBottom: '4px' }}>
+                        {dept.departmentName}
+                      </div>
+                      <div style={{ height: '4px', background: 'var(--background)', borderRadius: '2px', overflow: 'hidden' }}>
+                        <div style={{
+                          width: `${barWidth}%`,
+                          height: '100%',
+                          background: 'rgba(45, 168, 255, 0.35)',
+                          borderRadius: '2px',
+                          transition: 'width 0.6s ease',
+                        }} />
+                      </div>
+                    </div>
+
+                    {/* Score */}
+                    <span style={{ fontWeight: 600, fontSize: '0.9rem', color: 'var(--text-muted)', flexShrink: 0 }}>
+                      {dept.fitScore.toFixed(0)}%
+                    </span>
+
+                    <ArrowRight size={16} style={{ opacity: 0.3, flexShrink: 0 }} />
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      )}
 
       {/* ── Go to Career Library CTA ── */}
       <div style={{

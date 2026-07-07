@@ -36,8 +36,8 @@ export class CareerRecommendationEngine {
     const primaryDept = topDepartments[0];
     if (!primaryDept) return null;
 
-    // Take top 3 departments
-    const top3 = topDepartments.slice(0, 3).map(d => ({
+    // Pass ALL departments — ranked by fit score — so the UI can display everything
+    const allDepts = topDepartments.map(d => ({
       departmentId: d.departmentId,
       departmentName: d.departmentName,
       fitScore: d.fitScore,
@@ -51,7 +51,7 @@ export class CareerRecommendationEngine {
 
     return {
       primaryDepartmentId: primaryDept.departmentId,
-      topDepartments: top3,
+      topDepartments: allDepts,
       recommendedSubjects: subjects,
       recommendedSkills: skills,
       recommendedExperiences: experiences,

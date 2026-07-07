@@ -12,19 +12,12 @@ interface CareerAffinityChartProps {
 export const CareerAffinityChart: React.FC<CareerAffinityChartProps> = ({ careerRecommendations, allCareerScores }) => {
   if (!careerRecommendations || allCareerScores.length === 0) return null;
 
-  // We want to map the raw department scores (which are passed as clusterId in allCareerScores for backward compat)
-  // to their real names. Since we might not have the full name for everything, we'll try to find it from topDepartments,
-  // or fall back to formatting the ID.
-  
-  // Sort and take top 7
-  const top7 = [...allCareerScores]
+  // Show ALL departments, not just top 7
+  const allDepts = [...allCareerScores]
     .sort((a, b) => b.fitScore - a.fitScore)
-    .slice(0, 7)
     .map((score, index) => {
-      // Find name if it's in top 3
-      // Look up the name in the full career library
       const deptMatch = careerLibrary.departments.find(d => d.id === score.clusterId);
-      let name = deptMatch ? deptMatch.name : score.clusterId.replace('DEPT_', '').replace(/_/g, ' ');
+      const name = deptMatch ? deptMatch.name : score.clusterId.replace('DEPT_', '').replace(/_/g, ' ');
       
       return {
         department: name,
@@ -55,6 +48,9 @@ export const CareerAffinityChart: React.FC<CareerAffinityChartProps> = ({ career
     return null;
   };
 
+  // Dynamic height: 40px per bar + 50px padding
+  const chartHeight = allDepts.length * 40 + 50;
+
   return (
     <div style={{
       padding: '24px',
@@ -68,14 +64,14 @@ export const CareerAffinityChart: React.FC<CareerAffinityChartProps> = ({ career
         Career Affinity Distribution
       </h4>
       <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', marginBottom: '24px' }}>
-        A breakdown of your fit scores across your top 7 career domains. This helps identify if you have a 
+        A breakdown of your fit scores across all {allDepts.length} career domains. This helps identify if you have a 
         strong singular focus or a broad range of viable alternative paths.
       </p>
 
-      <div style={{ height: '300px', width: '100%' }}>
+      <div style={{ height: `${chartHeight}px`, width: '100%' }}>
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
-            data={top7}
+            data={allDepts}
             layout="vertical"
             margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
           >
@@ -84,17 +80,17 @@ export const CareerAffinityChart: React.FC<CareerAffinityChartProps> = ({ career
             <YAxis 
               type="category" 
               dataKey="department" 
-              width={140}
+              width={170}
               tick={{ fill: 'var(--text-muted)', fontSize: 11 }}
               axisLine={false}
               tickLine={false}
             />
             <Tooltip content={<CustomTooltip />} cursor={{ fill: 'rgba(0,0,0,0.02)' }} />
-            <Bar dataKey="score" radius={[0, 4, 4, 0]} barSize={24}>
-              {top7.map((entry, index) => (
+            <Bar dataKey="score" radius={[0, 4, 4, 0]} barSize={20}>
+              {allDepts.map((entry, index) => (
                 <Cell 
                   key={`cell-${index}`} 
-                  fill={entry.isTop3 ? 'var(--primary)' : 'rgba(45, 168, 255, 0.4)'} 
+                  fill={entry.isTop3 ? 'var(--primary)' : 'rgba(45, 168, 255, 0.35)'} 
                 />
               ))}
             </Bar>

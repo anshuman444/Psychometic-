@@ -55,10 +55,10 @@ export function generateVisualProfileData(dimensions: NormalizedDimension[]): In
   let pSum = 0, lSum = 0, sSum = 0, cSum = 0;
   
   for (const d of dimensions) {
-    if (d.dimensionId.includes('PERS')) pSum += d.normalizedScore;
-    if (d.dimensionId.includes('LEARN')) lSum += d.normalizedScore;
-    if (d.dimensionId.includes('SKILL')) sSum += d.normalizedScore;
-    if (d.dimensionId.includes('CAREER')) cSum += d.normalizedScore;
+    if (d.dimensionId.startsWith('DIM_PERS')) pSum += d.normalizedScore;
+    else if (d.dimensionId.startsWith('DIM_LRN')) lSum += d.normalizedScore;
+    else if (d.dimensionId.startsWith('DIM_COG') || d.dimensionId.startsWith('DIM_WRK')) sSum += d.normalizedScore;
+    else if (d.dimensionId.startsWith('DIM_INT') || d.dimensionId.startsWith('DIM_MOT')) cSum += d.normalizedScore;
   }
 
   const max = Math.max(pSum, lSum, sSum, cSum);
