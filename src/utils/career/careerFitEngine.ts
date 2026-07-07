@@ -54,11 +54,11 @@ const MAX_WEIGHTS_INTEREST = getTheoreticalMaxWeights(INTEREST_DIMS);
 const MAX_WEIGHTS_SKILLS = getTheoreticalMaxWeights(SKILLS_DIMS);
 const MAX_WEIGHTS_LEARNING = getTheoreticalMaxWeights(LEARNING_DIMS);
 
-/** Signal weight allocation (must sum to 100) */
-const THEME_WEIGHT = 40;
-const INTEREST_WEIGHT = 25;
-const SKILLS_WEIGHT = 20;
-const LEARNING_WEIGHT = 15;
+/** BASE signal weight allocation */
+const BASE_THEME_WEIGHT = 40;
+const BASE_INTEREST_WEIGHT = 25;
+const BASE_SKILLS_WEIGHT = 20;
+const BASE_LEARNING_WEIGHT = 15;
 
 export class CareerFitEngine {
 
@@ -98,39 +98,61 @@ export class CareerFitEngine {
     const learningDeptMap = this.calculateDimensionSignal(dimensionScores, LEARNING_DIMS);
 
     // ════════════════════════════════════════════
-    // COMBINE ALL 4 SIGNALS
+    // COMBINE ALL 4 SIGNALS (With Dynamic Redistribution)
     // ════════════════════════════════════════════
     const allDeptIds = new Set<string>();
-    themeDeptMap.forEach((_, id) => allDeptIds.add(id));
-    interestDeptMap.forEach((_, id) => allDeptIds.add(id));
-    skillsDeptMap.forEach((_, id) => allDeptIds.add(id));
-    learningDeptMap.forEach((_, id) => allDeptIds.add(id));
+    for (const dept of careerLibrary.departments) {
+      allDeptIds.add(dept.id);
+    }
 
     const results: DepartmentFitResult[] = [];
 
     allDeptIds.forEach(departmentId => {
-      // Signal 1: Theme (0-40)
-      const themeRaw = themeDeptMap.get(departmentId) || 0;
-      const themeMaxWeight = themeMaxWeights.get(departmentId) || 0.0001; // Avoid divide by zero
-      const themeMaxScore = themeMaxWeight * 100; // max score is 100 * sum(weights)
-      const themeScore = (themeRaw / themeMaxScore) * THEME_WEIGHT;
+      // Determine valid signals for this specific department
+      const themeMaxWeight = themeMaxWeights.get(departmentId) || 0;
+      const interestMaxWeight = MAX_WEIGHTS_INTEREST.get(departmentId) || 0;
+      const skillsMaxWeight = MAX_WEIGHTS_SKILLS.get(departmentId) || 0;
+      const learningMaxWeight = MAX_WEIGHTS_LEARNING.get(departmentId) || 0;
 
-      // Signal 2: Interest (0-25)
-      const interestRaw = interestDeptMap.get(departmentId) || 0;
-      const interestMaxWeight = MAX_WEIGHTS_INTEREST.get(departmentId) || 0.0001;
-      const interestScore = (interestRaw / (interestMaxWeight * 100)) * INTEREST_WEIGHT;
+      // Calculate total available base weight based on valid signals
+      let validBaseWeight = 0;
+      if (themeMaxWeight > 0) validBaseWeight += BASE_THEME_WEIGHT;
+      if (interestMaxWeight > 0) validBaseWeight += BASE_INTEREST_WEIGHT;
+      if (skillsMaxWeight > 0) validBaseWeight += BASE_SKILLS_WEIGHT;
+      if (learningMaxWeight > 0) validBaseWeight += BASE_LEARNING_WEIGHT;
 
-      // Signal 3: Skills (0-20)
-      const skillsRaw = skillsDeptMap.get(departmentId) || 0;
-      const skillsMaxWeight = MAX_WEIGHTS_SKILLS.get(departmentId) || 0.0001;
-      const skillsScore = (skillsRaw / (skillsMaxWeight * 100)) * SKILLS_WEIGHT;
+      // Fallback if department has completely empty mappings in JSON (should never happen)
+      if (validBaseWeight === 0) validBaseWeight = 100;
 
-      // Signal 4: Learning (0-15)
-      const learningRaw = learningDeptMap.get(departmentId) || 0;
-      const learningMaxWeight = MAX_WEIGHTS_LEARNING.get(departmentId) || 0.0001;
-      const learningScore = (learningRaw / (learningMaxWeight * 100)) * LEARNING_WEIGHT;
+      // Calculate dynamic distributed weights (forces total to 100)
+      const dynamicThemeWeight = (BASE_THEME_WEIGHT / validBaseWeight) * 100;
+      const dynamicInterestWeight = (BASE_INTEREST_WEIGHT / validBaseWeight) * 100;
+      const dynamicSkillsWeight = (BASE_SKILLS_WEIGHT / validBaseWeight) * 100;
+      const dynamicLearningWeight = (BASE_LEARNING_WEIGHT / validBaseWeight) * 100;
 
-      let finalFit = themeScore + interestScore + skillsScore + learningScore;
+      // Calculate final scaled scores
+      let finalFit = 0;
+
+      if (themeMaxWeight > 0) {
+        const themeRaw = themeDeptMap.get(departmentId) || 0;
+        finalFit += (themeRaw / (themeMaxWeight * 100)) * dynamicThemeWeight;
+      }
+
+      if (interestMaxWeight > 0) {
+        const interestRaw = interestDeptMap.get(departmentId) || 0;
+        finalFit += (interestRaw / (interestMaxWeight * 100)) * dynamicInterestWeight;
+      }
+
+      if (skillsMaxWeight > 0) {
+        const skillsRaw = skillsDeptMap.get(departmentId) || 0;
+        finalFit += (skillsRaw / (skillsMaxWeight * 100)) * dynamicSkillsWeight;
+      }
+
+      if (learningMaxWeight > 0) {
+        const learningRaw = learningDeptMap.get(departmentId) || 0;
+        finalFit += (learningRaw / (learningMaxWeight * 100)) * dynamicLearningWeight;
+      }
+
       if (finalFit > 99) finalFit = 99;
 
       // Find department categories
