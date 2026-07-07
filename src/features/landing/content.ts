@@ -1,5 +1,4 @@
-export const LOGO_URL =
-  "https://customer-assets.emergentagent.com/job_stream-compass-5/artifacts/ne1dd97t_Vidyaloop%20%282%29.png";
+export const LOGO_URL = "/logo.png";
 
 export const DIMENSIONS = [
   {
