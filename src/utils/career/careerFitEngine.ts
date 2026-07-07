@@ -73,8 +73,8 @@ export class CareerFitEngine {
 
   static calculateFit(
     topThemes: ThemeScore[],
-    readinessScore: number,
-    successIndex: number,
+    _readinessScore: number,
+    _successIndex: number,
     dimensionScores: Record<string, number>
   ): DepartmentFitResult[] {
 
@@ -177,7 +177,7 @@ export class CareerFitEngine {
     dimGroup: string[]
   ): { scores: Map<string, number>; max: number } {
     const deptMap = new Map<string, number>();
-    const dimMappings = dimensionToDepartmentMappings as Record<string, Record<string, number | string>>;
+    const dimMappings = dimensionToDepartmentMappings as unknown as Record<string, Record<string, number | string>>;
 
     for (const dimId of dimGroup) {
       const dimScore = dimensionScores[dimId];

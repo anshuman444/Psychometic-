@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, Lightbulb, Compass, ArrowRight, ChevronRight, BookOpen, Wrench, Rocket } from 'lucide-react';
+import { Briefcase, Lightbulb, Compass, ArrowRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import type { CareerRecommendation } from '../../../utils/career/careerRecommendationEngine';
 
@@ -19,7 +19,7 @@ export const CareerFitSection: React.FC<CareerFitSectionProps> = ({ careerRecomm
     return null;
   }
 
-  const { topDepartments, recommendedSubjects, recommendedSkills, recommendedExperiences } = careerRecommendations;
+  const { topDepartments } = careerRecommendations;
 
   return (
     <div className="career-fit-section">
