@@ -39,16 +39,37 @@ export const CareerFitSection: React.FC<CareerFitSectionProps> = ({ careerRecomm
         {topDepartments.map((dept, index) => (
           <div
             key={dept.departmentId}
+            onClick={() => navigate('/career-library', {
+              state: {
+                recommendedDepartments: topDepartments.map(d => d.departmentId),
+                preSelectedDepartment: dept.departmentId,
+              },
+            })}
             style={{
               padding: '20px',
               background: RANK_BG[index] || 'var(--bg-card)',
               border: `1px solid ${RANK_BORDER[index] || 'var(--border-light)'}`,
               borderRadius: '14px',
               transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+              cursor: 'pointer',
+              position: 'relative'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-2px)';
+              e.currentTarget.style.boxShadow = '0 8px 16px rgba(0,0,0,0.06)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = 'none';
             }}
           >
+            {/* Click indicator icon */}
+            <div style={{ position: 'absolute', top: '20px', right: '20px', color: RANK_COLORS[index] || 'var(--text-muted)' }}>
+              <ArrowRight size={20} style={{ opacity: 0.6 }} />
+            </div>
+
             {/* Department Header */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '14px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '14px', paddingRight: '32px' }}>
               <div style={{
                 width: '36px', height: '36px',
                 borderRadius: '50%',

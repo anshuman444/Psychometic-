@@ -94,7 +94,7 @@ export const CareerAffinityChart: React.FC<CareerAffinityChartProps> = ({ career
               {top7.map((entry, index) => (
                 <Cell 
                   key={`cell-${index}`} 
-                  fill={entry.isTop3 ? 'var(--primary)' : 'var(--border-light)'} 
+                  fill={entry.isTop3 ? 'var(--primary)' : 'rgba(45, 168, 255, 0.4)'} 
                 />
               ))}
             </Bar>
